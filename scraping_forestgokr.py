@@ -52,6 +52,11 @@ def get_infos(url):
     # print(soup.prettify())
 
     try:
+        title = soup.select('#txt > h4')[0].text.split('-')[1].strip()
+    except Exception as e:
+        title = ""
+
+    try:
         site = soup.select('#txt > ul:nth-child(3) > li')[0].text
     except Exception as e:
         site = ""
@@ -94,6 +99,7 @@ def get_infos(url):
         img_links = ""
 
     infos = {
+        'title':title,
         'site':site,
         'height':height,
         'feature':feature,
@@ -112,7 +118,9 @@ def scrapwithmongo():
     for name, url in zip(names, urls):
         data = dict()
         info = get_infos(url)
-        data[name] = info
+        data['name'] = name
+        for k, v in info.items():
+            data[k] = v
         print(data)
         DBinsert(data)
 
