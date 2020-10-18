@@ -5,20 +5,7 @@ from datetime import datetime
 from pymongo import MongoClient
 import time
 
-
-def DBinsert(data):
-    db_url = "mongodb://127.0.0.1:27017/"
-    db_name = "webscrapDB"
-    collection_name = "mountainCollection"
-
-    with MongoClient(db_url) as client:
-        db = client[db_name]
-        if (collection_name not in db.list_collection_names()):
-            db.create_collection(collection_name)
-
-        result = db[collection_name].insert_one(data)
-        print(result.inserted_id)
-
+from mongoDB import DBinsert
 
 def get_names_urls():
     url = "https://www.forest.go.kr/kfsweb/kfi/kfs/foreston/main/contents/FmmntSrch/selectFmmntSrchList.do?mntIndex=1&searchMnt=&searchCnd=&mn=NKFS_03_01_12&orgId=&mntUnit=100"
@@ -113,6 +100,9 @@ def get_infos(url):
     return infos
 
 def scrapwithmongo():
+
+    db = {'db_name':"webscrapDB", 'collection_name':"mountainCollection"}
+
     names, urls = get_names_urls()
 
     for name, url in zip(names, urls):
@@ -122,7 +112,7 @@ def scrapwithmongo():
         for k, v in info.items():
             data[k] = v
         print(data)
-        DBinsert(data)
+        DBinsert(db, data)
 
 # print(datetime.now().strftime('%Y-%m-%d %a %H:%M:%s'))
 
