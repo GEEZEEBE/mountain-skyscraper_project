@@ -55,7 +55,7 @@ def getImages(link):
         try:
             #images
             images = soup.select("a.building-image")
-            image = [i.get("href") for i in images]
+            image = [i.get("href")[2:] for i in images]
             image_list.append(image[1:3]) # << 사진개수 수정
             
             # thumbnail
