@@ -60,7 +60,7 @@ def getImages(link):
             
             # thumbnail
             thumbs = soup.select("a.building-image")
-            thumb = [i.get("href") for i in thumbs]
+            thumb = [i.get("href")[2:] for i in thumbs]
             thumb_list.append(thumb[0])
             # image = image[1:]
         except Exception as e:
