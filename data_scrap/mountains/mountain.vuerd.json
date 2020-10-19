@@ -41,7 +41,7 @@
         "comment": "",
         "columns": [
           {
-            "id": "7239fe2a-a11c-fa58-30e9-d999a02da49f",
+            "id": "2efd3b93-e44f-ab17-b921-1bd8b9847b84",
             "name": "id",
             "comment": "",
             "dataType": "INT(10)",
@@ -64,7 +64,7 @@
             }
           },
           {
-            "id": "0d02143c-0175-dc33-88eb-8440d25dc96a",
+            "id": "7dcf9d7b-9d6a-a331-38ec-bf117c96db60",
             "name": "mt_id",
             "comment": "",
             "dataType": "INT(10)",
@@ -87,7 +87,7 @@
             }
           },
           {
-            "id": "ca48519c-3d63-51dc-0b6d-d853d81a4d0c",
+            "id": "0ffe720c-b832-37dc-d9ae-97af5461a477",
             "name": "link",
             "comment": "",
             "dataType": "LONGTEXT",
@@ -110,7 +110,7 @@
             }
           },
           {
-            "id": "3e52a822-16cc-f6bb-a772-e5d0a2393c72",
+            "id": "347e99f8-d10b-5865-b690-3fff05419e96",
             "name": "reg_date",
             "comment": "",
             "dataType": "DATE",
@@ -141,14 +141,14 @@
           "widthName": 66,
           "widthComment": 60
         },
-        "id": "0271c5d9-1229-9700-3bf2-4de5a49541ec"
+        "id": "8b1effb4-40ed-8b24-5650-7290509f43a3"
       },
       {
         "name": "mountains",
         "comment": "",
         "columns": [
           {
-            "id": "bf5778fd-8be9-066f-a7ec-fd41045d9fbd",
+            "id": "4d337cd4-154f-33e3-8eaf-82f4ac44c550",
             "name": "id",
             "comment": "",
             "dataType": "INT(10)",
@@ -171,7 +171,7 @@
             }
           },
           {
-            "id": "d4bd11d9-53b2-d142-704f-595749a0edf2",
+            "id": "8ca49c69-0cef-23ee-b76e-a13744afa126",
             "name": "name",
             "comment": "",
             "dataType": "VARCHAR(100)",
@@ -194,7 +194,7 @@
             }
           },
           {
-            "id": "7245712a-aded-dfa4-0713-7c67cd9b3349",
+            "id": "f637479d-0631-0487-8622-7ca80f47c564",
             "name": "title",
             "comment": "",
             "dataType": "LONGTEXT",
@@ -217,7 +217,7 @@
             }
           },
           {
-            "id": "8e4128c5-e72d-c0a5-9a0e-20166f79fad4",
+            "id": "cafafac6-5c03-1cf9-8d64-8b4bcedece74",
             "name": "site",
             "comment": "",
             "dataType": "LONGTEXT",
@@ -240,7 +240,7 @@
             }
           },
           {
-            "id": "be5fcb0d-dd39-6ab1-072d-acae401893bf",
+            "id": "9d28677f-6d06-e5eb-d73c-0d850b14b81c",
             "name": "height",
             "comment": "",
             "dataType": "VARCHAR(10)",
@@ -263,7 +263,7 @@
             }
           },
           {
-            "id": "89b161eb-f2b7-632f-ef98-ebc40f016088",
+            "id": "17567d6c-36df-8fe6-2ddd-e0a87b1c885b",
             "name": "feature",
             "comment": "",
             "dataType": "LONGTEXT",
@@ -286,7 +286,7 @@
             }
           },
           {
-            "id": "2e0c141f-8b42-cfb0-4294-bd46a175c05f",
+            "id": "1b4fca76-3d68-34fa-8bf7-e69646ba675e",
             "name": "overview",
             "comment": "",
             "dataType": "LONGTEXT",
@@ -309,7 +309,7 @@
             }
           },
           {
-            "id": "706790a6-1ee3-1732-47ac-d66363edda5f",
+            "id": "5bbef82f-62b6-7777-c80f-93cbf31b5d48",
             "name": "information",
             "comment": "",
             "dataType": "LONGTEXT",
@@ -332,7 +332,7 @@
             }
           },
           {
-            "id": "369b1070-ee39-2929-a343-9014c6c7b3d1",
+            "id": "cbd584f7-229a-25a4-ad00-929390033092",
             "name": "leadtime",
             "comment": "",
             "dataType": "LONGTEXT",
@@ -355,7 +355,7 @@
             }
           },
           {
-            "id": "11d9db2c-77a1-be8d-431e-bdc245fe0ebd",
+            "id": "1dac8eb5-0b71-801f-603e-b0466eded944",
             "name": "x_coord",
             "comment": "",
             "dataType": "VARCHAR(30)",
@@ -378,7 +378,7 @@
             }
           },
           {
-            "id": "f5658cc9-787b-502c-8cb3-bab1a6f1a706",
+            "id": "ef3075b6-1079-1ac1-086f-80047ee26f92",
             "name": "y_coord",
             "comment": "",
             "dataType": "VARCHAR(30)",
@@ -401,7 +401,7 @@
             }
           },
           {
-            "id": "ba58fbd9-a81a-1924-4047-49edf4f47494",
+            "id": "1d5dee76-2ecc-9662-3233-a2c775927bd7",
             "name": "reg_date",
             "comment": "",
             "dataType": "DATE",
@@ -432,7 +432,7 @@
           "widthName": 62,
           "widthComment": 60
         },
-        "id": "2fed40d1-4830-b564-1aa6-ea1ae23c6070"
+        "id": "f3bb4a18-6c12-a2a7-d6e3-a2c610240cdc"
       }
     ],
     "indexes": []
@@ -445,24 +445,24 @@
       {
         "identification": false,
         "start": {
-          "tableId": "2fed40d1-4830-b564-1aa6-ea1ae23c6070",
+          "tableId": "f3bb4a18-6c12-a2a7-d6e3-a2c610240cdc",
           "columnIds": [
-            "bf5778fd-8be9-066f-a7ec-fd41045d9fbd"
+            "4d337cd4-154f-33e3-8eaf-82f4ac44c550"
           ],
           "x": 475,
           "y": 207.5,
           "direction": "left"
         },
         "end": {
-          "tableId": "0271c5d9-1229-9700-3bf2-4de5a49541ec",
+          "tableId": "8b1effb4-40ed-8b24-5650-7290509f43a3",
           "columnIds": [
-            "0d02143c-0175-dc33-88eb-8440d25dc96a"
+            "7dcf9d7b-9d6a-a331-38ec-bf117c96db60"
           ],
           "x": 409,
           "y": 125.5,
           "direction": "right"
         },
-        "id": "ab75d8e9-8d6d-8bc8-4d5d-eee697434821",
+        "id": "c6bf8a47-c67c-b57d-53d8-4778c88bc370",
         "relationshipType": "ZeroOneN"
       }
     ]
