@@ -3,7 +3,7 @@
     "width": 2000,
     "height": 2000,
     "scrollTop": 0,
-    "scrollLeft": 4,
+    "scrollLeft": 0,
     "show": {
       "tableComment": true,
       "columnComment": true,
@@ -41,7 +41,7 @@
         "comment": "",
         "columns": [
           {
-            "id": "fb64da99-a758-93ea-a7dc-6101234fc4c2",
+            "id": "b20eece1-bd11-4e07-d055-d0b50c9e745e",
             "name": "id",
             "comment": "",
             "dataType": "INT(10)",
@@ -64,7 +64,7 @@
             }
           },
           {
-            "id": "ea0f7aed-cb47-7b06-0b10-b9dde89a0ca2",
+            "id": "7a705b59-e02a-393a-526d-ff720cca8264",
             "name": "bldg_id",
             "comment": "",
             "dataType": "INT(10)",
@@ -87,8 +87,8 @@
             }
           },
           {
-            "id": "c650c0b8-fba0-7630-659e-3594ef6fe1fd",
-            "name": "link",
+            "id": "3cb81d1d-c9a5-69da-4604-c909779c8efe",
+            "name": "image_link",
             "comment": "",
             "dataType": "LONGTEXT",
             "default": "NULL",
@@ -103,14 +103,14 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 60,
+              "widthName": 69,
               "widthComment": 60,
               "widthDataType": 67,
               "widthDefault": 60
             }
           },
           {
-            "id": "e531f3d2-9728-1e1b-4e20-9bbf3e0f07f6",
+            "id": "f4f584d4-e454-5825-bcfc-395e3a2cd727",
             "name": "reg_date",
             "comment": "",
             "dataType": "DATE",
@@ -135,20 +135,20 @@
         ],
         "ui": {
           "active": false,
-          "left": 18,
-          "top": 48,
-          "zIndex": 3,
+          "left": 50,
+          "top": 50,
+          "zIndex": 2,
           "widthName": 80,
           "widthComment": 60
         },
-        "id": "dc876221-0e13-a3a4-a866-d9c9db5f8aea"
+        "id": "8e3d1670-0c5b-69f5-09ed-ab7380028ef4"
       },
       {
         "name": "skyscrapers",
         "comment": "",
         "columns": [
           {
-            "id": "914d577d-5e4d-1aed-61b3-16677b58d3d5",
+            "id": "668f7aac-b9a6-b3cb-5eaa-fed686500e1f",
             "name": "id",
             "comment": "",
             "dataType": "INT(10)",
@@ -171,7 +171,7 @@
             }
           },
           {
-            "id": "20fc16da-c7b1-2cec-e779-93939f66e5f3",
+            "id": "5d64e256-d942-b610-8ee7-c62d5aef9d0a",
             "name": "rank",
             "comment": "",
             "dataType": "VARCHAR(10)",
@@ -194,7 +194,7 @@
             }
           },
           {
-            "id": "2f5f4e49-e4a4-dbaa-7f87-3b677eb64a7d",
+            "id": "6d66a223-5ae4-ca01-ab8c-00e19c2bebe6",
             "name": "building_name",
             "comment": "",
             "dataType": "VARCHAR(30)",
@@ -217,7 +217,7 @@
             }
           },
           {
-            "id": "629e51be-5c0c-572e-6e54-e0357a247c64",
+            "id": "7f8eb821-2b25-1bf8-5a1b-e6f7c015cc6c",
             "name": "city_name",
             "comment": "",
             "dataType": "VARCHAR(30)",
@@ -240,7 +240,7 @@
             }
           },
           {
-            "id": "58e56920-47c9-02e2-693b-f578bbbb735b",
+            "id": "015443c8-e840-a019-19fe-88c15b5ce8d1",
             "name": "country",
             "comment": "",
             "dataType": "VARCHAR(10)",
@@ -263,7 +263,7 @@
             }
           },
           {
-            "id": "3788811c-2aa7-b691-8aa1-b69fe37fc982",
+            "id": "de37094f-bcd1-19e7-64f8-7cc7181d5370",
             "name": "height_m",
             "comment": "",
             "dataType": "VARCHAR(10)",
@@ -286,7 +286,7 @@
             }
           },
           {
-            "id": "623555a6-4e70-cf2d-97b7-01fee2fa3ac8",
+            "id": "60aed49f-6a9a-50f0-44d5-e9ac5167de9d",
             "name": "height_ft",
             "comment": "",
             "dataType": "VARCHAR(10)",
@@ -309,7 +309,7 @@
             }
           },
           {
-            "id": "e241bf2d-c7ae-0d6d-dd6c-365e30345e6b",
+            "id": "30e97f37-5498-c735-3361-ba3493fda898",
             "name": "floor",
             "comment": "",
             "dataType": "VARCHAR(10)",
@@ -332,7 +332,7 @@
             }
           },
           {
-            "id": "40c523a6-585d-cd8d-c934-5d7f047f3c90",
+            "id": "77cd11f0-0c15-aae0-ada9-6b4c48d0169e",
             "name": "completion_year",
             "comment": "",
             "dataType": "VARCHAR(10)",
@@ -355,7 +355,7 @@
             }
           },
           {
-            "id": "cbe65721-ff6f-787b-b777-632c0edcaa88",
+            "id": "ee3f6d54-ade5-5ae3-f131-e3629305c03a",
             "name": "structure",
             "comment": "",
             "dataType": "VARCHAR(30)",
@@ -380,13 +380,13 @@
         ],
         "ui": {
           "active": false,
-          "left": 470,
+          "left": 479,
           "top": 50,
           "zIndex": 2,
           "widthName": 73,
           "widthComment": 60
         },
-        "id": "f69710b5-5d5a-676f-a75b-4d25c16875fd"
+        "id": "5f49304b-4d7d-093b-752c-c77b286cb716"
       }
     ],
     "indexes": []
@@ -399,24 +399,24 @@
       {
         "identification": false,
         "start": {
-          "tableId": "f69710b5-5d5a-676f-a75b-4d25c16875fd",
+          "tableId": "5f49304b-4d7d-093b-752c-c77b286cb716",
           "columnIds": [
-            "914d577d-5e4d-1aed-61b3-16677b58d3d5"
+            "668f7aac-b9a6-b3cb-5eaa-fed686500e1f"
           ],
-          "x": 470,
+          "x": 479,
           "y": 187,
           "direction": "left"
         },
         "end": {
-          "tableId": "dc876221-0e13-a3a4-a866-d9c9db5f8aea",
+          "tableId": "8e3d1670-0c5b-69f5-09ed-ab7380028ef4",
           "columnIds": [
-            "ea0f7aed-cb47-7b06-0b10-b9dde89a0ca2"
+            "7a705b59-e02a-393a-526d-ff720cca8264"
           ],
-          "x": 372,
-          "y": 123.5,
+          "x": 413,
+          "y": 125.5,
           "direction": "right"
         },
-        "id": "90c8f855-1b87-f6c6-37a2-48a5a86a8c5b",
+        "id": "39e92abf-6e99-a437-4464-b28212c228d5",
         "relationshipType": "ZeroOneN"
       }
     ]

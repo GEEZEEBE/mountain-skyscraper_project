@@ -18,7 +18,7 @@ CREATE TABLE skyscrapers (
 CREATE TABLE bldg_images (
 	id INT(10) NOT NULL AUTO_INCREMENT,
 	bldg_id INT(10) NOT NULL,
-    link LONGTEXT DEFAULT NULL,
+    image_link LONGTEXT DEFAULT NULL,
 	reg_date DATE DEFAULT NULL,
 	PRIMARY KEY (id),
     FOREIGN KEY (bldg_id)
