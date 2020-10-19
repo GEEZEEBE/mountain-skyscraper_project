@@ -138,23 +138,6 @@ def getInfo(urls, thumbs, images):
     except Exception as e:
         r_date =""
 
-    # thumbs, images = getImages(urls)
-    # infos = {
-    #     "rank": rank,
-    #     "building_name":bldg_name,
-    #     "city_name":city_name,
-    #     "country":country,
-    #     "height_m":height_m,
-    #     "height_ft":height_ft,
-    #     "floor":floor,
-    #     "completion_year":completion,
-    #     "structure":material,
-    #     "use":use,
-    #     "thumbnail":thumbs, 
-    #     "images":images,
-    #     "record_date":r_date,
-    #     # "web":web_list,
-    # }
     keys = ['rank', 'building_name', 'city_name', 'country', 'height_m', 'height_ft', 'floor', 'completion_year', 'structure', 'use', 'thumbnail', 'image']
     information = []
     for values in zip(rank, bldg_name, city_name, country, height_m, height_ft, floor, completion, material, use, thumbs, images):
@@ -165,24 +148,6 @@ def getInfo(urls, thumbs, images):
         information.append(data)
     return information
     
-    # images, thumbs = getImages(urls)
-    # for i in range(1, len(urls)):
-    #     for name, info in zip(bldg_name, infos):
-    #         information = dict()
-    #         information['rank']=rank[i]
-    #         information['building_name'] = bldg_name[i]
-    #         information['city_name'] = city_name[i]
-    #         information['country'] = country[i]
-    #         information['height_m'] = height_m[i]
-    #         information['height_ft'] = height_ft[i]
-    #         information['floor'] = floor[i]
-    #         information['completion_year'] = completion[i]
-    #         information['structure'] = material[i]
-    #         information['use'] = use[i]
-    #         information['thumbnail'] = thumbs[i]
-    #         information['image'] = images[i]
-    # # print(information)
-    # return information
 
 def skyscraperScrap():
     db = {'db_name':"webscrapDB", 'collection_name':"bldg_Collection"}
@@ -192,11 +157,6 @@ def skyscraperScrap():
     for info in infos:
         print(info)
         DBinsert(db, info)
-    # for k, v in info.items():
-    #     data = dict()
-    #     data[k] = v
-    #     DBinsert(db, data)
-    # # print(data)
 
 if __name__ == "__main__":
    skyscraperScrap()
