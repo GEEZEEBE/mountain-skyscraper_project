@@ -1,5 +1,3 @@
-from django.urls import path, include
-
 """web_config URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -18,7 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from board import views
+
+app_name = 'board'
+
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('board/', include('board.urls')),
+    path('mountains/list', views.mt_list, name='mt_list'),
+    path('mountains/detail/<int:id>/', views.mt_detail, name='mt_detail'),
 ]
