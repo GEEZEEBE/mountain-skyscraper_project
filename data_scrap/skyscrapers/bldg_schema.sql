@@ -1,0 +1,26 @@
+CREATE TABLE skyscrapers (
+	id INT(10) NOT NULL AUTO_INCREMENT,
+	rank VARCHAR(10) DEFAULT NULL,
+	building_name VARCHAR(30) DEFAULT NULL,
+	city_name VARCHAR(30) DEFAULT NULL,
+    country VARCHAR(10) DEFAULT NULL,
+    height_m VARCHAR(10) DEFAULT NULL,
+    height_ft VARCHAR(10) DEFAULT NULL,
+    floor VARCHAR(10) DEFAULT NULL,
+    completion_year VARCHAR(10) DEFAULT NULL,
+    structure VARCHAR(30) DEFAULT NULL,
+    use VARCHAR(30) DEFAULT NULL,
+	thumbnail LONGTEXT DEFAULT NULL,
+    reg_date DATE DEFAULT NULL,
+	PRIMARY KEY (id)
+);
+
+CREATE TABLE bldg_images (
+	id INT(10) NOT NULL AUTO_INCREMENT,
+	bldg_id INT(10) NOT NULL,
+    link LONGTEXT DEFAULT NULL,
+	reg_date DATE DEFAULT NULL,
+	PRIMARY KEY (id),
+    FOREIGN KEY (bldg_id)
+    REFERENCES skyscrapers(id)
+);
