@@ -1,0 +1,2122 @@
+[{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b89ea"
+  },
+  "rank": "1",
+  "building_name": "Burj Khalifa",
+  "city_name": "Dubai",
+  "country": "AE",
+  "height_m": "828",
+  "height_ft": "2,717",
+  "floor": "163",
+  "completion_year": "2010",
+  "structure": "steel/concrete",
+  "use": "office / residential / hotel",
+  "thumbnail": "images.skyscrapercenter.com/building/burjkhalifa_ext-overallcontext_(c)som-nick-merrick-hedrich-blessing2010.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/burj-khalifa_ext-satellite_(c)geoeyesatellite.jpg",
+    "images.skyscrapercenter.com/building/2019-09-26-22-12-52_5d8d37e49f218.jpg",
+    "images.skyscrapercenter.com/building/2019-09-26-22-11-59_5d8d37af80a98.jpg",
+    "images.skyscrapercenter.com/building/burjkhalifa_ext-overallclose_(c)som-nick-merrick-hedrich-blessing2010.jpg",
+    "images.skyscrapercenter.com/building/burjkhalifa_ext-skyline_(c)som-nick-merrick-hedrich-blessing2010.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b89ec"
+  },
+  "rank": "2",
+  "building_name": "Shanghai Tower",
+  "city_name": "Shanghai",
+  "country": "CN",
+  "height_m": "632",
+  "height_ft": "2,073",
+  "floor": "128",
+  "completion_year": "2015",
+  "structure": "composite",
+  "use": "hotel / office",
+  "thumbnail": "images.skyscrapercenter.com/building/shanghai-tower_gensler1.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/shanghai-tower_gensler2.jpg",
+    "images.skyscrapercenter.com/building/wayland-harrison.jpg",
+    "images.skyscrapercenter.com/building/shanghaitower_lookupnight_mg.jpg",
+    "images.skyscrapercenter.com/building/shanghaitower_con-lookingup5(c)tm.jpg",
+    "images.skyscrapercenter.com/building/shanghai-tower_thomas-jaehndel1.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b89ee"
+  },
+  "rank": "3",
+  "building_name": "Makkah Royal Clock Tower",
+  "city_name": "Mecca",
+  "country": "SA",
+  "height_m": "601",
+  "height_ft": "1,972",
+  "floor": "120",
+  "completion_year": "2012",
+  "structure": "steel/concrete",
+  "use": "other / hotel",
+  "thumbnail": "images.skyscrapercenter.com/building/makkahroyalclocktowerhotel_aerial1_sblg.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/makkahroyalclocktowerhotel_aerial2_sblg.jpg",
+    "images.skyscrapercenter.com/building/makkahroyalclocktowerhotel_overall1_sblg.jpg",
+    "images.skyscrapercenter.com/building/makkahroyalclocktowerhotel_overall2_sblg.jpg",
+    "images.skyscrapercenter.com/building/makkahroyalclocktowerhotel_lookup1_sblg.jpg",
+    "images.skyscrapercenter.com/building/makkahroyalclocktowerhotel_lookup2_sblg.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b89f0"
+  },
+  "rank": "4",
+  "building_name": "Ping An Finance Center",
+  "city_name": "Shenzhen",
+  "country": "CN",
+  "height_m": "599.1",
+  "height_ft": "1,965",
+  "floor": "115",
+  "completion_year": "2017",
+  "structure": "composite",
+  "use": "office",
+  "thumbnail": "images.skyscrapercenter.com/building/ping-an-finance-center_ping-an-finance-center2.jpeg",
+  "image": [
+    "images.skyscrapercenter.com/building/2018-09-28-22-02-17_5baea4e9b0ad2.jpg",
+    "images.skyscrapercenter.com/building/overall_(c)pinganfinancecenter.jpg",
+    "images.skyscrapercenter.com/building/2018-09-27-08-46-00_5bac98c8d572c.jpg",
+    "images.skyscrapercenter.com/building/2018-09-28-22-06-51_5baea5fbf2004.jpg",
+    "images.skyscrapercenter.com/building/2018-09-28-22-06-35_5baea5ebeef96.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b89f2"
+  },
+  "rank": "5",
+  "building_name": "Lotte World Tower",
+  "city_name": "Seoul",
+  "country": "KR",
+  "height_m": "554.5",
+  "height_ft": "1,819",
+  "floor": "123",
+  "completion_year": "2017",
+  "structure": "composite",
+  "use": "hotel / residential / office / retail",
+  "thumbnail": "images.skyscrapercenter.com/building/lotte-world-tower_lotte-property-development1.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/lotteworldtower_ext-full_(c)lotte.jpg",
+    "images.skyscrapercenter.com/building/lotteworldtower_ext-full-day__(c)lotte.jpg",
+    "images.skyscrapercenter.com/building/lotteworldtower_ext-full-night_(c)lotte.jpg",
+    "images.skyscrapercenter.com/building/lottejamsil_ext-overallsouth_(c)kpf.jpg",
+    "images.skyscrapercenter.com/building/lottejamsil_ext-southviewday_(c)kpf.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b89f4"
+  },
+  "rank": "6",
+  "building_name": "One World Trade Center",
+  "city_name": "New York City",
+  "country": "US",
+  "height_m": "541.3",
+  "height_ft": "1,776",
+  "floor": "94",
+  "completion_year": "2014",
+  "structure": "composite",
+  "use": "office",
+  "thumbnail": "images.skyscrapercenter.com/building/one-world-trade-center_john-w-cahill2.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/1wtc_overall3_mg.jpg",
+    "images.skyscrapercenter.com/building/1wtc_overall2_mg.jpg",
+    "images.skyscrapercenter.com/building/one-world-trade-center_judith-dupre2.jpg",
+    "images.skyscrapercenter.com/building/one-world-trade-center_james-ewing-otto1.jpg",
+    "images.skyscrapercenter.com/building/one-world-trade-center_nathaniel-lindsey1.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b89f6"
+  },
+  "rank": "7",
+  "building_name": "Guangzhou CTF Finance Centre",
+  "city_name": "Guangzhou",
+  "country": "CN",
+  "height_m": "530",
+  "height_ft": "1,739",
+  "floor": "111",
+  "completion_year": "2016",
+  "structure": "composite",
+  "use": "hotel / residential / office",
+  "thumbnail": "images.skyscrapercenter.com/building/guangzhou-ctf-finance-centre_k11-new-world-development2.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/guangzhou-ctf-finance-centre_new-world-china-land-co-ltd12.jpg",
+    "images.skyscrapercenter.com/building/guangzhou-ctf-finance-centre_k11-new-world-development1.jpg",
+    "images.skyscrapercenter.com/building/ctf_financecenter_ext-lookingup3(c)tm.jpg",
+    "images.skyscrapercenter.com/building/ctf_financecenter_ext-lookingup2(c)tm.jpg",
+    "images.skyscrapercenter.com/building/ctf_financecenter_ext-lookingup1(c)tm.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b89f8"
+  },
+  "rank": "8",
+  "building_name": "Tianjin CTF Finance Centre",
+  "city_name": "Tianjin",
+  "country": "CN",
+  "height_m": "530",
+  "height_ft": "1,739",
+  "floor": "97",
+  "completion_year": "2019",
+  "structure": "composite",
+  "use": "hotel / serviced apartments / office",
+  "thumbnail": "images.skyscrapercenter.com/building/Tianjin-CTF-Finance-Centre-Seth-Powers-SOM-1575649766448.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/Tianjin-CTF-Finance-Centre-Seth-Powers-SOM-1575649771448.jpg",
+    "images.skyscrapercenter.com/building/Tianjin-CTF-Finance-Centre-Seth-Powers-SOM-1575649770447.jpg",
+    "images.skyscrapercenter.com/building/Tianjin-CTF-Finance-Centre-Seth-Powers-SOM-1575649768449.jpg",
+    "images.skyscrapercenter.com/building/Tianjin-CTF-Finance-Centre-Seth-Powers-SOM-1575649767448.jpg",
+    "images.skyscrapercenter.com/building/Tianjin-CTF-Finance-Centre-Seth-Powers-SOM-1575649765448.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b89fa"
+  },
+  "rank": "9",
+  "building_name": "CITIC Tower",
+  "city_name": "Beijing",
+  "country": "CN",
+  "height_m": "527.7",
+  "height_ft": "1,731",
+  "floor": "109",
+  "completion_year": "2018",
+  "structure": "composite",
+  "use": "office",
+  "thumbnail": "images.skyscrapercenter.com/building/2019-09-27-14-52-33_5d8e223156ab8.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/h-g-esch_1301.jpg",
+    "images.skyscrapercenter.com/building/2019-09-27-14-52-58_5d8e224adbba0.jpg",
+    "images.skyscrapercenter.com/building/h-g-esch_1863.jpg",
+    "images.skyscrapercenter.com/building/2019-09-27-14-55-18_5d8e22d625f08.jpg",
+    "images.skyscrapercenter.com/building/2019-09-27-14-54-18_5d8e229ab7d68.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b89fc"
+  },
+  "rank": "10",
+  "building_name": "TAIPEI 101",
+  "city_name": "Taipei",
+  "country": "CN",
+  "height_m": "508",
+  "height_ft": "1,667",
+  "floor": "101",
+  "completion_year": "2004",
+  "structure": "composite",
+  "use": "office",
+  "thumbnail": "images.skyscrapercenter.com/building/tapei101_ext-main2_(c)taipeifinancial.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/tp101.jpg",
+    "images.skyscrapercenter.com/building/tapei101_ext-main_(c)taipeifinancial.jpg",
+    "images.skyscrapercenter.com/building/tapei101_ext-mainup_(c)taipeifinancial.jpg",
+    "images.skyscrapercenter.com/building/tapei101_ext-park_(c)taipeifinancial.jpg",
+    "images.skyscrapercenter.com/building/tapei101_ext-context_(c)taipeifinancial.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b89fe"
+  },
+  "rank": "11",
+  "building_name": "Shanghai World Financial Center",
+  "city_name": "Shanghai",
+  "country": "CN",
+  "height_m": "492",
+  "height_ft": "1,614",
+  "floor": "101",
+  "completion_year": "2008",
+  "structure": "composite",
+  "use": "hotel / office",
+  "thumbnail": "images.skyscrapercenter.com/building/shanghaiwfc_ext-overall_(c)leslieeroberston.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/swfc_terriboake.jpg",
+    "images.skyscrapercenter.com/building/shanghaiworldfinancialcenter_exterior-main_(c)kpf.jpg",
+    "images.skyscrapercenter.com/building/shanghai-world-financial-center_daniel-harrison1.jpg",
+    "images.skyscrapercenter.com/building/shanghai-world-financial-center_daniel-harrison6.jpg",
+    "images.skyscrapercenter.com/building/shanghaiworldfinancialcenter_exterior-overall_(c)kpf-0.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a00"
+  },
+  "rank": "12",
+  "building_name": "International Commerce Centre",
+  "city_name": "Hong Kong",
+  "country": "CN",
+  "height_m": "484",
+  "height_ft": "1,588",
+  "floor": "108",
+  "completion_year": "2010",
+  "structure": "composite",
+  "use": "hotel / office",
+  "thumbnail": "images.skyscrapercenter.com/building/icc_distance1_mg.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/icc_distance3_mg.jpg",
+    "images.skyscrapercenter.com/building/international-commerce-centre_daniel-safarik1.jpg",
+    "images.skyscrapercenter.com/building/internationalcommercecentre_exterior-entrance_(c)kpf.jpg",
+    "images.skyscrapercenter.com/building/icc_lookup1_mg.jpg",
+    "images.skyscrapercenter.com/building/internationalcommercecentre_exterior-close_(c)kpf.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a02"
+  },
+  "rank": "13",
+  "building_name": "Lakhta Center",
+  "city_name": "St. Petersburg",
+  "country": "RU",
+  "height_m": "462",
+  "height_ft": "1,516",
+  "floor": "87",
+  "completion_year": "2019",
+  "structure": "composite",
+  "use": "office",
+  "thumbnail": "images.skyscrapercenter.com/building/lakhtacenter-to_(c)slava__korolev.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/lakhtacenter-to_(c)viktor__sukharukov.jpg",
+    "images.skyscrapercenter.com/building/Lakhta-Center-Anton-Galakhov-1590525547867.JPG",
+    "images.skyscrapercenter.com/building/igor-butyrskii_3823.jpg",
+    "images.skyscrapercenter.com/building/igor-butyrskii_4770.jpg",
+    "images.skyscrapercenter.com/building/igor-butyrskii.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a04"
+  },
+  "rank": "14",
+  "building_name": "Vincom Landmark 81",
+  "city_name": "Ho Chi Minh City",
+  "country": "VN",
+  "height_m": "461.2",
+  "height_ft": "1,513",
+  "floor": "81",
+  "completion_year": "2018",
+  "structure": "composite",
+  "use": "hotel / residential",
+  "thumbnail": "images.skyscrapercenter.com/building/2018-10-03-06-17-28_5bb45ef8c69be.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/2018-09-26-12-47-48_5bab7ff4a3562.jpg",
+    "images.skyscrapercenter.com/building/2018-09-26-12-48-33_5bab8021457b4.jpg",
+    "images.skyscrapercenter.com/building/2018-10-03-06-21-10_5bb45fd64eb2c.jpg",
+    "images.skyscrapercenter.com/building/2018-10-03-06-19-25_5bb45f6d1053b.jpg",
+    "images.skyscrapercenter.com/building/2018-10-03-06-18-23_5bb45f2f29469.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a06"
+  },
+  "rank": "15",
+  "building_name": "Changsha IFS Tower T1",
+  "city_name": "Changsha",
+  "country": "CN",
+  "height_m": "452.1",
+  "height_ft": "1,483",
+  "floor": "94",
+  "completion_year": "2018",
+  "structure": "composite",
+  "use": "hotel / office",
+  "thumbnail": "images.skyscrapercenter.com/building/changsha_ifs-ext-context_(c)wong__tung_and_partners__limited-(1).jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/2018-10-11-05-08-25_5bbedac9d98f8.jpg",
+    "images.skyscrapercenter.com/building/2018-09-24-03-31-01_5ba85a75deb4d.jpg",
+    "images.skyscrapercenter.com/building/2018-09-24-03-22-09_5ba8586112b16.jpg",
+    "images.skyscrapercenter.com/building/2018-09-27-11-00-12_5bacb83c0b1ab.jpg",
+    "images.skyscrapercenter.com/building/2018-09-24-03-22-54_5ba8588e91334.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a08"
+  },
+  "rank": "16",
+  "building_name": "Petronas Twin Tower 1",
+  "city_name": "Kuala Lumpur",
+  "country": "MY",
+  "height_m": "451.9",
+  "height_ft": "1,483",
+  "floor": "88",
+  "completion_year": "1998",
+  "structure": "composite",
+  "use": "office",
+  "thumbnail": "images.skyscrapercenter.com/building/petronastowers_ext-overall_(c)tansri__muliani.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/petronastowers_ext-overallaerial_(c)tansri__muliani.jpg",
+    "images.skyscrapercenter.com/building/petronastowers_ext-overallcontextnight_(c)tansri__muliani.jpg",
+    "images.skyscrapercenter.com/building/petronastowers_ext-overalldistant_(c)tansri__muliani.jpg",
+    "images.skyscrapercenter.com/building/PetronasTowers_Ext-OverallUp_(c)Tansri__Muliani.jpg",
+    "images.skyscrapercenter.com/building/petronastowers_ext-top_(c)tansri__muliani.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a0a"
+  },
+  "rank": "17",
+  "building_name": "Petronas Twin Tower 2",
+  "city_name": "Kuala Lumpur",
+  "country": "MY",
+  "height_m": "451.9",
+  "height_ft": "1,483",
+  "floor": "88",
+  "completion_year": "1998",
+  "structure": "composite",
+  "use": "office",
+  "thumbnail": "images.skyscrapercenter.com/building/petronastowers_ext-overall_(c)tansri__muliani.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/petronastowers_ext-overallaerial_(c)tansri__muliani.jpg",
+    "images.skyscrapercenter.com/building/petronastowers_ext-overallcontextnight_(c)tansri__muliani.jpg",
+    "images.skyscrapercenter.com/building/petronastowers_ext-overalldistant_(c)tansri__muliani.jpg",
+    "images.skyscrapercenter.com/building/PetronasTowers_Ext-OverallUp_(c)Tansri__Muliani.jpg",
+    "images.skyscrapercenter.com/building/petronastowers_ext-top_(c)tansri__muliani.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a0c"
+  },
+  "rank": "18",
+  "building_name": "Suzhou IFS",
+  "city_name": "Suzhou",
+  "country": "CN",
+  "height_m": "450",
+  "height_ft": "1,476",
+  "floor": "95",
+  "completion_year": "2019",
+  "structure": "composite",
+  "use": "hotel / office / serviced apartments",
+  "thumbnail": "images.skyscrapercenter.com/building/2019-09-30-10-41-43_5d91dbe749c23.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/2019-09-30-10-42-40_5d91dc2019460.jpg",
+    "images.skyscrapercenter.com/building/2019-09-30-10-43-39_5d91dc5b06fce.jpg",
+    "images.skyscrapercenter.com/building/2019-09-30-10-42-50_5d91dc2a867d7.jpg",
+    "images.skyscrapercenter.com/building/2019-09-30-10-42-07_5d91dbffaeb6e.jpg",
+    "images.skyscrapercenter.com/building/2019-09-30-10-43-16_5d91dc449cabf.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a0e"
+  },
+  "rank": "19",
+  "building_name": "Zifeng Tower",
+  "city_name": "Nanjing",
+  "country": "CN",
+  "height_m": "450",
+  "height_ft": "1,476",
+  "floor": "66",
+  "completion_year": "2010",
+  "structure": "composite",
+  "use": "hotel / office",
+  "thumbnail": "images.skyscrapercenter.com/building/image01_nanjing_overall-exterior_som.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/ZifengTower_Ext-OverallNight_(c)ECADI.jpg",
+    "images.skyscrapercenter.com/building/nanjinggreenlandfinancialcenter1.jpg",
+    "images.skyscrapercenter.com/building/nanjinggreenlandfinancialcenter2.jpg",
+    "images.skyscrapercenter.com/building/zifengtower_ext-overall_(cc)jackno1.jpg",
+    "images.skyscrapercenter.com/building/zifengtower_int-mainlobby_(c)ecadi.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a10"
+  },
+  "rank": "20",
+  "building_name": "The Exchange 106",
+  "city_name": "Kuala Lumpur",
+  "country": "MY",
+  "height_m": "445.5",
+  "height_ft": "1,462",
+  "floor": "95",
+  "completion_year": "2019",
+  "structure": "composite",
+  "use": "office",
+  "thumbnail": "images.skyscrapercenter.com/building/Exchange106_Ext-Full_(c)Hao__Li191203-101242.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/2019-09-30-11-16-05_5d91e3f5a73ef.jpg",
+    "images.skyscrapercenter.com/building/2019-09-25-08-48-28_5d8b29dca68d8.jpg",
+    "images.skyscrapercenter.com/building/2019-09-30-11-16-58_5d91e42a36e1d.jpg",
+    "images.skyscrapercenter.com/building/2019-09-24-08-29-20_5d89d3e0b6f2a.jpg",
+    "images.skyscrapercenter.com/building/2019-09-30-11-18-07_5d91e46f85333.JPG"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a12"
+  },
+  "rank": "21",
+  "building_name": "Willis Tower",
+  "city_name": "Chicago",
+  "country": "US",
+  "height_m": "442.1",
+  "height_ft": "1,451",
+  "floor": "108",
+  "completion_year": "1974",
+  "structure": "steel",
+  "use": "office",
+  "thumbnail": "images.skyscrapercenter.com/building/ch0014.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/pa210042a.jpg",
+    "images.skyscrapercenter.com/building/willis-tower_nathaniel-lindsey3.jpg",
+    "images.skyscrapercenter.com/building/willistower_ext-top_(c)stevenhenry.jpg",
+    "images.skyscrapercenter.com/building/Sears1a.jpg",
+    "images.skyscrapercenter.com/building/willis-tower_john-w-cahill2.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a14"
+  },
+  "rank": "22",
+  "building_name": "KK100",
+  "city_name": "Shenzhen",
+  "country": "CN",
+  "height_m": "441.8",
+  "height_ft": "1,449",
+  "floor": "100",
+  "completion_year": "2011",
+  "structure": "composite",
+  "use": "hotel / office",
+  "thumbnail": "images.skyscrapercenter.com/building/marshall-gerometta_1561.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/kk100_ext-full(c)tm.jpg",
+    "images.skyscrapercenter.com/building/marshall-gerometta_1983.jpg",
+    "images.skyscrapercenter.com/building/kk100_ext-full2(c)tm.jpg",
+    "images.skyscrapercenter.com/building/kk100_ext-lookingup2(c)tm.jpg",
+    "images.skyscrapercenter.com/building/kk100_ext-lookingup3(c)tm-0.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a16"
+  },
+  "rank": "23",
+  "building_name": "Guangzhou International Finance Center",
+  "city_name": "Guangzhou",
+  "country": "CN",
+  "height_m": "438.6",
+  "height_ft": "1,439",
+  "floor": "103",
+  "completion_year": "2010",
+  "structure": "composite",
+  "use": "hotel / office",
+  "thumbnail": "images.skyscrapercenter.com/building/guangzhouifc_mainexterior_(c)jonathanleijonhufvud-1.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/gifc01.jpg",
+    "images.skyscrapercenter.com/building/guangzhouifc_ext-overall_(c)christianrichters.jpg",
+    "images.skyscrapercenter.com/building/guangzhouinternationalfinancecenter_ext-lookingup3(c)tm-0.jpg",
+    "images.skyscrapercenter.com/building/guangzhouifc_ext-up_(c)christianrichters.jpg",
+    "images.skyscrapercenter.com/building/guangzhouinternationalfinancecenter_ext-lookingup1(c)tm.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a18"
+  },
+  "rank": "24",
+  "building_name": "Wuhan Center Tower",
+  "city_name": "Wuhan",
+  "country": "CN",
+  "height_m": "438",
+  "height_ft": "1,437",
+  "floor": "88",
+  "completion_year": "2019",
+  "structure": "composite",
+  "use": "hotel / residential / office",
+  "thumbnail": "images.skyscrapercenter.com/building/wuhancenter_ext-overallriver2_(c)ecadi.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/WuhanCenter_Ext-OverallRiver_(c)ECADI.jpg",
+    "images.skyscrapercenter.com/building/wuhancenter_ext-overallcomplex_(c)ecadi.jpg",
+    "images.skyscrapercenter.com/building/wuhancenter_ext-aerialoverall_(c)ecadi.jpg",
+    "images.skyscrapercenter.com/building/wuhancenter_ext-aerialcrown_(c)ecadi.jpg",
+    "images.skyscrapercenter.com/building/wuhancenter_int-observatory_(c)ecadi.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a1a"
+  },
+  "rank": "25",
+  "building_name": "One Vanderbilt",
+  "city_name": "New York City",
+  "country": "US",
+  "height_m": "427",
+  "height_ft": "1,401",
+  "floor": "58",
+  "completion_year": "2020",
+  "structure": "composite",
+  "use": "office",
+  "thumbnail": "images.skyscrapercenter.com/building/One-Vanderbilt-Tectonic-Media-Inc-1601398090375.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/One-Vanderbilt-Tectonic-Media-Inc-1601398091105.jpg",
+    "images.skyscrapercenter.com/building/One-Vanderbilt-Tectonic-Media-Inc-1588015075790.jpg",
+    "images.skyscrapercenter.com/building/tectonic-media-inc_812.jpg",
+    "images.skyscrapercenter.com/building/john-w-cahill_9671.jpg",
+    "images.skyscrapercenter.com/building/john-w-cahill_3399.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a1c"
+  },
+  "rank": "26",
+  "building_name": "432 Park Avenue",
+  "city_name": "New York City",
+  "country": "US",
+  "height_m": "425.7",
+  "height_ft": "1,397",
+  "floor": "85",
+  "completion_year": "2015",
+  "structure": "concrete",
+  "use": "residential",
+  "thumbnail": "images.skyscrapercenter.com/building/432-park-avenue_marshall-gerometta2.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/432mg1.jpg",
+    "images.skyscrapercenter.com/building/432-park-avenue_john-w-cahill3.jpg",
+    "images.skyscrapercenter.com/building/432-park-avenue_john-w-cahill6.jpg",
+    "images.skyscrapercenter.com/building/432-park-avenue_marshall-gerometta6.jpg",
+    "images.skyscrapercenter.com/building/432-park-avenue_john-w-cahill4.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a1e"
+  },
+  "rank": "27",
+  "building_name": "Marina 101",
+  "city_name": "Dubai",
+  "country": "AE",
+  "height_m": "425",
+  "height_ft": "1,394",
+  "floor": "101",
+  "completion_year": "2017",
+  "structure": "concrete",
+  "use": "residential / hotel",
+  "thumbnail": "images.skyscrapercenter.com/building/marina-101_lester-ali1.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/marina101_const-08042014_front_(c)tav_construction.jpg",
+    "images.skyscrapercenter.com/building/marina-101_terri-meyer-boake3.jpg",
+    "images.skyscrapercenter.com/building/marina-101_terri-meyer-boake5.jpg",
+    "images.skyscrapercenter.com/building/marina-101_terri-meyer-boake6.jpg",
+    "images.skyscrapercenter.com/building/marina-101_terri-meyer-boake7.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a20"
+  },
+  "rank": "28",
+  "building_name": "Trump International Hotel & Tower",
+  "city_name": "Chicago",
+  "country": "US",
+  "height_m": "423.2",
+  "height_ft": "1,389",
+  "floor": "98",
+  "completion_year": "2009",
+  "structure": "concrete",
+  "use": "residential / hotel",
+  "thumbnail": "images.skyscrapercenter.com/building/p8240424a.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/ch0034.jpg",
+    "images.skyscrapercenter.com/building/p9020003a.jpg",
+    "images.skyscrapercenter.com/building/ch0020.jpg",
+    "images.skyscrapercenter.com/building/img_3038a.jpg",
+    "images.skyscrapercenter.com/building/p8310558a.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a22"
+  },
+  "rank": "29",
+  "building_name": "Jin Mao Tower",
+  "city_name": "Shanghai",
+  "country": "CN",
+  "height_m": "420.5",
+  "height_ft": "1,380",
+  "floor": "88",
+  "completion_year": "1999",
+  "structure": "composite",
+  "use": "hotel / office",
+  "thumbnail": "images.skyscrapercenter.com/building/jinmao-ext-fromabove(c)tm.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/jinmao01.jpg",
+    "images.skyscrapercenter.com/building/jinmao_viewfromwater_aw-1.jpg",
+    "images.skyscrapercenter.com/building/jinmao03_1827.jpg",
+    "images.skyscrapercenter.com/building/jinmao-ext-lookingup3(c)tm.jpg",
+    "images.skyscrapercenter.com/building/jinmao_ext-overall_(c)yinpuwang.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a24"
+  },
+  "rank": "30",
+  "building_name": "Princess Tower",
+  "city_name": "Dubai",
+  "country": "AE",
+  "height_m": "413.4",
+  "height_ft": "1,356",
+  "floor": "101",
+  "completion_year": "2012",
+  "structure": "steel/concrete",
+  "use": "residential",
+  "thumbnail": "images.skyscrapercenter.com/building/princesstower_ext-overall_(c)tameerholding.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/princesstower_ext1_(c)tonysafarik.jpg",
+    "images.skyscrapercenter.com/building/princess-tower_terri-meyer-boake4.jpg",
+    "images.skyscrapercenter.com/building/princess-tower_terri-meyer-boake3.jpg",
+    "images.skyscrapercenter.com/building/princess-tower_terri-meyer-boake2.jpg",
+    "images.skyscrapercenter.com/building/princesstower_ext_crown_(c)tameer.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a26"
+  },
+  "rank": "31",
+  "building_name": "Al Hamra Tower",
+  "city_name": "Kuwait City",
+  "country": "KW",
+  "height_m": "412.6",
+  "height_ft": "1,354",
+  "floor": "80",
+  "completion_year": "2011",
+  "structure": "concrete",
+  "use": "office",
+  "thumbnail": "images.skyscrapercenter.com/building/alhamra_ext-overall_(c)pawelsulima.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/alhamra_ext-night_(c)som.jpg",
+    "images.skyscrapercenter.com/building/AlHamra_Ext-Facade_(c)SOM.jpg",
+    "images.skyscrapercenter.com/building/alhamra_ext-facade2_(c)som.jpg",
+    "images.skyscrapercenter.com/building/alhamra_ext-skyline_(c)som.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a28"
+  },
+  "rank": "32",
+  "building_name": "Two International Finance Centre",
+  "city_name": "Hong Kong",
+  "country": "CN",
+  "height_m": "412",
+  "height_ft": "1,352",
+  "floor": "88",
+  "completion_year": "2003",
+  "structure": "composite",
+  "use": "office",
+  "thumbnail": "images.skyscrapercenter.com/building/2ifc1.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/ifc_overalla_aw.jpg",
+    "images.skyscrapercenter.com/building/ifc2_(c)lera.jpg",
+    "images.skyscrapercenter.com/building/ifc_viewfromwater2_aw.jpg",
+    "images.skyscrapercenter.com/building/2ifc2.jpg",
+    "images.skyscrapercenter.com/building/ifc_sunsetviewa_aw.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a2a"
+  },
+  "rank": "33",
+  "building_name": "LCT The Sharp Landmark Tower",
+  "city_name": "Busan",
+  "country": "KR",
+  "height_m": "411.6",
+  "height_ft": "1,350",
+  "floor": "101",
+  "completion_year": "2019",
+  "structure": "concrete",
+  "use": "hotel / residential",
+  "thumbnail": "images.skyscrapercenter.com/building/lct_rendering-complex_(c)posco__eandc.jpg",
+  "image": []
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a2c"
+  },
+  "rank": "34",
+  "building_name": "Guiyang International Financial Center T1",
+  "city_name": "Guiyang",
+  "country": "CN",
+  "height_m": "401",
+  "height_ft": "1,316",
+  "floor": "79",
+  "completion_year": "2020",
+  "structure": "composite",
+  "use": "hotel / office",
+  "thumbnail": "images.skyscrapercenter.com/building/Guiyang-International-Financial-Center-T1-1596509693824.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/Guiyang-International-Financial-Center-T1-1596509689946.jpg",
+    "images.skyscrapercenter.com/building/GuiyangIFC_LookingUp-WM_(c)Zhongtian__Finance200605-010615.jpg",
+    "images.skyscrapercenter.com/building/GuiyangIFC_Context-WM_(c)Zhongtian__Finance200605-010615.jpg",
+    "images.skyscrapercenter.com/building/guiyang-international-financial-center-t1-super-geometry-architects-ltd.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a2e"
+  },
+  "rank": "35",
+  "building_name": "China Resources Tower",
+  "city_name": "Shenzhen",
+  "country": "CN",
+  "height_m": "392.5",
+  "height_ft": "1,288",
+  "floor": "68",
+  "completion_year": "2018",
+  "structure": "composite",
+  "use": "office",
+  "thumbnail": "images.skyscrapercenter.com/building/03_china-resources-hq_(c)tim__griffith.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/01_china-resources-hq_(c)tim__griffith.jpg",
+    "images.skyscrapercenter.com/building/02_china-resources-hq_(c)tim__griffith.jpg",
+    "images.skyscrapercenter.com/building/04_china-resources-hq_(c)tim__griffith.jpg",
+    "images.skyscrapercenter.com/building/2018-10-04-20-45-22_5bb67be2563ba.jpg",
+    "images.skyscrapercenter.com/building/2018-10-04-20-49-07_5bb67cc3e51a9.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a30"
+  },
+  "rank": "36",
+  "building_name": "23 Marina",
+  "city_name": "Dubai",
+  "country": "AE",
+  "height_m": "392.4",
+  "height_ft": "1,287",
+  "floor": "88",
+  "completion_year": "2012",
+  "structure": "concrete",
+  "use": "residential",
+  "thumbnail": "images.skyscrapercenter.com/building/23marina_ext1_(c)tonysafarik.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/23marina_ext-context_(c)imresolt.jpg",
+    "images.skyscrapercenter.com/building/23-marina_ext_viewfromsouth(c)hircon-international.jpg",
+    "images.skyscrapercenter.com/building/marshall-gerometta_9549.jpg",
+    "images.skyscrapercenter.com/building/23-marina_terri-meyer-boake6.jpg",
+    "images.skyscrapercenter.com/building/23-marina_terri-meyer-boake7.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a32"
+  },
+  "rank": "37",
+  "building_name": "CITIC Plaza",
+  "city_name": "Guangzhou",
+  "country": "CN",
+  "height_m": "390.2",
+  "height_ft": "1,280",
+  "floor": "80",
+  "completion_year": "1996",
+  "structure": "composite",
+  "use": "office",
+  "thumbnail": "images.skyscrapercenter.com/building/citic_ext-elevation_(c)dennislau.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/citic_ext-up_(c)dennislau.jpg",
+    "images.skyscrapercenter.com/building/citicplaza_ext-full(c)tm.jpg",
+    "images.skyscrapercenter.com/building/citic_ext-maindoor_(c)dennislau.jpg",
+    "images.skyscrapercenter.com/building/citic_ext-mainentry_(c)dennislau.jpg",
+    "images.skyscrapercenter.com/building/citic_int-lobby_(c)dennislau.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a34"
+  },
+  "rank": "38",
+  "building_name": "30 Hudson Yards",
+  "city_name": "New York City",
+  "country": "US",
+  "height_m": "387.1",
+  "height_ft": "1,270",
+  "floor": "73",
+  "completion_year": "2019",
+  "structure": "steel",
+  "use": "office",
+  "thumbnail": "images.skyscrapercenter.com/building/30-Hudson-Yards-Lester-Ali-1574809852891.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/30-Hudson-Yards-Tectonic-Media-Inc-1601055064285.jpg",
+    "images.skyscrapercenter.com/building/30hud_ext1_kpf.jpg",
+    "images.skyscrapercenter.com/building/30hud_ext2_kpf.jpg",
+    "images.skyscrapercenter.com/building/30-Hudson-Yards-Connie-Zhou-KPF-1575648800949.jpg",
+    "images.skyscrapercenter.com/building/30hud_ext3_kpf.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a36"
+  },
+  "rank": "39",
+  "building_name": "Shun Hing Square",
+  "city_name": "Shenzhen",
+  "country": "CN",
+  "height_m": "384",
+  "height_ft": "1,260",
+  "floor": "69",
+  "completion_year": "1996",
+  "structure": "composite",
+  "use": "office",
+  "thumbnail": "images.skyscrapercenter.com/building/shunhing_overall1_mg.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/shunhingsquare-ext-full(c)tm.jpg",
+    "images.skyscrapercenter.com/building/shunhing_ext_aerial_(c)terrimeyerboake.jpg",
+    "images.skyscrapercenter.com/building/shunhingsquare-ext-lookingup1(c)tm.jpg",
+    "images.skyscrapercenter.com/building/shunhingsquare-ext-lookingup2(c)tm.jpg",
+    "images.skyscrapercenter.com/building/shunhing_ext_incontext_(c)terrimeyerboake.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a38"
+  },
+  "rank": "40",
+  "building_name": "Eton Place Dalian Tower 1",
+  "city_name": "Dalian",
+  "country": "CN",
+  "height_m": "383.2",
+  "height_ft": "1,257",
+  "floor": "80",
+  "completion_year": "2016",
+  "structure": "composite",
+  "use": "hotel / office",
+  "thumbnail": "images.skyscrapercenter.com/building/eton-place-dalian-tower-1_terrence-zhang3.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/eton-place-dalian-tower-1_terrence-zhang2.jpg",
+    "images.skyscrapercenter.com/building/eton-place-dalian-tower-1_paul-dingman3.jpg",
+    "images.skyscrapercenter.com/building/eton-place-dalian-tower-1_nbbj1.jpg",
+    "images.skyscrapercenter.com/building/eton-place-dalian-tower-1_paul-dingman4.jpg",
+    "images.skyscrapercenter.com/building/eton-place-dalian-tower-1_terrence-zhang4.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a3a"
+  },
+  "rank": "41",
+  "building_name": "Nanning Logan Century 1",
+  "city_name": "Nanning",
+  "country": "CN",
+  "height_m": "381.3",
+  "height_ft": "1,251",
+  "floor": "82",
+  "completion_year": "2018",
+  "structure": "composite",
+  "use": "hotel / office",
+  "thumbnail": "images.skyscrapercenter.com/building/logancentury1_rendering-full-day_(c)dennis__lau__and__ng__chun__man__architects__and__engineers.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/logancentury1_rendering-full-night_(c)dennis__lau__and__ng__chun__man__architects__and__engineers.jpg",
+    "images.skyscrapercenter.com/building/logancentury1_rendering-fromabove_(c)dennis__lau__and__ng__chun__man__architects__and__engineers.jpg",
+    "images.skyscrapercenter.com/building/logancentury1-2_rendering-base_(c)dennis__lau__and__ng__chun__man__architects__and__engineers.jpg",
+    "images.skyscrapercenter.com/building/logancentury1-2_rendering-entrance_(c)dennis__lau__and__ng__chun__man__architects__and__engineers.jpg",
+    "images.skyscrapercenter.com/building/logancentury2_rendering-base_(c)dennis__lau__and__ng__chun__man__architects__and__engineers.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a3c"
+  },
+  "rank": "42",
+  "building_name": "Burj Mohammed Bin Rashid",
+  "city_name": "Abu Dhabi",
+  "country": "AE",
+  "height_m": "381.2",
+  "height_ft": "1,251",
+  "floor": "88",
+  "completion_year": "2014",
+  "structure": "concrete",
+  "use": "residential",
+  "thumbnail": "images.skyscrapercenter.com/building/burj-mohammed-bin-rashid_joost-kuckartz3.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/marshall-gerometta_1746.jpg",
+    "images.skyscrapercenter.com/building/marshall-gerometta_3201.jpg",
+    "images.skyscrapercenter.com/building/burj-mohammed-bin-rashid_joost-kuckartz2.jpg",
+    "images.skyscrapercenter.com/building/burj-mohammed-bin-rashid_joost-kuckartz1.jpg",
+    "images.skyscrapercenter.com/building/marshall-gerometta_3069.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a3e"
+  },
+  "rank": "43",
+  "building_name": "Empire State Building",
+  "city_name": "New York City",
+  "country": "US",
+  "height_m": "381",
+  "height_ft": "1,250",
+  "floor": "102",
+  "completion_year": "1931",
+  "structure": "steel",
+  "use": "office",
+  "thumbnail": "images.skyscrapercenter.com/building/empirestate_overall_mg.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/esb1.jpg",
+    "images.skyscrapercenter.com/building/empire-state3.jpg",
+    "images.skyscrapercenter.com/building/empire_overall3_mgx.jpg",
+    "images.skyscrapercenter.com/building/esb1a-3.jpg",
+    "images.skyscrapercenter.com/building/EmpireStateBuilding_(c)AutismSpeaks.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a40"
+  },
+  "rank": "44",
+  "building_name": "Elite Residence",
+  "city_name": "Dubai",
+  "country": "AE",
+  "height_m": "380.5",
+  "height_ft": "1,248",
+  "floor": "87",
+  "completion_year": "2012",
+  "structure": "concrete",
+  "use": "residential",
+  "thumbnail": "images.skyscrapercenter.com/building/elite_ext-top_(c)tameer.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/elite-residence_terri-meyer-boake1.jpg",
+    "images.skyscrapercenter.com/building/eliteresidence_ext-overall_(c)tameerholding.jpg",
+    "images.skyscrapercenter.com/building/eliteresidence_ext_incontect_(c)tameer.jpg",
+    "images.skyscrapercenter.com/building/elite-residence_terri-meyer-boake4.jpg",
+    "images.skyscrapercenter.com/building/eliteresidence_ext_overall_up_(c)tameer.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a42"
+  },
+  "rank": "45",
+  "building_name": "Central Plaza",
+  "city_name": "Hong Kong",
+  "country": "CN",
+  "height_m": "373.9",
+  "height_ft": "1,227",
+  "floor": "78",
+  "completion_year": "1992",
+  "structure": "concrete",
+  "use": "office",
+  "thumbnail": "images.skyscrapercenter.com/building/centralplaza_ext-main_(c)dennislau-1.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/centralplaza1_mg.jpg",
+    "images.skyscrapercenter.com/building/centralplaza_ext_crown_(c)terrimeyerboake.jpg",
+    "images.skyscrapercenter.com/building/centralplaza_ext-nightcontext_(c)dennislau.jpg",
+    "images.skyscrapercenter.com/building/central-plaza_joost-kuckartz3.jpg",
+    "images.skyscrapercenter.com/building/central-plaza_joost-kuckartz2.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a44"
+  },
+  "rank": "46",
+  "building_name": "Federation Tower",
+  "city_name": "Moscow",
+  "country": "RU",
+  "height_m": "373.7",
+  "height_ft": "1,226",
+  "floor": "93",
+  "completion_year": "2016",
+  "structure": "concrete",
+  "use": "residential / office",
+  "thumbnail": "images.skyscrapercenter.com/building/federation-tower_cjsc-federation-tower1.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/federation-towers-vostok-tower_igor-butyrskii1.jpg",
+    "images.skyscrapercenter.com/building/federation-towers-vostok-tower_igor-butyrskii3.jpg",
+    "images.skyscrapercenter.com/building/federation-towers-vostok-tower_igor-butyrskii5.jpg",
+    "images.skyscrapercenter.com/building/federation-towers-vostok-tower_igor-butyrskii6.jpg",
+    "images.skyscrapercenter.com/building/federation-towers-vostok-tower_igor-butyrskii2.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a46"
+  },
+  "rank": "47",
+  "building_name": "Dalian International Trade Center",
+  "city_name": "Dalian",
+  "country": "CN",
+  "height_m": "370.2",
+  "height_ft": "1,214",
+  "floor": "86",
+  "completion_year": "2019",
+  "structure": "composite",
+  "use": "residential / office",
+  "thumbnail": "images.skyscrapercenter.com/building/dalianinternationaltradecenter_rendering-full_(c)shanghai__construction__group.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/dalianinternationaltradecenter_rendering-full-dusk_(c)shanghai__construction__group.jpg",
+    "images.skyscrapercenter.com/building/dalianinternationaltradecenter_rendering-full-dusk2_(c)shanghai__construction__group.jpg",
+    "images.skyscrapercenter.com/building/dalianinternationaltradecenter_rendering-lookingup_(c)shanghai__construction__group.jpg",
+    "images.skyscrapercenter.com/building/dalianinternationaltradecenter_rendering-base3_(c)shanghai__construction__group.jpg",
+    "images.skyscrapercenter.com/building/dalianinternationaltradecenter_rendering-base_(c)shanghai__construction__group.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a48"
+  },
+  "rank": "48",
+  "building_name": "The Address Boulevard",
+  "city_name": "Dubai",
+  "country": "AE",
+  "height_m": "370",
+  "height_ft": "1,214",
+  "floor": "73",
+  "completion_year": "2017",
+  "structure": "concrete",
+  "use": "residential / hotel / retail",
+  "thumbnail": "images.skyscrapercenter.com/building/marshall-gerometta_9993.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/marshall-gerometta_1980.jpg",
+    "images.skyscrapercenter.com/building/the-address-the-blvd_joost-kuckartz2.jpg",
+    "images.skyscrapercenter.com/building/the-address-the-blvd_joost-kuckartz1.jpg",
+    "images.skyscrapercenter.com/building/The-Address-Boulevard-1596569594759.jpg",
+    "images.skyscrapercenter.com/building/the-address-the-blvd_emaar1.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a4a"
+  },
+  "rank": "49",
+  "building_name": "Golden Eagle Tiandi Tower A",
+  "city_name": "Nanjing",
+  "country": "CN",
+  "height_m": "368.1",
+  "height_ft": "1,208",
+  "floor": "77",
+  "completion_year": "2019",
+  "structure": "composite",
+  "use": "hotel / office",
+  "thumbnail": "images.skyscrapercenter.com/building/Golden-Eagle-Tiandi-Tower-A-Lester-Ali-1574810108204.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/goldeneagletiandi_rendering-complex-fromabove-day_(c)ecadi.jpg",
+    "images.skyscrapercenter.com/building/goldeneagletiandi_rendering-complex-fromabove_(c)ecadi.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a4c"
+  },
+  "rank": "50",
+  "building_name": "Bank of China Tower",
+  "city_name": "Hong Kong",
+  "country": "CN",
+  "height_m": "367.4",
+  "height_ft": "1,205",
+  "floor": "72",
+  "completion_year": "1990",
+  "structure": "composite",
+  "use": "office",
+  "thumbnail": "images.skyscrapercenter.com/building/bankofchina_ext-main_(c)leslieerobertson.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/bankofchina_ext-context_(c)leslieerobertson.jpg",
+    "images.skyscrapercenter.com/building/p1010220a.jpg",
+    "images.skyscrapercenter.com/building/bankofchina_ext_overall_(c)terrimeyerboake.jpg",
+    "images.skyscrapercenter.com/building/boc1.jpg",
+    "images.skyscrapercenter.com/building/bank-of-china-tower_daniel-harrison3.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a4e"
+  },
+  "rank": "51",
+  "building_name": "Bank of America Tower",
+  "city_name": "New York City",
+  "country": "US",
+  "height_m": "365.8",
+  "height_ft": "1,200",
+  "floor": "55",
+  "completion_year": "2009",
+  "structure": "composite",
+  "use": "office",
+  "thumbnail": "images.skyscrapercenter.com/building/p4290205a.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/p4300467a.jpg",
+    "images.skyscrapercenter.com/building/ny0046.jpg",
+    "images.skyscrapercenter.com/building/42bofa9a.jpg",
+    "images.skyscrapercenter.com/building/bankofamerica_exterior-skyline_cookfoxarchitects.jpg",
+    "images.skyscrapercenter.com/building/bankofamerica_exterior-skylinecontext_cookfoxarchitects.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a50"
+  },
+  "rank": "52",
+  "building_name": "Almas Tower",
+  "city_name": "Dubai",
+  "country": "AE",
+  "height_m": "360",
+  "height_ft": "1,181",
+  "floor": "68",
+  "completion_year": "2008",
+  "structure": "concrete",
+  "use": "office",
+  "thumbnail": "images.skyscrapercenter.com/building/almastower_ext-front_(c)terrimeyerboake.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/almas-tower_terri-meyer-boake6.jpg",
+    "images.skyscrapercenter.com/building/almastower_ext-side_(c)terrimeyerboake.jpg",
+    "images.skyscrapercenter.com/building/almas-tower_terri-meyer-boake1.jpg",
+    "images.skyscrapercenter.com/building/almas-tower_terri-meyer-boake4.jpg",
+    "images.skyscrapercenter.com/building/almas-tower_terri-meyer-boake2.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a52"
+  },
+  "rank": "53",
+  "building_name": "Hanking Center",
+  "city_name": "Shenzhen",
+  "country": "CN",
+  "height_m": "358.9",
+  "height_ft": "1,177",
+  "floor": "65",
+  "completion_year": "2018",
+  "structure": "steel",
+  "use": "office",
+  "thumbnail": "images.skyscrapercenter.com/building/hankingcenter_ext-dusk1_(c)hanking__group.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/hankingcenter_ext-dusk2_(c)hanking__group.jpg",
+    "images.skyscrapercenter.com/building/marshall-gerometta_7835.jpg",
+    "images.skyscrapercenter.com/building/2018-08-15-06-30-36_5b73c88ca3c35.jpg",
+    "images.skyscrapercenter.com/building/2018-08-15-06-31-47_5b73c8d3835ec.jpg",
+    "images.skyscrapercenter.com/building/2018-08-15-06-31-37_5b73c8c91ec28.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a54"
+  },
+  "rank": "54",
+  "building_name": "Gevora Hotel",
+  "city_name": "Dubai",
+  "country": "AE",
+  "height_m": "356.3",
+  "height_ft": "1,169",
+  "floor": "75",
+  "completion_year": "2017",
+  "structure": "steel/concrete",
+  "use": "hotel",
+  "thumbnail": "images.skyscrapercenter.com/building/marshall-gerometta_2403.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/marshall-gerometta_2468.jpg",
+    "images.skyscrapercenter.com/building/abtower_gb.jpg",
+    "images.skyscrapercenter.com/building/marshall-gerometta_9452.jpg",
+    "images.skyscrapercenter.com/building/ahmedabdulrahimalattartower_const-20120819-lookingup_(c)imresolt.jpg",
+    "images.skyscrapercenter.com/building/ahmed-abdul-rahim-al-attar-tower_terri-meyer-boake1.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a56"
+  },
+  "rank": "55",
+  "building_name": "JW Marriott Marquis Hotel Dubai Tower 1",
+  "city_name": "Dubai",
+  "country": "AE",
+  "height_m": "355.4",
+  "height_ft": "1,166",
+  "floor": "82",
+  "completion_year": "2012",
+  "structure": "concrete",
+  "use": "hotel",
+  "thumbnail": "images.skyscrapercenter.com/building/jw-marriott-marquis-hotel-dubai-tower-1_terri-meyer-boake1.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/jw-marriott-marquis-hotel-dubai-tower-1_terri-meyer-boake9.jpg",
+    "images.skyscrapercenter.com/building/jw-marriott-marquis-hotel-dubai-tower-1_terri-meyer-boake3.jpg",
+    "images.skyscrapercenter.com/building/jw-marriott-marquis-hotel-dubai-tower-1_terri-meyer-boake5.jpg",
+    "images.skyscrapercenter.com/building/jw-marriott-marquis-hotel-dubai-tower-1_terri-meyer-boake6.jpg",
+    "images.skyscrapercenter.com/building/jw-marriott-marquis-hotel-dubai-tower-1_terri-meyer-boake2.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a58"
+  },
+  "rank": "56",
+  "building_name": "JW Marriott Marquis Hotel Dubai Tower 2",
+  "city_name": "Dubai",
+  "country": "AE",
+  "height_m": "355.4",
+  "height_ft": "1,166",
+  "floor": "82",
+  "completion_year": "2013",
+  "structure": "concrete",
+  "use": "hotel",
+  "thumbnail": "images.skyscrapercenter.com/building/jw-marriott-marquis-hotel-dubai-tower-2_terri-meyer-boake10.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/jw-marriott-marquis-hotel-dubai-tower-2_terri-meyer-boake6.jpg",
+    "images.skyscrapercenter.com/building/jw-marriott-marquis-hotel-dubai-tower-2_terri-meyer-boake8.jpg",
+    "images.skyscrapercenter.com/building/jw-marriott-marquis-hotel-dubai-tower-2_terri-meyer-boake2.jpg",
+    "images.skyscrapercenter.com/building/jw-marriott-marquis-hotel-dubai-tower-2_terri-meyer-boake3.jpg",
+    "images.skyscrapercenter.com/building/jw-marriott-marquis-hotel-dubai-tower-2_terri-meyer-boake4.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a5a"
+  },
+  "rank": "57",
+  "building_name": "Emirates Tower One",
+  "city_name": "Dubai",
+  "country": "AE",
+  "height_m": "354.6",
+  "height_ft": "1,163",
+  "floor": "54",
+  "completion_year": "2000",
+  "structure": "composite",
+  "use": "office",
+  "thumbnail": "images.skyscrapercenter.com/building/db0013.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/emiratestowers_ext_full-fog_(c)norr.jpg",
+    "images.skyscrapercenter.com/building/emirates-tower-one_terri-meyer-boake9.jpg",
+    "images.skyscrapercenter.com/building/emirates_viewuptower_aw.jpg",
+    "images.skyscrapercenter.com/building/emirates-tower-one_terri-meyer-boake1.jpg",
+    "images.skyscrapercenter.com/building/emirates-tower-one_terri-meyer-boake12.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a5c"
+  },
+  "rank": "58",
+  "building_name": "Raffles City Chongqing T3N",
+  "city_name": "Chongqing",
+  "country": "CN",
+  "height_m": "354.5",
+  "height_ft": "1,163",
+  "floor": "79",
+  "completion_year": "2019",
+  "structure": "composite",
+  "use": "residential / retail",
+  "thumbnail": "images.skyscrapercenter.com/building/chongqingrafflescity_ext-overallviewfromnorth_(c)capitalandlimited.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/28769_1.jpg",
+    "images.skyscrapercenter.com/building/rafflescitychongqing_con-complex_(c)capitaland__limited.jpg",
+    "images.skyscrapercenter.com/building/Raffles-City-Chongqing-T3N-1572808465453.JPG",
+    "images.skyscrapercenter.com/building/Raffles-City-Chongqing-T3N-1572808454396.JPG",
+    "images.skyscrapercenter.com/building/Raffles-City-Chongqing-T3N-1572808433323.JPG"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a5e"
+  },
+  "rank": "59",
+  "building_name": "Raffles City Chongqing T4N",
+  "city_name": "Chongqing",
+  "country": "CN",
+  "height_m": "354.5",
+  "height_ft": "1,163",
+  "floor": "79",
+  "completion_year": "2019",
+  "structure": "composite",
+  "use": "hotel / office / retail",
+  "thumbnail": "images.skyscrapercenter.com/building/chongqingrafflescity_ext-overallviewfromnorth_(c)capitalandlimited.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/28769_1.jpg",
+    "images.skyscrapercenter.com/building/rafflescitychongqing_con-complex_(c)capitaland__limited.jpg",
+    "images.skyscrapercenter.com/building/chongqingrafflescity_ext-overallviewfromsouth_(c)capitalandlimited.jpg",
+    "images.skyscrapercenter.com/building/chongqingrafflescity_ext-overallviewfromsouthwest_(c)capitalandlimited.jpg",
+    "images.skyscrapercenter.com/building/chongqingrafflescity_ext-overallviewfromwest_(c)capitalandlimited.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a60"
+  },
+  "rank": "60",
+  "building_name": "OKO - Residential Tower",
+  "city_name": "Moscow",
+  "country": "RU",
+  "height_m": "354.2",
+  "height_ft": "1,162",
+  "floor": "90",
+  "completion_year": "2015",
+  "structure": "concrete",
+  "use": "residential / serviced apartments / hotel",
+  "thumbnail": "images.skyscrapercenter.com/building/oko-residential-tower_boris-bochkarev2.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/oko-residential-tower_boris-bochkarev1.jpg",
+    "images.skyscrapercenter.com/building/oko-residential-tower_boris-bochkarev4.jpg",
+    "images.skyscrapercenter.com/building/oko-towers_ext-con-to2_(c)capital__group-0.jpg",
+    "images.skyscrapercenter.com/building/oko-residential_ext-con-to-dusk_(c)capital__group-0.jpg",
+    "images.skyscrapercenter.com/building/okosouth_uc2_ib.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a62"
+  },
+  "rank": "61",
+  "building_name": "The Torch",
+  "city_name": "Dubai",
+  "country": "AE",
+  "height_m": "352",
+  "height_ft": "1,155",
+  "floor": "86",
+  "completion_year": "2011",
+  "structure": "concrete",
+  "use": "residential",
+  "thumbnail": "images.skyscrapercenter.com/building/thetorch_ext-front_(c)imresolt.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/the-torch_terri-meyer-boake8.jpg",
+    "images.skyscrapercenter.com/building/the-torch_terri-meyer-boake2.jpg",
+    "images.skyscrapercenter.com/building/thetorch_ext-entryup_(c)imresolt.jpg",
+    "images.skyscrapercenter.com/building/the-torch_terri-meyer-boake1.jpg",
+    "images.skyscrapercenter.com/building/the-torch_terri-meyer-boake3.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a64"
+  },
+  "rank": "62",
+  "building_name": "Forum 66 Tower 1",
+  "city_name": "Shenyang",
+  "country": "CN",
+  "height_m": "350.6",
+  "height_ft": "1,150",
+  "floor": "68",
+  "completion_year": "2015",
+  "structure": "composite",
+  "use": "hotel / office",
+  "thumbnail": "images.skyscrapercenter.com/building/forum66t1_jl1.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/forum66t1_jl2.jpg",
+    "images.skyscrapercenter.com/building/fourm66_dwg-overall_(c)kpf.jpg",
+    "images.skyscrapercenter.com/building/forum66_overall_gb.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a66"
+  },
+  "rank": "63",
+  "building_name": "The Pinnacle",
+  "city_name": "Guangzhou",
+  "country": "CN",
+  "height_m": "350.3",
+  "height_ft": "1,149",
+  "floor": "60",
+  "completion_year": "2012",
+  "structure": "concrete",
+  "use": "office",
+  "thumbnail": "images.skyscrapercenter.com/building/thepinnacle_ext-full(c)tm.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/thepinnacle_ext-lookingup(c)tm.jpg",
+    "images.skyscrapercenter.com/building/thepinnacle_ext-overall_(cc)indexxrus-wikipedia.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a68"
+  },
+  "rank": "64",
+  "building_name": "Spring City 66",
+  "city_name": "Kunming",
+  "country": "CN",
+  "height_m": "349",
+  "height_ft": "1,145",
+  "floor": "61",
+  "completion_year": "2019",
+  "structure": "composite",
+  "use": "office",
+  "thumbnail": "images.skyscrapercenter.com/building/Spring-City-66-Ai-Qing-KPF-1575648563453.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/Spring-City-66-Ai-Qing-KPF-1575648568449.jpg",
+    "images.skyscrapercenter.com/building/Spring-City-66-Ai-Qing-KPF-1575648574452.jpg",
+    "images.skyscrapercenter.com/building/Spring-City-66-Ai-Qing-KPF-1575648555655.jpg",
+    "images.skyscrapercenter.com/building/Spring-City-66-Ai-Qing-1575648549333.jpg",
+    "images.skyscrapercenter.com/building/Spring-City-66-1575648544435.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a6a"
+  },
+  "rank": "65",
+  "building_name": "85 Sky Tower",
+  "city_name": "Kaohsiung",
+  "country": "CN",
+  "height_m": "347.5",
+  "height_ft": "1,140",
+  "floor": "85",
+  "completion_year": "1997",
+  "structure": "steel",
+  "use": "hotel / office / retail",
+  "thumbnail": "images.skyscrapercenter.com/building/t-c-tower_joost-kuckartz4.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/tuntex1.jpg",
+    "images.skyscrapercenter.com/building/tuntex2.jpg",
+    "images.skyscrapercenter.com/building/tuntex3.jpg",
+    "images.skyscrapercenter.com/building/t-c-tower_joost-kuckartz5.jpg",
+    "images.skyscrapercenter.com/building/t-c-tower_joost-kuckartz1.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a6c"
+  },
+  "rank": "66",
+  "building_name": "Shimao Hunan Center",
+  "city_name": "Changsha",
+  "country": "CN",
+  "height_m": "347",
+  "height_ft": "1,138",
+  "floor": "-",
+  "completion_year": "2019",
+  "structure": "composite",
+  "use": "office",
+  "thumbnail": "images.skyscrapercenter.com/building/ShimaoHunan191211-061253.jpg",
+  "image": []
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a6e"
+  },
+  "rank": "67",
+  "building_name": "Aon Center",
+  "city_name": "Chicago",
+  "country": "US",
+  "height_m": "346.3",
+  "height_ft": "1,136",
+  "floor": "83",
+  "completion_year": "1973",
+  "structure": "steel",
+  "use": "office",
+  "thumbnail": "images.skyscrapercenter.com/building/p2160312a.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/aon-center_john-w-cahill1.jpg",
+    "images.skyscrapercenter.com/building/aoncenter_overall8_mg.jpg",
+    "images.skyscrapercenter.com/building/aon_towertop_aw.jpg",
+    "images.skyscrapercenter.com/building/aoncenter_int-elevatorlobby_(c)stevenhenry.jpg",
+    "images.skyscrapercenter.com/building/p8310567a.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a70"
+  },
+  "rank": "68",
+  "building_name": "The Center",
+  "city_name": "Hong Kong",
+  "country": "CN",
+  "height_m": "346",
+  "height_ft": "1,135",
+  "floor": "73",
+  "completion_year": "1998",
+  "structure": "steel",
+  "use": "office",
+  "thumbnail": "images.skyscrapercenter.com/building/thecenter_ext-aerial_(c)dennislau.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/thecenter_ext-up_(c)dennislau.jpg",
+    "images.skyscrapercenter.com/building/thecenter_ext-detailup_(c)dennislau.jpg",
+    "images.skyscrapercenter.com/building/thecenter_ext-detailup2_(c)dennislau.jpg",
+    "images.skyscrapercenter.com/building/thecenter_ext-side_(c)dennislau.jpg",
+    "images.skyscrapercenter.com/building/thecenter_ext_crown_(c)terrimeyerboake.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a72"
+  },
+  "rank": "69",
+  "building_name": "NEVA TOWERS 2",
+  "city_name": "Moscow",
+  "country": "RU",
+  "height_m": "345",
+  "height_ft": "1,132",
+  "floor": "79",
+  "completion_year": "2020",
+  "structure": "concrete",
+  "use": "residential",
+  "thumbnail": "images.skyscrapercenter.com/building/nevatowers_rendering-full_(c)renaissance__development.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/st-poster_butyrskii-igor1.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a74"
+  },
+  "rank": "70",
+  "building_name": "875 North Michigan Avenue",
+  "city_name": "Chicago",
+  "country": "US",
+  "height_m": "343.7",
+  "height_ft": "1,128",
+  "floor": "100",
+  "completion_year": "1969",
+  "structure": "steel",
+  "use": "residential / office",
+  "thumbnail": "images.skyscrapercenter.com/building/ch001.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/hancock_viewfromsears_aw.jpg",
+    "images.skyscrapercenter.com/building/hancock_viewincity_aw.jpg",
+    "images.skyscrapercenter.com/building/hancock_birdseyeview_aw.jpg",
+    "images.skyscrapercenter.com/building/ch0069.jpg",
+    "images.skyscrapercenter.com/building/hancock_viewup_aw.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a76"
+  },
+  "rank": "71",
+  "building_name": "Four Seasons Place",
+  "city_name": "Kuala Lumpur",
+  "country": "MY",
+  "height_m": "342.5",
+  "height_ft": "1,124",
+  "floor": "74",
+  "completion_year": "2018",
+  "structure": "concrete",
+  "use": "residential / hotel",
+  "thumbnail": "images.skyscrapercenter.com/building/fourseasonsplace_ext-full_(c)hao__li.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/four-seasons-place_rod-abid2.jpg",
+    "images.skyscrapercenter.com/building/four-seasons-place_rod-abid1.jpg",
+    "images.skyscrapercenter.com/building/four-seasons-place_rod-abid3.jpg",
+    "images.skyscrapercenter.com/building/four-seasons-place_rod-abid4.jpg",
+    "images.skyscrapercenter.com/building/four-seasons-place_rod-abid5.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a78"
+  },
+  "rank": "72",
+  "building_name": "ADNOC Headquarters",
+  "city_name": "Abu Dhabi",
+  "country": "AE",
+  "height_m": "342",
+  "height_ft": "1,122",
+  "floor": "65",
+  "completion_year": "2015",
+  "structure": "concrete",
+  "use": "office",
+  "thumbnail": "images.skyscrapercenter.com/building/2018-09-28-17-35-58_5bae667ecfdd1.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/2018-09-28-17-35-30_5bae6662b2c06.jpg",
+    "images.skyscrapercenter.com/building/2018-09-28-17-39-27_5bae674f0c3e3.jpg",
+    "images.skyscrapercenter.com/building/2018-09-28-17-37-21_5bae66d1f0e1a.jpg",
+    "images.skyscrapercenter.com/building/2018-09-28-17-37-33_5bae66dd0d33b.jpg",
+    "images.skyscrapercenter.com/building/2018-09-28-17-36-15_5bae668f15f2e.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a7a"
+  },
+  "rank": "73",
+  "building_name": "One Shenzhen Bay Tower 7",
+  "city_name": "Shenzhen",
+  "country": "CN",
+  "height_m": "341.4",
+  "height_ft": "1,120",
+  "floor": "71",
+  "completion_year": "2018",
+  "structure": "composite",
+  "use": "residential / hotel / office",
+  "thumbnail": "images.skyscrapercenter.com/building/2018-09-28-22-01-33_5baea4bd7729a.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/2018-09-28-21-59-41_5baea44d68521.jpg",
+    "images.skyscrapercenter.com/building/2018-09-28-22-02-00_5baea4d89e89d.jpg",
+    "images.skyscrapercenter.com/building/2018-09-28-21-59-19_5baea437eee0a.jpg",
+    "images.skyscrapercenter.com/building/2018-09-28-22-04-36_5baea5740b308.jpg",
+    "images.skyscrapercenter.com/building/2018-09-28-22-05-35_5baea5af53f5e.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a7c"
+  },
+  "rank": "74",
+  "building_name": "LCT The Sharp Residential Tower A",
+  "city_name": "Busan",
+  "country": "KR",
+  "height_m": "339.1",
+  "height_ft": "1,113",
+  "floor": "85",
+  "completion_year": "2019",
+  "structure": "concrete",
+  "use": "residential",
+  "thumbnail": "images.skyscrapercenter.com/building/lct_rendering-complex_(c)posco__eandc.jpg",
+  "image": []
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a7e"
+  },
+  "rank": "75",
+  "building_name": "Comcast Technology Center",
+  "city_name": "Philadelphia",
+  "country": "US",
+  "height_m": "339.1",
+  "height_ft": "1,112",
+  "floor": "59",
+  "completion_year": "2018",
+  "structure": "composite",
+  "use": "hotel / office",
+  "thumbnail": "images.skyscrapercenter.com/building/2019-10-03-10-18-08_5d95cae04dbc0.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/2019-10-03-10-16-24_5d95ca78c1e58.jpg",
+    "images.skyscrapercenter.com/building/2019-10-03-10-19-34_5d95cb367eb58.jpg",
+    "images.skyscrapercenter.com/building/2019-10-03-10-36-23_5d95cf275214a.jpg",
+    "images.skyscrapercenter.com/building/2019-10-03-10-19-17_5d95cb2579ec8.jpg",
+    "images.skyscrapercenter.com/building/2019-10-03-10-29-42_5d95cd96e91b9.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a80"
+  },
+  "rank": "76",
+  "building_name": "Wuxi International Finance Square",
+  "city_name": "Wuxi",
+  "country": "CN",
+  "height_m": "339",
+  "height_ft": "1,112",
+  "floor": "68",
+  "completion_year": "2014",
+  "structure": "composite",
+  "use": "hotel / office",
+  "thumbnail": "images.skyscrapercenter.com/building/wuxiifs_ext-full_(c)ajbest.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/wuxi-international-finance-square_daniel-safarik5.jpg",
+    "images.skyscrapercenter.com/building/wuxi-international-finance-square_daniel-safarik3.jpg",
+    "images.skyscrapercenter.com/building/wuxi-international-finance-square_daniel-safarik10.jpg",
+    "images.skyscrapercenter.com/building/wuxi-international-finance-square_daniel-safarik4.jpg",
+    "images.skyscrapercenter.com/building/wuxi-international-finance-square_daniel-safarik1.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a82"
+  },
+  "rank": "77",
+  "building_name": "Heartland 66 Office Tower",
+  "city_name": "Wuhan",
+  "country": "CN",
+  "height_m": "339",
+  "height_ft": "1,112",
+  "floor": "60",
+  "completion_year": "2020",
+  "structure": "composite",
+  "use": "office",
+  "thumbnail": "images.skyscrapercenter.com/building/heartland66_dwg_overall_(c)aedas.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/heartland66_dwg_site_(c)aedas.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a84"
+  },
+  "rank": "78",
+  "building_name": "Chongqing World Financial Center",
+  "city_name": "Chongqing",
+  "country": "CN",
+  "height_m": "338.9",
+  "height_ft": "1,112",
+  "floor": "72",
+  "completion_year": "2015",
+  "structure": "composite",
+  "use": "hotel / office",
+  "thumbnail": "images.skyscrapercenter.com/building/chongqing-world-financial-center_c-y-lee-partners-architects-planners2.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/chongqing-world-financial-center_c-y-lee-partners-architects-planners1.jpg",
+    "images.skyscrapercenter.com/building/chongqing-world-financial-center_cityofchongqing-com6.jpg",
+    "images.skyscrapercenter.com/building/chongqing-world-financial-center_cityofchongqing-com3.jpg",
+    "images.skyscrapercenter.com/building/chongqing-world-financial-center_cityofchongqing-com5.jpg",
+    "images.skyscrapercenter.com/building/chongqing-world-financial-center_cityofchongqing-com10.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a86"
+  },
+  "rank": "79",
+  "building_name": "Mercury City Tower",
+  "city_name": "Moscow",
+  "country": "RU",
+  "height_m": "338.8",
+  "height_ft": "1,112",
+  "floor": "75",
+  "completion_year": "2013",
+  "structure": "concrete",
+  "use": "residential / office",
+  "thumbnail": "images.skyscrapercenter.com/building/mercurycitytower_ext-overallview-9_(c)butyrskii__igor.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/mercurycitytower_ext-overallview-2_(c)butyrskii__igor.jpg",
+    "images.skyscrapercenter.com/building/mercurycitytower_ext-overallview-7_(c)butyrskii__igor.jpg",
+    "images.skyscrapercenter.com/building/mercurycitytower_ext-overallview-5_(c)butyrskii__igor.jpg",
+    "images.skyscrapercenter.com/building/mercurycitytower_ext-up_(c)butyrskii_igor.jpg",
+    "images.skyscrapercenter.com/building/mercurycitytower_ext-overallview-1_(c)butyrskii__igor.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a88"
+  },
+  "rank": "80",
+  "building_name": "Suning Plaza Tower 1",
+  "city_name": "Zhenjiang",
+  "country": "CN",
+  "height_m": "338",
+  "height_ft": "1,109",
+  "floor": "75",
+  "completion_year": "2018",
+  "structure": "composite",
+  "use": "hotel / serviced apartments / SOHO / office",
+  "thumbnail": "images.skyscrapercenter.com/building/suningplazatower_rendering-full2_(c)zhenjiang__urban__planning__bureau.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/suningplazatower_rendering-full_(c)zhenjiang__urban__planning__bureau.jpg",
+    "images.skyscrapercenter.com/building/suningplazatower_rendering-base_(c)zhenjiang__urban__planning__bureau.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a8a"
+  },
+  "rank": "81",
+  "building_name": "Tianjin Modern City Office Tower",
+  "city_name": "Tianjin",
+  "country": "CN",
+  "height_m": "338",
+  "height_ft": "1,109",
+  "floor": "65",
+  "completion_year": "2016",
+  "structure": "composite",
+  "use": "office",
+  "thumbnail": "images.skyscrapercenter.com/building/tianjinmoderncity_ext-complex_(c)watg.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/tianjinmoderncity_rendering-complex_(c)watg.jpg",
+    "images.skyscrapercenter.com/building/Tianjin-Modern-City-Office-Tower-bpi-1574230806812.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a8c"
+  },
+  "rank": "82",
+  "building_name": "Parc1 Tower A",
+  "city_name": "Seoul",
+  "country": "KR",
+  "height_m": "338",
+  "height_ft": "1,109",
+  "floor": "68",
+  "completion_year": "2020",
+  "structure": "composite",
+  "use": "office",
+  "thumbnail": "images.skyscrapercenter.com/building/parc1_rendering-full_(c)richard__rogers__partnership.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/parc1_con2_(ccby-sa)softjuice.jpg",
+    "images.skyscrapercenter.com/building/parc1_con_(ccby-sa)softjuice.jpg",
+    "images.skyscrapercenter.com/building/parc1-tower-a_inno43212.jpg",
+    "images.skyscrapercenter.com/building/parc1-tower-a_inno43211.jpg",
+    "images.skyscrapercenter.com/building/restmb_idxmake.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a8e"
+  },
+  "rank": "83",
+  "building_name": "Tianjin World Financial Center",
+  "city_name": "Tianjin",
+  "country": "CN",
+  "height_m": "336.9",
+  "height_ft": "1,105",
+  "floor": "75",
+  "completion_year": "2011",
+  "structure": "composite",
+  "use": "office",
+  "thumbnail": "images.skyscrapercenter.com/building/tianjinwfc_ext-overallstreet_(c)som.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/tianjin-world-financial-center_thomas-jaehndel2.jpg",
+    "images.skyscrapercenter.com/building/tianjinwfc_ext-facade2_(c)som.jpg",
+    "images.skyscrapercenter.com/building/tianjin-world-financial-center_daniel-safarik5.jpg",
+    "images.skyscrapercenter.com/building/tianjin-world-financial-center_daniel-safarik3.jpg",
+    "images.skyscrapercenter.com/building/tianjin-world-financial-center_daniel-safarik4.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a90"
+  },
+  "rank": "84",
+  "building_name": "Hengqin International Finance Center",
+  "city_name": "Zhuhai",
+  "country": "CN",
+  "height_m": "336.7",
+  "height_ft": "1,105",
+  "floor": "69",
+  "completion_year": "2020",
+  "structure": "composite",
+  "use": "residential / office",
+  "thumbnail": "images.skyscrapercenter.com/building/hengqininternationalfinancialcenter_dwg_overallrender_(c)aedas.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/hengqinifc_(c)aedas.jpg",
+    "images.skyscrapercenter.com/building/hengqininternationalfinancialcenter_dwg_siteview_(c)aedas.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a92"
+  },
+  "rank": "85",
+  "building_name": "SLS Dubai",
+  "city_name": "Dubai",
+  "country": "AE",
+  "height_m": "336",
+  "height_ft": "1,102",
+  "floor": "78",
+  "completion_year": "2020",
+  "structure": "concrete",
+  "use": "hotel",
+  "thumbnail": "images.skyscrapercenter.com/building/lester-ali_1607.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/marshall-gerometta_4149.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a94"
+  },
+  "rank": "86",
+  "building_name": "Wilshire Grand Center",
+  "city_name": "Los Angeles",
+  "country": "US",
+  "height_m": "335.3",
+  "height_ft": "1,100",
+  "floor": "62",
+  "completion_year": "2017",
+  "structure": "composite",
+  "use": "hotel / office",
+  "thumbnail": "images.skyscrapercenter.com/building/2018-09-30-17-11-51_5bb103d7b0f40.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/2018-09-30-17-13-49_5bb1044d40420.jpg",
+    "images.skyscrapercenter.com/building/wilshire-grand-center_terri-meyer-boake4.jpg",
+    "images.skyscrapercenter.com/building/nathaniel-lindsey_2059.jpg",
+    "images.skyscrapercenter.com/building/nathaniel-lindsey_117.jpg",
+    "images.skyscrapercenter.com/building/wilshire-grand-center_terri-meyer-boake5.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a96"
+  },
+  "rank": "87",
+  "building_name": "DAMAC Heights",
+  "city_name": "Dubai",
+  "country": "AE",
+  "height_m": "335.1",
+  "height_ft": "1,099",
+  "floor": "88",
+  "completion_year": "2018",
+  "structure": "concrete",
+  "use": "residential",
+  "thumbnail": "images.skyscrapercenter.com/building/lester-ali_7326.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/damac-heights_ext-context2_(c)andrew__bromberg__at__aedas.jpg",
+    "images.skyscrapercenter.com/building/damac-heights_ext-context3_(c)andrew__bromberg__at__aedas.jpg",
+    "images.skyscrapercenter.com/building/damac-heights_ext-context1_(c)andrew__bromberg__at__aedas.jpg",
+    "images.skyscrapercenter.com/building/damac-heights_ext-context-night2_(c)andrew__bromberg__at__aedas.jpg",
+    "images.skyscrapercenter.com/building/damac-heights_ext-context-night1_(c)andrew__bromberg__at__aedas.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a98"
+  },
+  "rank": "88",
+  "building_name": "Twin Towers Guiyang, East Tower",
+  "city_name": "Guiyang",
+  "country": "CN",
+  "height_m": "335",
+  "height_ft": "1,099",
+  "floor": "74",
+  "completion_year": "2020",
+  "structure": "composite",
+  "use": "office",
+  "thumbnail": "images.skyscrapercenter.com/building/twintowersguiyang-rendering(c)lwk__and__partners.jpg",
+  "image": []
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a9a"
+  },
+  "rank": "89",
+  "building_name": "Twin Towers Guiyang, West Tower",
+  "city_name": "Guiyang",
+  "country": "CN",
+  "height_m": "335",
+  "height_ft": "1,099",
+  "floor": "74",
+  "completion_year": "2020",
+  "structure": "composite",
+  "use": "hotel / office",
+  "thumbnail": "images.skyscrapercenter.com/building/twintowersguiyang-rendering(c)lwk__and__partners.jpg",
+  "image": []
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a9c"
+  },
+  "rank": "90",
+  "building_name": "Shimao International Plaza",
+  "city_name": "Shanghai",
+  "country": "CN",
+  "height_m": "333.3",
+  "height_ft": "1,094",
+  "floor": "60",
+  "completion_year": "2006",
+  "structure": "concrete",
+  "use": "hotel / office / retail",
+  "thumbnail": "images.skyscrapercenter.com/building/shimao-international-plaza_daniel-safarik1.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/shimao-international-plaza_daniel-safarik2.jpg",
+    "images.skyscrapercenter.com/building/shimao-international-plaza_daniel-safarik3.jpg",
+    "images.skyscrapercenter.com/building/shimao1.jpg",
+    "images.skyscrapercenter.com/building/shimao2.jpg",
+    "images.skyscrapercenter.com/building/shimaointernationalplaza_ext-fog_(c)terrimeyerboake.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8a9e"
+  },
+  "rank": "91",
+  "building_name": "LCT The Sharp Residential Tower B",
+  "city_name": "Busan",
+  "country": "KR",
+  "height_m": "333.1",
+  "height_ft": "1,093",
+  "floor": "85",
+  "completion_year": "2019",
+  "structure": "concrete",
+  "use": "residential",
+  "thumbnail": "images.skyscrapercenter.com/building/lct_rendering-complex_(c)posco__eandc.jpg",
+  "image": []
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8aa0"
+  },
+  "rank": "92",
+  "building_name": "Rose Rayhaan by Rotana",
+  "city_name": "Dubai",
+  "country": "AE",
+  "height_m": "333",
+  "height_ft": "1,093",
+  "floor": "71",
+  "completion_year": "2007",
+  "structure": "composite",
+  "use": "hotel",
+  "thumbnail": "images.skyscrapercenter.com/building/p3050869a.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/roserayhaan_ext-overallmain_(c)khatibalami.jpg",
+    "images.skyscrapercenter.com/building/db0026.jpg",
+    "images.skyscrapercenter.com/building/rose-rayhaan-by-rotana_terri-meyer-boake6.jpg",
+    "images.skyscrapercenter.com/building/rose_aerialview_aw.jpg",
+    "images.skyscrapercenter.com/building/rose_viewup_aw.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8aa2"
+  },
+  "rank": "93",
+  "building_name": "The Address Residence - Fountain Views III",
+  "city_name": "Dubai",
+  "country": "AE",
+  "height_m": "331.8",
+  "height_ft": "1,089",
+  "floor": "77",
+  "completion_year": "2019",
+  "structure": "concrete",
+  "use": "serviced apartments / hotel",
+  "thumbnail": "images.skyscrapercenter.com/building/lester-ali_3737.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/marshall-gerometta_3226.jpg",
+    "images.skyscrapercenter.com/building/marshall-gerometta_7156.jpg",
+    "images.skyscrapercenter.com/building/the-address-residence-fountain-views-iii_copyright3.jpg",
+    "images.skyscrapercenter.com/building/the-address-residence-fountain-views-iii_copyright2.jpg",
+    "images.skyscrapercenter.com/building/the-address-residence-fountain-views-iii_lester-ali1.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8aa4"
+  },
+  "rank": "94",
+  "building_name": "Minsheng Bank Building",
+  "city_name": "Wuhan",
+  "country": "CN",
+  "height_m": "331",
+  "height_ft": "1,086",
+  "floor": "68",
+  "completion_year": "2008",
+  "structure": "steel",
+  "use": "office",
+  "thumbnail": "images.skyscrapercenter.com/building/minsheng_skyline4_martinthyssen.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/minsheng_skyline1_martinthyssen.jpg",
+    "images.skyscrapercenter.com/building/minsheng_lokingup5_martinthyssen.jpg",
+    "images.skyscrapercenter.com/building/minsheng_lokingup4_martinthyssen.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8aa6"
+  },
+  "rank": "95",
+  "building_name": "China World Tower",
+  "city_name": "Beijing",
+  "country": "CN",
+  "height_m": "330",
+  "height_ft": "1,083",
+  "floor": "74",
+  "completion_year": "2010",
+  "structure": "composite",
+  "use": "hotel / office",
+  "thumbnail": "images.skyscrapercenter.com/building/chinaworldtower_ext-overall_(c)timgriffithsom.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/chinaworldtower_ext(c)tm.jpg",
+    "images.skyscrapercenter.com/building/chinaworldtower_ext-context_(c)timgriffithsom.jpg",
+    "images.skyscrapercenter.com/building/chinaworldtower_ext-aerial_(c)timgriffithsom.jpg",
+    "images.skyscrapercenter.com/building/chinaworldtower_ext-top_(c)timgriffithsom.jpg",
+    "images.skyscrapercenter.com/building/china-world-tower_daniel-safarik2.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8aa8"
+  },
+  "rank": "96",
+  "building_name": "Shimao Qianhai Project Tower 1",
+  "city_name": "Shenzhen",
+  "country": "CN",
+  "height_m": "330",
+  "height_ft": "1,083",
+  "floor": "70",
+  "completion_year": "2020",
+  "structure": "composite",
+  "use": "office",
+  "thumbnail": "images.skyscrapercenter.com/building/shimaoqianhai_rendering-full_(c)gensler.jpg",
+  "image": []
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8aaa"
+  },
+  "rank": "97",
+  "building_name": "Yuexiu Fortune Center Tower 1",
+  "city_name": "Wuhan",
+  "country": "CN",
+  "height_m": "330",
+  "height_ft": "1,083",
+  "floor": "68",
+  "completion_year": "2017",
+  "structure": "composite",
+  "use": "office",
+  "thumbnail": "images.skyscrapercenter.com/building/2018-10-01-16-39-21_5bb24db93b3f6.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/2018-10-01-16-37-06_5bb24d3205eca.jpg",
+    "images.skyscrapercenter.com/building/2018-10-01-16-34-10_5bb24c823bf4a.jpg",
+    "images.skyscrapercenter.com/building/2018-10-01-16-31-13_5bb24bd103d7f.jpg",
+    "images.skyscrapercenter.com/building/2018-10-01-16-42-21_5bb24e6dbf42b.jpg",
+    "images.skyscrapercenter.com/building/2018-10-01-16-31-58_5bb24bfe1eef1.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8aac"
+  },
+  "rank": "98",
+  "building_name": "Hon Kwok City Center",
+  "city_name": "Shenzhen",
+  "country": "CN",
+  "height_m": "329.4",
+  "height_ft": "1,081",
+  "floor": "80",
+  "completion_year": "2017",
+  "structure": "composite",
+  "use": "residential / office",
+  "thumbnail": "images.skyscrapercenter.com/building/honkwok_rendering-full_(c).jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/honkwokcitycenter_con_-(c)__yannsz.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8aae"
+  },
+  "rank": "99",
+  "building_name": "3 World Trade Center",
+  "city_name": "New York City",
+  "country": "US",
+  "height_m": "328.9",
+  "height_ft": "1,079",
+  "floor": "69",
+  "completion_year": "2018",
+  "structure": "composite",
+  "use": "office",
+  "thumbnail": "images.skyscrapercenter.com/building/lester-ali_8549.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/3wtcuc1.jpg",
+    "images.skyscrapercenter.com/building/3-world-trade-center_marshall-gerometta2.jpg",
+    "images.skyscrapercenter.com/building/3wtc.jpg",
+    "images.skyscrapercenter.com/building/3-world-trade-center_marshall-gerometta1.jpg",
+    "images.skyscrapercenter.com/building/3-world-trade-center_john-w-cahill17.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "5f8d6371b533f24f599b8ab0"
+  },
+  "rank": "100",
+  "building_name": "Zhuhai Tower",
+  "city_name": "Zhuhai",
+  "country": "CN",
+  "height_m": "328.8",
+  "height_ft": "1,079",
+  "floor": "66",
+  "completion_year": "2017",
+  "structure": "composite",
+  "use": "hotel / office",
+  "thumbnail": "images.skyscrapercenter.com/building/2019-09-27-07-53-02_5d8dbfde85b10.jpg",
+  "image": [
+    "images.skyscrapercenter.com/building/2019-09-27-07-50-32_5d8dbf48bf040.jpg",
+    "images.skyscrapercenter.com/building/2019-09-27-07-49-14_5d8dbefa1b710.jpg",
+    "images.skyscrapercenter.com/building/2019-09-27-07-49-42_5d8dbf161e9d8.jpg",
+    "images.skyscrapercenter.com/building/2019-09-27-07-54-40_5d8dc040d3220.jpg",
+    "images.skyscrapercenter.com/building/2019-09-27-07-47-04_5d8dbe78b70e8.jpg"
+  ]
+}]
