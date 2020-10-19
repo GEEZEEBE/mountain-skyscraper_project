@@ -1,91 +1,82 @@
 import requests
 from bs4 import BeautifulSoup
 from pymongo import MongoClient
+from datetime import datetime
+import time
 
-# mongoDB
-def insertDB(data):
-    db_url = "mongodb://127.0.0.1:27017"
-    db_name = "skyscraperDB"
-    collection_name = "skyscraperCollection2"
+from mongoDB import DBinsert
 
-    with MongoClient(db_url) as client:
-        db = client[db_name]
-        result = db[collection_name].insert_one(data)
 
-# urls
-def getLinks():
-    url = "http://www.skyscrapercenter.com/buildings"
-    res = requests.get(url)
-
-    if res.status_code == 200:
-        soup = BeautifulSoup(res.content, 'lxml')
-
-    # links 가져오기
+def getURLs():
+    res = requests.get("http://www.skyscrapercenter.com/buildings")
+    soup = BeautifulSoup(res.content, 'lxml')
+    # URLs 가져오기
     alllinks = soup.find_all("td", "building-hover")
-    link = [l.find("a")["href"] for l in alllinks]
-    return link
+    links = [l.find("a")["href"] for l in alllinks]
+    urls = ["http://www.skyscrapercenter.com" + l for l in links]
+    
+    return urls
 
- # official website
-def getWebsite(link):
-    web_list=[]
-    for l in link:
-        res = requests.get(f"http://www.skyscrapercenter.com{l}")
-# res = requests.get("http://www.skyscrapercenter.com/building/burj-khalifa/3")
+def getName(urls):
+    for l in urls:
+        res = requests.get(l)
         if res.status_code == 200:
             soup = BeautifulSoup(res.content, 'lxml')
-
+        
         try:
-            websites = soup.select("")
-            website = [w.get("href") for w in websites]
-            web_list.append(website)
+            bldg_names= soup.select('a:nth-child(1)')
+            bldg_name = [n.text.strip() for n in bldg_names[9:209:2]]
         except Exception as e:
-            website = "" # append 일경우??? 
-    return web_list
+            bldg_name =""
+    return bldg_name
 
 # image 정보수집
-def getImages(link):
+def getImages(urls):
     image_list=[]
     thumb_list=[]
-    for l in link:
-        res = requests.get(f"http://www.skyscrapercenter.com{l}")
-    # res = requests.get("http://www.skyscrapercenter.com/building/burj-khalifa/3")
-
+    for l in urls:
+        res = requests.get(l)
         if res.status_code == 200:
             soup = BeautifulSoup(res.content, 'lxml')
+            
         try:
             #images
-            images = soup.select("a.building-image")
-            image = [i.get("href")[2:] for i in images]
-            image_list.append(image[1:3]) # << 사진개수 수정
+            allimages = soup.select("a.building-image")
+            image_href = [i.get("href")[2:] for i in allimages]
+            image_list.append(image_href[1:6]) # << 사진개수 수정
             
             # thumbnail
-            thumbs = soup.select("a.building-image")
-            thumb = [i.get("href")[2:] for i in thumbs]
+            thumb = [i.get("href")[2:] for i in allimages]
             thumb_list.append(thumb[0])
-            # image = image[1:]
+            
         except Exception as e:
             image = ""
             thumb = ""
-    # print(image_list)
+        
     return thumb_list, image_list
-
+    
 # information
-def getInfo(link, image_list, thumb_list):
-    res = requests.get("http://www.skyscrapercenter.com/buildings")
-
+def getInfo(urls, thumbs, images):
+    url = "http://www.skyscrapercenter.com/buildings"
+    res = requests.get(url)
+    
     if res.status_code == 200:
-        soup = BeautifulSoup(res.content, 'lxml')
+        soup = BeautifulSoup(res.content, "lxml")
 
-    # column_titles
-    # column_titles = [soup.select(f"th:nth-child({n})")[0].text for n in range(4, 12)]
-
+        # Rank
+    try:
+        rank = [str(rank) for rank in range(1, len(urls)+1)]
+    except Exception as e:
+        rank = ""
+    
     # building names
     try:
         bldg_names= soup.select('a:nth-child(1)')
         bldg_name = [n.text.strip() for n in bldg_names[9:209:2]]
+        # print(bldg_name)
     except Exception as e:
         bldg_name =""
-
+            
     # city_name
     try:
         city_names= soup.select('a[href^="/city/"]')
@@ -100,7 +91,7 @@ def getInfo(link, image_list, thumb_list):
     except Exception as e:
         country = ""
 
-    # height(m) >>> Q. selector (5)(6)  ?????
+    # height(m)
     try:
         heights_m = soup.select("td:nth-child(6)")
         height_m = [n.text.strip() for n in heights_m[1:]]
@@ -141,35 +132,31 @@ def getInfo(link, image_list, thumb_list):
         use = [n.text.strip() for n in uses[1:]]
     except Exception as e:
         use = ""
+        
+    try:
+        r_date = datetime.now()
+    except Exception as e:
+        r_date =""
 
-
-    info = {
-        "bldg_name":bldg_name,
-        "city_name":city_name,
-        "country":country,
-        "height_m":height_m,
-        "height_ft":height_ft,
-        "floor":floor,
-        "completion":completion,
-        "material":material,
-        "use":use,
-        # "web":web_list,
-    }
-
-    info2 = [info for info in zip(bldg_name, city_name, country, height_m, height_ft, floor, completion, material, use, thumb_list, image_list)]
-    # print(info2)
-    return info2
+    keys = ['rank', 'building_name', 'city_name', 'country', 'height_m', 'height_ft', 'floor', 'completion_year', 'structure', 'use', 'thumbnail', 'image']
+    information = []
+    for values in zip(rank, bldg_name, city_name, country, height_m, height_ft, floor, completion, material, use, thumbs, images):
+        data = {}
+        for k, v in zip(keys, values):
+            data[k] = v
+        print(data)
+        information.append(data)
+    return information
+    
 
 def skyscraperScrap():
-    link = getLinks()
-    thumb_list, image_list = getImages(link)
-    info = getInfo(link, image_list, thumb_list)
-    numbers = [str(number) for number in range(1, len(link)+1)]
-    for n, i in zip(numbers, info):
-        data = dict()
-        data[n] = i
-        print(data)
-        insertDB(data)
+    db = {'db_name':"webscrapDB", 'collection_name':"bldg_Collection"}
+    urls = getURLs()
+    thumbs, images = getImages(urls)
+    infos = getInfo(urls, thumbs, images)
+    for info in infos:
+        print(info)
+        DBinsert(db, info)
 
 if __name__ == "__main__":
    skyscraperScrap()
