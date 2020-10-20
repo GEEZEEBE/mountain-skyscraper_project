@@ -1,4 +1,4 @@
- import pymysql.cursors
+import pymysql.cursors
 
 
 # Connect to the database
