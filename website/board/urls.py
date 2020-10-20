@@ -24,4 +24,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('mountains/list', views.mt_list, name='mt_list'),
     path('mountains/detail/<int:id>/', views.mt_detail, name='mt_detail'),
+    path('mountains/', views.mt_map, name='mt_map'),
 ]
