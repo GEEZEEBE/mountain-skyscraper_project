@@ -1,8 +1,9 @@
 from django.shortcuts import render
+from django.http import HttpResponse
 from django.core.paginator import Paginator
 import pymysql.cursors
 import folium
-from django.http.response import JsonResponse
+from django.http import JsonResponse
 
 # Connect to the database
 connection = pymysql.connect(host='localhost',
@@ -56,7 +57,7 @@ def mt_detail(request, id):
 
 def mt_map(request):
 
-    page = request.POST.get('page', '1')
+    page = request.GET.get('page', '1')
 
     with connection.cursor() as cursor:
         sql = "SELECT * FROM mountains"
@@ -148,8 +149,10 @@ def listajax(request):
 
         if request.method == 'POST':
             page_n = request.POST.get('page_n', None) #getting page number
+            # results = list(paginator.page(page_n))
             results = list(paginator.page(page_n))
             return JsonResponse({"results":results})
+
 
 
     return render(request, 'mountains/mt_map_ajax.html', context)
