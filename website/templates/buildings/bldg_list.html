@@ -24,11 +24,11 @@
             <tbody>
                 {% for row in data %}
                 <tr>
-                    <td><a href="{% url 'board:bldg_detail' row.id %}">{{row.id}}</a></td>
-                    <td><a href="{% url 'board:bldg_detail' row.id %}">{{row.ranking}}</a></td>
-                    <td><a href="{% url 'board:bldg_detail' row.id %}">{{row.building_name}}</a></td>
-                    <td><a href="{% url 'board:bldg_detail' row.id %}">{{row.city_name}}({{row.country}})</a></td>
-                    <td><a href="{% url 'board:bldg_detail' row.id %}">{{row.height_m}} {{"m"}}</a></td>
+                    <td><a href="{% url 'buildings:bldg_detail' row.id %}">{{row.id}}</a></td>
+                    <td><a href="{% url 'buildings:bldg_detail' row.id %}">{{row.ranking}}</a></td>
+                    <td><a href="{% url 'buildings:bldg_detail' row.id %}">{{row.building_name}}</a></td>
+                    <td><a href="{% url 'buildings:bldg_detail' row.id %}">{{row.city_name}}({{row.country}})</a></td>
+                    <td><a href="{% url 'buildings:bldg_detail' row.id %}">{{row.height_m}} {{"m"}}</a></td>
                     <td>
                 </tr>
                 {% endfor %}

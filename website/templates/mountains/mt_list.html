@@ -23,10 +23,10 @@
             <tbody>
                 {% for row in data %}
                 <tr>
-                    <td><a href="{% url 'board:mt_detail' row.id %}">{{row.id}}</a></td>
-                    <td><a href="{% url 'board:mt_detail' row.id %}">{{row.name}}</a></td>
-                    <td><a href="{% url 'board:mt_detail' row.id %}">{{row.title}}</a></td>
-                    <td><a href="{% url 'board:mt_detail' row.id %}">{{row.height}}</a></td>
+                    <td><a href="{% url 'mountains:mt_detail' row.id %}">{{row.id}}</a></td>
+                    <td><a href="{% url 'mountains:mt_detail' row.id %}">{{row.name}}</a></td>
+                    <td><a href="{% url 'mountains:mt_detail' row.id %}">{{row.title}}</a></td>
+                    <td><a href="{% url 'mountains:mt_detail' row.id %}">{{row.height}}</a></td>
                 </tr>
                 {% endfor %}
             </tbody>

@@ -29,7 +29,7 @@ $('a').click(function(event){
     // ajax
         $.ajax({
                 type: "POST",
-                url: "{% url 'board:listajax' %}", // name of url
+                url: "{% url 'mountains:listajax' %}", // name of url
                 data : {
                 page_n : page_n, //page_number
                 csrfmiddlewaretoken: '{{ csrf_token }}',
