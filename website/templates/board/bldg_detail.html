@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="container">
+        <table class="table table-striped">
+            <tbody>
+                <tr> 
+                    <td>ranking</td>
+                    <td>{{data.0.ranking}}</td>
+                </tr>
+                <tr>
+                    <td>building_name</td>
+                    <td>{{data.0.building_name}}</td>
+                </tr>
+                <tr>
+                    <td>city_name</td>
+                    <td>{{data.0.city_name}}</td>
+                </tr>
+                <tr>
+                    <td>country</td>
+                    <td>{{data.0.country}}</td>
+                </tr>
+                <tr>
+                    <td>height_m</td>
+                    <td>{{data.0.height_m}}</td>
+                </tr>
+                <tr>
+                    <td>height_ft</td>
+                    <td>{{data.0.height_ft}}</td>
+                </tr>
+                <tr>
+                    <td>floor</td>
+                    <td>{{data.0.floor}}</td>
+                </tr>
+                <tr>
+                    <td>completion_year</td>
+                    <td>{{data.0.completion_year}}</td>
+                </tr>
+                <tr>
+                    <td>material</td>
+                    <td>{{data.0.material}}</td>
+                </tr>
+                <tr>
+                    <td>category</td>
+                    <td>{{data.0.category}}</td>
+                </tr>
+                <tr>
+                    <td>x_coord</td>
+                    <td>{{data.0.x_coord}}</td>
+                </tr>
+                <tr>
+                    <td>y_coord</td>
+                    <td>{{data.0.y_coord}}</td>
+                </tr>
+                <tr>
+                    <td>reg_date</td>
+                    <td>{{data.0.reg_date}}</td>
+                </tr>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    {% for row in data %}
+        <img src={{row.link}}>
+    {% endfor %}
+
+    {{ bldg_map|safe }}
+
+</body>
+</html>
