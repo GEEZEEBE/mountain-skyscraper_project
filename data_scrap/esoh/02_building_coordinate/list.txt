@@ -1,0 +1,100 @@
+Burj Khalifa@25.1972018@55.2721931
+Shanghai Tower@31.2335226@121.5034347
+Makkah Royal Clock Tower@21.4182987@39.8239467
+Ping An Finance Center@22.5331009@114.0536817
+Lotte World Tower@37.5132495@127.101694
+One World Trade Center@40.7129987@-74.0153443
+Guangzhou CTF Finance Centre@23.1176046@113.3237434
+Tianjin CTF Finance Centre@39.0216711@117.6958727
+CITIC Tower@22.2806707@114.1650681
+TAIPEI 101@25.0339808@121.5623556
+Shanghai World Financial Center@31.234569@121.5052561
+International Commerce Centre@22.3034081@114.1580074
+Lakhta Center@59.9870912@30.17556
+Vincom Landmark 81@10.7951525@106.7185694
+Changsha IFS Tower T1@28.1918967@112.9747467
+Petronas Twin Tower 1@3.1578387@101.7094294
+Petronas Twin Tower 2@3.1578494@101.7094294
+Suzhou IFS@31.3222077@120.7149389
+Zifeng Tower@32.0624765@118.7758727
+The Exchange 106@33.9080475@-84.4813021
+Willis Tower@32.0624989@118.7693227
+KK100@22.5422229@114.1043307
+Guangzhou International Finance Center@23.1177218@113.3210946
+Wuhan Center Tower@30.5844575@114.3202315
+One Vanderbilt@40.7530007@-73.9806669
+432 Park Avenue@40.761652@-73.9739435
+Marina 101@25.0889123@55.1463864
+Trump International Hotel & Tower@41.8888012@-87.6284981
+Jin Mao Tower@31.2352561@121.5035658
+Princess Tower@25.0887852@55.1447118
+Al Hamra Tower@29.3790586@47.9911046
+Two International Finance Centre@37.5254773@126.9238205
+LCT The Sharp Landmark Tower@35.1603769@129.1669156
+Guiyang International Financial Center T1@26.6507795@106.6433677
+China Resources Tower@13.739167@100.5455893
+23 Marina@25.0897221@55.1484638
+CITIC Plaza@23.142363@113.3225825
+30 Hudson Yards@40.753998@-74.0042932
+Shun Hing Square@22.5452829@114.1036497
+Eton Place Dalian Tower 1@38.9176935@121.627092
+Nanning Logan Century 1@22.8025526@108.3792841
+Burj Mohammed Bin Rashid@24.4872644@54.3553511
+Empire State Building@40.7484445@-73.9878477
+Elite Residence@25.0895783@55.1456612
+Central Plaza@22.2799146@114.1715449
+Federation Tower@55.749769@37.5349502
+Dalian International Trade Center@38.9205782@121.6356037
+The Address Boulevard@25.2008934@55.2740724
+Golden Eagle Tiandi Tower A@25.2009174@55.2675224
+Bank of China Tower@22.2793092@114.1593098
+Bank of America Tower@40.755608@-73.9871236
+Almas Tower@25.0689884@55.1390215
+Hanking Center@22.5357288@113.9222452
+Gevora Hotel@25.1369617@55.0632327
+JW Marriott Marquis Hotel Dubai Tower 1@25.1854053@55.2559043
+JW Marriott Marquis Hotel Dubai Tower 2@25.1854053@55.2559043
+Emirates Tower One@25.1854293@55.2493543
+Raffles City Chongqing T3N@29.5634326@106.5863257
+Raffles City Chongqing T4N@29.5634326@106.5863257
+OKO - Residential Tower@55.7471234@37.5368474
+The Torch@-37.8577942@144.9815624
+Forum 66 Tower 1@41.80439@123.4316977
+The Pinnacle@22.2967282@114.1720062
+Spring City 66@41.799608@123.4316133
+85 Sky Tower@22.6115229@120.2981317
+Shimao Hunan Center@28.2274354@112.936492
+Aon Center@41.8852556@-87.6236752
+The Center@41.8852752@-87.6302252
+NEVA TOWERS 2@55.7514067@37.5331863
+875 North Michigan Avenue@41.8987739@-87.6251001
+Four Seasons Place@41.8987935@-87.6316501
+ADNOC Headquarters@24.4619752@54.3220292
+One Shenzhen Bay Tower 7@22.505953@113.9402413
+LCT The Sharp Residential Tower A@35.1603769@129.1669156
+Comcast Technology Center@39.9549445@-75.172044
+Wuxi International Finance Square@31.4914509@120.0324118
+Heartland 66 Office Tower@30.5753894@114.2653946
+Chongqing World Financial Center@29.5591476@106.5756147
+Mercury City Tower@55.750559@37.5374277
+Suning Plaza Tower 1@32.1881228@119.146338
+Tianjin Modern City Office Tower@39.1192471@117.1951247
+Parc1 Tower A@37.5196574@126.8710839
+Tianjin World Financial Center@39.1295641@117.1957736
+Hengqin International Finance Center@22.1274512@113.52721
+SLS Dubai@25.085669@55.0796159
+Wilshire Grand Center@34.0500158@-118.2633671
+DAMAC Heights@25.0872848@55.1434437
+Twin Towers Guiyang, East Tower@26.5593804@106.6662891
+Twin Towers Guiyang, West Tower@26.5593804@106.6662891
+Shimao International Plaza@31.234351@121.4738963
+LCT The Sharp Residential Tower B@35.1603769@129.1669156
+Rose Rayhaan by Rotana@25.2118498@55.274371
+The Address Residence - Fountain Views III@25.19455@55.2798575
+Minsheng Bank Building@30.5943986@114.2705717
+China World Tower@30.5944214@114.2640217
+Shimao Qianhai Project Tower 1@22.4994347@113.8835498
+Yuexiu Fortune Center Tower 1@30.5690956@114.2482899
+Hon Kwok City Center@22.5395049@114.0781167
+3 World Trade Center@22.5395854@114.0453664
+Zhuhai Tower@22.1618528@113.1124516

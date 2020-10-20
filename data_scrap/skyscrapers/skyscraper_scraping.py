@@ -138,7 +138,7 @@ def getInfo(urls, thumbs, images):
     except Exception as e:
         r_date =""
 
-    keys = ['rank', 'building_name', 'city_name', 'country', 'height_m', 'height_ft', 'floor', 'completion_year', 'structure', 'use', 'thumbnail', 'image']
+    keys = ['rank', 'building_name', 'city_name', 'country', 'height_m', 'height_ft', 'floor', 'completion_year', 'material', 'use', 'thumbnail', 'image']
     information = []
     for values in zip(rank, bldg_name, city_name, country, height_m, height_ft, floor, completion, material, use, thumbs, images):
         data = {}
@@ -150,7 +150,7 @@ def getInfo(urls, thumbs, images):
     
 
 def skyscraperScrap():
-    db = {'db_name':"webscrapDB", 'collection_name':"bldg_Collection"}
+    db = {'db_name':"webscrapDB", 'collection_name':"skyscraperCollection"}
     urls = getURLs()
     thumbs, images = getImages(urls)
     infos = getInfo(urls, thumbs, images)

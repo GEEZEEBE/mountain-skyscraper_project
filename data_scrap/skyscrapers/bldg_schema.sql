@@ -27,3 +27,16 @@ CREATE TABLE bldg_images (
 	REFERENCES skyscrapers(id)
 );
 
+CREATE TABLE bldg_weather (
+	id INT(10) NOT NULL AUTO_INCREMENT,
+	bldg_id INT(10) NOT NULL,
+	city_name VARCHAR(30) DEFAULT NULL,
+	main_weather VARCHAR(30) DEFAULT NULL,
+	temperature VARCHAR(30) DEFAULT NULL,
+	feels_like VARCHAR(30) DEFAULT NULL,
+	humidity VARCHAR(30) DEFAULT NULL,
+	PRIMARY KEY (id),
+	FOREIGN KEY (bldg_id)
+	REFERENCES skyscrapers(id)
+);
+

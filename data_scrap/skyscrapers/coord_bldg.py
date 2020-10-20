@@ -4,10 +4,12 @@ from datetime import datetime
 import mongoDB
 import mysqlDB
 import get_coord
-db = {                                      # mongoDB
-        'db_name':"webscrapDB",
-        'collection_name':"skyscraperCollection"
+
+db = {                                      
+        'db_name':"webscrapDB",                       # mongoDB DB name check!
+        'collection_name':"skyscraperCollection"      # mongoDB collection name check!
         }
+
 bldg_table = 'skyscrapers'                            # mariaDB/ information table
 bldg_img_table = 'bldg_images'                        # mariaDB/ image table
 

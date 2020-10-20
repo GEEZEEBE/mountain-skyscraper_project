@@ -1,6 +1,6 @@
 [{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b89ea"
+    "$oid": "5f8e6399ca4f08a0fc97ead0"
   },
   "rank": "1",
   "building_name": "Burj Khalifa",
@@ -10,7 +10,7 @@
   "height_ft": "2,717",
   "floor": "163",
   "completion_year": "2010",
-  "structure": "steel/concrete",
+  "material": "steel/concrete",
   "use": "office / residential / hotel",
   "thumbnail": "images.skyscrapercenter.com/building/burjkhalifa_ext-overallcontext_(c)som-nick-merrick-hedrich-blessing2010.jpg",
   "image": [
@@ -22,7 +22,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b89ec"
+    "$oid": "5f8e6399ca4f08a0fc97ead2"
   },
   "rank": "2",
   "building_name": "Shanghai Tower",
@@ -32,7 +32,7 @@
   "height_ft": "2,073",
   "floor": "128",
   "completion_year": "2015",
-  "structure": "composite",
+  "material": "composite",
   "use": "hotel / office",
   "thumbnail": "images.skyscrapercenter.com/building/shanghai-tower_gensler1.jpg",
   "image": [
@@ -44,7 +44,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b89ee"
+    "$oid": "5f8e6399ca4f08a0fc97ead4"
   },
   "rank": "3",
   "building_name": "Makkah Royal Clock Tower",
@@ -54,7 +54,7 @@
   "height_ft": "1,972",
   "floor": "120",
   "completion_year": "2012",
-  "structure": "steel/concrete",
+  "material": "steel/concrete",
   "use": "other / hotel",
   "thumbnail": "images.skyscrapercenter.com/building/makkahroyalclocktowerhotel_aerial1_sblg.jpg",
   "image": [
@@ -66,7 +66,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b89f0"
+    "$oid": "5f8e6399ca4f08a0fc97ead6"
   },
   "rank": "4",
   "building_name": "Ping An Finance Center",
@@ -76,7 +76,7 @@
   "height_ft": "1,965",
   "floor": "115",
   "completion_year": "2017",
-  "structure": "composite",
+  "material": "composite",
   "use": "office",
   "thumbnail": "images.skyscrapercenter.com/building/ping-an-finance-center_ping-an-finance-center2.jpeg",
   "image": [
@@ -88,7 +88,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b89f2"
+    "$oid": "5f8e6399ca4f08a0fc97ead8"
   },
   "rank": "5",
   "building_name": "Lotte World Tower",
@@ -98,7 +98,7 @@
   "height_ft": "1,819",
   "floor": "123",
   "completion_year": "2017",
-  "structure": "composite",
+  "material": "composite",
   "use": "hotel / residential / office / retail",
   "thumbnail": "images.skyscrapercenter.com/building/lotte-world-tower_lotte-property-development1.jpg",
   "image": [
@@ -110,7 +110,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b89f4"
+    "$oid": "5f8e6399ca4f08a0fc97eada"
   },
   "rank": "6",
   "building_name": "One World Trade Center",
@@ -120,7 +120,7 @@
   "height_ft": "1,776",
   "floor": "94",
   "completion_year": "2014",
-  "structure": "composite",
+  "material": "composite",
   "use": "office",
   "thumbnail": "images.skyscrapercenter.com/building/one-world-trade-center_john-w-cahill2.jpg",
   "image": [
@@ -132,7 +132,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b89f6"
+    "$oid": "5f8e6399ca4f08a0fc97eadc"
   },
   "rank": "7",
   "building_name": "Guangzhou CTF Finance Centre",
@@ -142,7 +142,7 @@
   "height_ft": "1,739",
   "floor": "111",
   "completion_year": "2016",
-  "structure": "composite",
+  "material": "composite",
   "use": "hotel / residential / office",
   "thumbnail": "images.skyscrapercenter.com/building/guangzhou-ctf-finance-centre_k11-new-world-development2.jpg",
   "image": [
@@ -154,7 +154,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b89f8"
+    "$oid": "5f8e6399ca4f08a0fc97eade"
   },
   "rank": "8",
   "building_name": "Tianjin CTF Finance Centre",
@@ -164,7 +164,7 @@
   "height_ft": "1,739",
   "floor": "97",
   "completion_year": "2019",
-  "structure": "composite",
+  "material": "composite",
   "use": "hotel / serviced apartments / office",
   "thumbnail": "images.skyscrapercenter.com/building/Tianjin-CTF-Finance-Centre-Seth-Powers-SOM-1575649766448.jpg",
   "image": [
@@ -176,7 +176,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b89fa"
+    "$oid": "5f8e6399ca4f08a0fc97eae0"
   },
   "rank": "9",
   "building_name": "CITIC Tower",
@@ -186,7 +186,7 @@
   "height_ft": "1,731",
   "floor": "109",
   "completion_year": "2018",
-  "structure": "composite",
+  "material": "composite",
   "use": "office",
   "thumbnail": "images.skyscrapercenter.com/building/2019-09-27-14-52-33_5d8e223156ab8.jpg",
   "image": [
@@ -198,7 +198,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b89fc"
+    "$oid": "5f8e6399ca4f08a0fc97eae2"
   },
   "rank": "10",
   "building_name": "TAIPEI 101",
@@ -208,7 +208,7 @@
   "height_ft": "1,667",
   "floor": "101",
   "completion_year": "2004",
-  "structure": "composite",
+  "material": "composite",
   "use": "office",
   "thumbnail": "images.skyscrapercenter.com/building/tapei101_ext-main2_(c)taipeifinancial.jpg",
   "image": [
@@ -220,7 +220,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b89fe"
+    "$oid": "5f8e6399ca4f08a0fc97eae4"
   },
   "rank": "11",
   "building_name": "Shanghai World Financial Center",
@@ -230,7 +230,7 @@
   "height_ft": "1,614",
   "floor": "101",
   "completion_year": "2008",
-  "structure": "composite",
+  "material": "composite",
   "use": "hotel / office",
   "thumbnail": "images.skyscrapercenter.com/building/shanghaiwfc_ext-overall_(c)leslieeroberston.jpg",
   "image": [
@@ -242,7 +242,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a00"
+    "$oid": "5f8e6399ca4f08a0fc97eae6"
   },
   "rank": "12",
   "building_name": "International Commerce Centre",
@@ -252,7 +252,7 @@
   "height_ft": "1,588",
   "floor": "108",
   "completion_year": "2010",
-  "structure": "composite",
+  "material": "composite",
   "use": "hotel / office",
   "thumbnail": "images.skyscrapercenter.com/building/icc_distance1_mg.jpg",
   "image": [
@@ -264,7 +264,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a02"
+    "$oid": "5f8e6399ca4f08a0fc97eae8"
   },
   "rank": "13",
   "building_name": "Lakhta Center",
@@ -274,7 +274,7 @@
   "height_ft": "1,516",
   "floor": "87",
   "completion_year": "2019",
-  "structure": "composite",
+  "material": "composite",
   "use": "office",
   "thumbnail": "images.skyscrapercenter.com/building/lakhtacenter-to_(c)slava__korolev.jpg",
   "image": [
@@ -286,7 +286,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a04"
+    "$oid": "5f8e6399ca4f08a0fc97eaea"
   },
   "rank": "14",
   "building_name": "Vincom Landmark 81",
@@ -296,7 +296,7 @@
   "height_ft": "1,513",
   "floor": "81",
   "completion_year": "2018",
-  "structure": "composite",
+  "material": "composite",
   "use": "hotel / residential",
   "thumbnail": "images.skyscrapercenter.com/building/2018-10-03-06-17-28_5bb45ef8c69be.jpg",
   "image": [
@@ -308,7 +308,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a06"
+    "$oid": "5f8e6399ca4f08a0fc97eaec"
   },
   "rank": "15",
   "building_name": "Changsha IFS Tower T1",
@@ -318,7 +318,7 @@
   "height_ft": "1,483",
   "floor": "94",
   "completion_year": "2018",
-  "structure": "composite",
+  "material": "composite",
   "use": "hotel / office",
   "thumbnail": "images.skyscrapercenter.com/building/changsha_ifs-ext-context_(c)wong__tung_and_partners__limited-(1).jpg",
   "image": [
@@ -330,7 +330,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a08"
+    "$oid": "5f8e6399ca4f08a0fc97eaee"
   },
   "rank": "16",
   "building_name": "Petronas Twin Tower 1",
@@ -340,7 +340,7 @@
   "height_ft": "1,483",
   "floor": "88",
   "completion_year": "1998",
-  "structure": "composite",
+  "material": "composite",
   "use": "office",
   "thumbnail": "images.skyscrapercenter.com/building/petronastowers_ext-overall_(c)tansri__muliani.jpg",
   "image": [
@@ -352,7 +352,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a0a"
+    "$oid": "5f8e6399ca4f08a0fc97eaf0"
   },
   "rank": "17",
   "building_name": "Petronas Twin Tower 2",
@@ -362,7 +362,7 @@
   "height_ft": "1,483",
   "floor": "88",
   "completion_year": "1998",
-  "structure": "composite",
+  "material": "composite",
   "use": "office",
   "thumbnail": "images.skyscrapercenter.com/building/petronastowers_ext-overall_(c)tansri__muliani.jpg",
   "image": [
@@ -374,7 +374,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a0c"
+    "$oid": "5f8e6399ca4f08a0fc97eaf2"
   },
   "rank": "18",
   "building_name": "Suzhou IFS",
@@ -384,7 +384,7 @@
   "height_ft": "1,476",
   "floor": "95",
   "completion_year": "2019",
-  "structure": "composite",
+  "material": "composite",
   "use": "hotel / office / serviced apartments",
   "thumbnail": "images.skyscrapercenter.com/building/2019-09-30-10-41-43_5d91dbe749c23.jpg",
   "image": [
@@ -396,7 +396,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a0e"
+    "$oid": "5f8e6399ca4f08a0fc97eaf4"
   },
   "rank": "19",
   "building_name": "Zifeng Tower",
@@ -406,7 +406,7 @@
   "height_ft": "1,476",
   "floor": "66",
   "completion_year": "2010",
-  "structure": "composite",
+  "material": "composite",
   "use": "hotel / office",
   "thumbnail": "images.skyscrapercenter.com/building/image01_nanjing_overall-exterior_som.jpg",
   "image": [
@@ -418,7 +418,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a10"
+    "$oid": "5f8e6399ca4f08a0fc97eaf6"
   },
   "rank": "20",
   "building_name": "The Exchange 106",
@@ -428,7 +428,7 @@
   "height_ft": "1,462",
   "floor": "95",
   "completion_year": "2019",
-  "structure": "composite",
+  "material": "composite",
   "use": "office",
   "thumbnail": "images.skyscrapercenter.com/building/Exchange106_Ext-Full_(c)Hao__Li191203-101242.jpg",
   "image": [
@@ -440,7 +440,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a12"
+    "$oid": "5f8e6399ca4f08a0fc97eaf8"
   },
   "rank": "21",
   "building_name": "Willis Tower",
@@ -450,7 +450,7 @@
   "height_ft": "1,451",
   "floor": "108",
   "completion_year": "1974",
-  "structure": "steel",
+  "material": "steel",
   "use": "office",
   "thumbnail": "images.skyscrapercenter.com/building/ch0014.jpg",
   "image": [
@@ -462,7 +462,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a14"
+    "$oid": "5f8e6399ca4f08a0fc97eafa"
   },
   "rank": "22",
   "building_name": "KK100",
@@ -472,7 +472,7 @@
   "height_ft": "1,449",
   "floor": "100",
   "completion_year": "2011",
-  "structure": "composite",
+  "material": "composite",
   "use": "hotel / office",
   "thumbnail": "images.skyscrapercenter.com/building/marshall-gerometta_1561.jpg",
   "image": [
@@ -484,7 +484,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a16"
+    "$oid": "5f8e6399ca4f08a0fc97eafc"
   },
   "rank": "23",
   "building_name": "Guangzhou International Finance Center",
@@ -494,7 +494,7 @@
   "height_ft": "1,439",
   "floor": "103",
   "completion_year": "2010",
-  "structure": "composite",
+  "material": "composite",
   "use": "hotel / office",
   "thumbnail": "images.skyscrapercenter.com/building/guangzhouifc_mainexterior_(c)jonathanleijonhufvud-1.jpg",
   "image": [
@@ -506,7 +506,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a18"
+    "$oid": "5f8e6399ca4f08a0fc97eafe"
   },
   "rank": "24",
   "building_name": "Wuhan Center Tower",
@@ -516,7 +516,7 @@
   "height_ft": "1,437",
   "floor": "88",
   "completion_year": "2019",
-  "structure": "composite",
+  "material": "composite",
   "use": "hotel / residential / office",
   "thumbnail": "images.skyscrapercenter.com/building/wuhancenter_ext-overallriver2_(c)ecadi.jpg",
   "image": [
@@ -528,7 +528,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a1a"
+    "$oid": "5f8e6399ca4f08a0fc97eb00"
   },
   "rank": "25",
   "building_name": "One Vanderbilt",
@@ -538,7 +538,7 @@
   "height_ft": "1,401",
   "floor": "58",
   "completion_year": "2020",
-  "structure": "composite",
+  "material": "composite",
   "use": "office",
   "thumbnail": "images.skyscrapercenter.com/building/One-Vanderbilt-Tectonic-Media-Inc-1601398090375.jpg",
   "image": [
@@ -550,7 +550,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a1c"
+    "$oid": "5f8e6399ca4f08a0fc97eb02"
   },
   "rank": "26",
   "building_name": "432 Park Avenue",
@@ -560,7 +560,7 @@
   "height_ft": "1,397",
   "floor": "85",
   "completion_year": "2015",
-  "structure": "concrete",
+  "material": "concrete",
   "use": "residential",
   "thumbnail": "images.skyscrapercenter.com/building/432-park-avenue_marshall-gerometta2.jpg",
   "image": [
@@ -572,7 +572,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a1e"
+    "$oid": "5f8e6399ca4f08a0fc97eb04"
   },
   "rank": "27",
   "building_name": "Marina 101",
@@ -582,7 +582,7 @@
   "height_ft": "1,394",
   "floor": "101",
   "completion_year": "2017",
-  "structure": "concrete",
+  "material": "concrete",
   "use": "residential / hotel",
   "thumbnail": "images.skyscrapercenter.com/building/marina-101_lester-ali1.jpg",
   "image": [
@@ -594,7 +594,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a20"
+    "$oid": "5f8e6399ca4f08a0fc97eb06"
   },
   "rank": "28",
   "building_name": "Trump International Hotel & Tower",
@@ -604,7 +604,7 @@
   "height_ft": "1,389",
   "floor": "98",
   "completion_year": "2009",
-  "structure": "concrete",
+  "material": "concrete",
   "use": "residential / hotel",
   "thumbnail": "images.skyscrapercenter.com/building/p8240424a.jpg",
   "image": [
@@ -616,7 +616,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a22"
+    "$oid": "5f8e6399ca4f08a0fc97eb08"
   },
   "rank": "29",
   "building_name": "Jin Mao Tower",
@@ -626,7 +626,7 @@
   "height_ft": "1,380",
   "floor": "88",
   "completion_year": "1999",
-  "structure": "composite",
+  "material": "composite",
   "use": "hotel / office",
   "thumbnail": "images.skyscrapercenter.com/building/jinmao-ext-fromabove(c)tm.jpg",
   "image": [
@@ -638,7 +638,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a24"
+    "$oid": "5f8e6399ca4f08a0fc97eb0a"
   },
   "rank": "30",
   "building_name": "Princess Tower",
@@ -648,7 +648,7 @@
   "height_ft": "1,356",
   "floor": "101",
   "completion_year": "2012",
-  "structure": "steel/concrete",
+  "material": "steel/concrete",
   "use": "residential",
   "thumbnail": "images.skyscrapercenter.com/building/princesstower_ext-overall_(c)tameerholding.jpg",
   "image": [
@@ -660,7 +660,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a26"
+    "$oid": "5f8e6399ca4f08a0fc97eb0c"
   },
   "rank": "31",
   "building_name": "Al Hamra Tower",
@@ -670,7 +670,7 @@
   "height_ft": "1,354",
   "floor": "80",
   "completion_year": "2011",
-  "structure": "concrete",
+  "material": "concrete",
   "use": "office",
   "thumbnail": "images.skyscrapercenter.com/building/alhamra_ext-overall_(c)pawelsulima.jpg",
   "image": [
@@ -681,7 +681,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a28"
+    "$oid": "5f8e6399ca4f08a0fc97eb0e"
   },
   "rank": "32",
   "building_name": "Two International Finance Centre",
@@ -691,7 +691,7 @@
   "height_ft": "1,352",
   "floor": "88",
   "completion_year": "2003",
-  "structure": "composite",
+  "material": "composite",
   "use": "office",
   "thumbnail": "images.skyscrapercenter.com/building/2ifc1.jpg",
   "image": [
@@ -703,7 +703,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a2a"
+    "$oid": "5f8e6399ca4f08a0fc97eb10"
   },
   "rank": "33",
   "building_name": "LCT The Sharp Landmark Tower",
@@ -713,13 +713,13 @@
   "height_ft": "1,350",
   "floor": "101",
   "completion_year": "2019",
-  "structure": "concrete",
+  "material": "concrete",
   "use": "hotel / residential",
   "thumbnail": "images.skyscrapercenter.com/building/lct_rendering-complex_(c)posco__eandc.jpg",
   "image": []
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a2c"
+    "$oid": "5f8e6399ca4f08a0fc97eb12"
   },
   "rank": "34",
   "building_name": "Guiyang International Financial Center T1",
@@ -729,7 +729,7 @@
   "height_ft": "1,316",
   "floor": "79",
   "completion_year": "2020",
-  "structure": "composite",
+  "material": "composite",
   "use": "hotel / office",
   "thumbnail": "images.skyscrapercenter.com/building/Guiyang-International-Financial-Center-T1-1596509693824.jpg",
   "image": [
@@ -740,7 +740,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a2e"
+    "$oid": "5f8e6399ca4f08a0fc97eb14"
   },
   "rank": "35",
   "building_name": "China Resources Tower",
@@ -750,7 +750,7 @@
   "height_ft": "1,288",
   "floor": "68",
   "completion_year": "2018",
-  "structure": "composite",
+  "material": "composite",
   "use": "office",
   "thumbnail": "images.skyscrapercenter.com/building/03_china-resources-hq_(c)tim__griffith.jpg",
   "image": [
@@ -762,7 +762,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a30"
+    "$oid": "5f8e6399ca4f08a0fc97eb16"
   },
   "rank": "36",
   "building_name": "23 Marina",
@@ -772,7 +772,7 @@
   "height_ft": "1,287",
   "floor": "88",
   "completion_year": "2012",
-  "structure": "concrete",
+  "material": "concrete",
   "use": "residential",
   "thumbnail": "images.skyscrapercenter.com/building/23marina_ext1_(c)tonysafarik.jpg",
   "image": [
@@ -784,7 +784,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a32"
+    "$oid": "5f8e6399ca4f08a0fc97eb18"
   },
   "rank": "37",
   "building_name": "CITIC Plaza",
@@ -794,7 +794,7 @@
   "height_ft": "1,280",
   "floor": "80",
   "completion_year": "1996",
-  "structure": "composite",
+  "material": "composite",
   "use": "office",
   "thumbnail": "images.skyscrapercenter.com/building/citic_ext-elevation_(c)dennislau.jpg",
   "image": [
@@ -806,7 +806,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a34"
+    "$oid": "5f8e6399ca4f08a0fc97eb1a"
   },
   "rank": "38",
   "building_name": "30 Hudson Yards",
@@ -816,7 +816,7 @@
   "height_ft": "1,270",
   "floor": "73",
   "completion_year": "2019",
-  "structure": "steel",
+  "material": "steel",
   "use": "office",
   "thumbnail": "images.skyscrapercenter.com/building/30-Hudson-Yards-Lester-Ali-1574809852891.jpg",
   "image": [
@@ -828,7 +828,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a36"
+    "$oid": "5f8e6399ca4f08a0fc97eb1c"
   },
   "rank": "39",
   "building_name": "Shun Hing Square",
@@ -838,7 +838,7 @@
   "height_ft": "1,260",
   "floor": "69",
   "completion_year": "1996",
-  "structure": "composite",
+  "material": "composite",
   "use": "office",
   "thumbnail": "images.skyscrapercenter.com/building/shunhing_overall1_mg.jpg",
   "image": [
@@ -850,7 +850,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a38"
+    "$oid": "5f8e6399ca4f08a0fc97eb1e"
   },
   "rank": "40",
   "building_name": "Eton Place Dalian Tower 1",
@@ -860,7 +860,7 @@
   "height_ft": "1,257",
   "floor": "80",
   "completion_year": "2016",
-  "structure": "composite",
+  "material": "composite",
   "use": "hotel / office",
   "thumbnail": "images.skyscrapercenter.com/building/eton-place-dalian-tower-1_terrence-zhang3.jpg",
   "image": [
@@ -872,7 +872,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a3a"
+    "$oid": "5f8e6399ca4f08a0fc97eb20"
   },
   "rank": "41",
   "building_name": "Nanning Logan Century 1",
@@ -882,7 +882,7 @@
   "height_ft": "1,251",
   "floor": "82",
   "completion_year": "2018",
-  "structure": "composite",
+  "material": "composite",
   "use": "hotel / office",
   "thumbnail": "images.skyscrapercenter.com/building/logancentury1_rendering-full-day_(c)dennis__lau__and__ng__chun__man__architects__and__engineers.jpg",
   "image": [
@@ -894,7 +894,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a3c"
+    "$oid": "5f8e6399ca4f08a0fc97eb22"
   },
   "rank": "42",
   "building_name": "Burj Mohammed Bin Rashid",
@@ -904,7 +904,7 @@
   "height_ft": "1,251",
   "floor": "88",
   "completion_year": "2014",
-  "structure": "concrete",
+  "material": "concrete",
   "use": "residential",
   "thumbnail": "images.skyscrapercenter.com/building/burj-mohammed-bin-rashid_joost-kuckartz3.jpg",
   "image": [
@@ -916,7 +916,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a3e"
+    "$oid": "5f8e6399ca4f08a0fc97eb24"
   },
   "rank": "43",
   "building_name": "Empire State Building",
@@ -926,7 +926,7 @@
   "height_ft": "1,250",
   "floor": "102",
   "completion_year": "1931",
-  "structure": "steel",
+  "material": "steel",
   "use": "office",
   "thumbnail": "images.skyscrapercenter.com/building/empirestate_overall_mg.jpg",
   "image": [
@@ -938,7 +938,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a40"
+    "$oid": "5f8e6399ca4f08a0fc97eb26"
   },
   "rank": "44",
   "building_name": "Elite Residence",
@@ -948,7 +948,7 @@
   "height_ft": "1,248",
   "floor": "87",
   "completion_year": "2012",
-  "structure": "concrete",
+  "material": "concrete",
   "use": "residential",
   "thumbnail": "images.skyscrapercenter.com/building/elite_ext-top_(c)tameer.jpg",
   "image": [
@@ -960,7 +960,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a42"
+    "$oid": "5f8e6399ca4f08a0fc97eb28"
   },
   "rank": "45",
   "building_name": "Central Plaza",
@@ -970,7 +970,7 @@
   "height_ft": "1,227",
   "floor": "78",
   "completion_year": "1992",
-  "structure": "concrete",
+  "material": "concrete",
   "use": "office",
   "thumbnail": "images.skyscrapercenter.com/building/centralplaza_ext-main_(c)dennislau-1.jpg",
   "image": [
@@ -982,7 +982,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a44"
+    "$oid": "5f8e6399ca4f08a0fc97eb2a"
   },
   "rank": "46",
   "building_name": "Federation Tower",
@@ -992,7 +992,7 @@
   "height_ft": "1,226",
   "floor": "93",
   "completion_year": "2016",
-  "structure": "concrete",
+  "material": "concrete",
   "use": "residential / office",
   "thumbnail": "images.skyscrapercenter.com/building/federation-tower_cjsc-federation-tower1.jpg",
   "image": [
@@ -1004,7 +1004,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a46"
+    "$oid": "5f8e6399ca4f08a0fc97eb2c"
   },
   "rank": "47",
   "building_name": "Dalian International Trade Center",
@@ -1014,7 +1014,7 @@
   "height_ft": "1,214",
   "floor": "86",
   "completion_year": "2019",
-  "structure": "composite",
+  "material": "composite",
   "use": "residential / office",
   "thumbnail": "images.skyscrapercenter.com/building/dalianinternationaltradecenter_rendering-full_(c)shanghai__construction__group.jpg",
   "image": [
@@ -1026,7 +1026,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a48"
+    "$oid": "5f8e6399ca4f08a0fc97eb2e"
   },
   "rank": "48",
   "building_name": "The Address Boulevard",
@@ -1036,7 +1036,7 @@
   "height_ft": "1,214",
   "floor": "73",
   "completion_year": "2017",
-  "structure": "concrete",
+  "material": "concrete",
   "use": "residential / hotel / retail",
   "thumbnail": "images.skyscrapercenter.com/building/marshall-gerometta_9993.jpg",
   "image": [
@@ -1048,7 +1048,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a4a"
+    "$oid": "5f8e6399ca4f08a0fc97eb30"
   },
   "rank": "49",
   "building_name": "Golden Eagle Tiandi Tower A",
@@ -1058,7 +1058,7 @@
   "height_ft": "1,208",
   "floor": "77",
   "completion_year": "2019",
-  "structure": "composite",
+  "material": "composite",
   "use": "hotel / office",
   "thumbnail": "images.skyscrapercenter.com/building/Golden-Eagle-Tiandi-Tower-A-Lester-Ali-1574810108204.jpg",
   "image": [
@@ -1067,7 +1067,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a4c"
+    "$oid": "5f8e6399ca4f08a0fc97eb32"
   },
   "rank": "50",
   "building_name": "Bank of China Tower",
@@ -1077,7 +1077,7 @@
   "height_ft": "1,205",
   "floor": "72",
   "completion_year": "1990",
-  "structure": "composite",
+  "material": "composite",
   "use": "office",
   "thumbnail": "images.skyscrapercenter.com/building/bankofchina_ext-main_(c)leslieerobertson.jpg",
   "image": [
@@ -1089,7 +1089,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a4e"
+    "$oid": "5f8e6399ca4f08a0fc97eb34"
   },
   "rank": "51",
   "building_name": "Bank of America Tower",
@@ -1099,7 +1099,7 @@
   "height_ft": "1,200",
   "floor": "55",
   "completion_year": "2009",
-  "structure": "composite",
+  "material": "composite",
   "use": "office",
   "thumbnail": "images.skyscrapercenter.com/building/p4290205a.jpg",
   "image": [
@@ -1111,7 +1111,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a50"
+    "$oid": "5f8e6399ca4f08a0fc97eb36"
   },
   "rank": "52",
   "building_name": "Almas Tower",
@@ -1121,7 +1121,7 @@
   "height_ft": "1,181",
   "floor": "68",
   "completion_year": "2008",
-  "structure": "concrete",
+  "material": "concrete",
   "use": "office",
   "thumbnail": "images.skyscrapercenter.com/building/almastower_ext-front_(c)terrimeyerboake.jpg",
   "image": [
@@ -1133,7 +1133,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a52"
+    "$oid": "5f8e6399ca4f08a0fc97eb38"
   },
   "rank": "53",
   "building_name": "Hanking Center",
@@ -1143,7 +1143,7 @@
   "height_ft": "1,177",
   "floor": "65",
   "completion_year": "2018",
-  "structure": "steel",
+  "material": "steel",
   "use": "office",
   "thumbnail": "images.skyscrapercenter.com/building/hankingcenter_ext-dusk1_(c)hanking__group.jpg",
   "image": [
@@ -1155,7 +1155,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a54"
+    "$oid": "5f8e6399ca4f08a0fc97eb3a"
   },
   "rank": "54",
   "building_name": "Gevora Hotel",
@@ -1165,7 +1165,7 @@
   "height_ft": "1,169",
   "floor": "75",
   "completion_year": "2017",
-  "structure": "steel/concrete",
+  "material": "steel/concrete",
   "use": "hotel",
   "thumbnail": "images.skyscrapercenter.com/building/marshall-gerometta_2403.jpg",
   "image": [
@@ -1177,7 +1177,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a56"
+    "$oid": "5f8e6399ca4f08a0fc97eb3c"
   },
   "rank": "55",
   "building_name": "JW Marriott Marquis Hotel Dubai Tower 1",
@@ -1187,7 +1187,7 @@
   "height_ft": "1,166",
   "floor": "82",
   "completion_year": "2012",
-  "structure": "concrete",
+  "material": "concrete",
   "use": "hotel",
   "thumbnail": "images.skyscrapercenter.com/building/jw-marriott-marquis-hotel-dubai-tower-1_terri-meyer-boake1.jpg",
   "image": [
@@ -1199,7 +1199,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a58"
+    "$oid": "5f8e6399ca4f08a0fc97eb3e"
   },
   "rank": "56",
   "building_name": "JW Marriott Marquis Hotel Dubai Tower 2",
@@ -1209,7 +1209,7 @@
   "height_ft": "1,166",
   "floor": "82",
   "completion_year": "2013",
-  "structure": "concrete",
+  "material": "concrete",
   "use": "hotel",
   "thumbnail": "images.skyscrapercenter.com/building/jw-marriott-marquis-hotel-dubai-tower-2_terri-meyer-boake10.jpg",
   "image": [
@@ -1221,7 +1221,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a5a"
+    "$oid": "5f8e6399ca4f08a0fc97eb40"
   },
   "rank": "57",
   "building_name": "Emirates Tower One",
@@ -1231,7 +1231,7 @@
   "height_ft": "1,163",
   "floor": "54",
   "completion_year": "2000",
-  "structure": "composite",
+  "material": "composite",
   "use": "office",
   "thumbnail": "images.skyscrapercenter.com/building/db0013.jpg",
   "image": [
@@ -1243,7 +1243,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a5c"
+    "$oid": "5f8e6399ca4f08a0fc97eb42"
   },
   "rank": "58",
   "building_name": "Raffles City Chongqing T3N",
@@ -1253,7 +1253,7 @@
   "height_ft": "1,163",
   "floor": "79",
   "completion_year": "2019",
-  "structure": "composite",
+  "material": "composite",
   "use": "residential / retail",
   "thumbnail": "images.skyscrapercenter.com/building/chongqingrafflescity_ext-overallviewfromnorth_(c)capitalandlimited.jpg",
   "image": [
@@ -1265,7 +1265,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a5e"
+    "$oid": "5f8e6399ca4f08a0fc97eb44"
   },
   "rank": "59",
   "building_name": "Raffles City Chongqing T4N",
@@ -1275,7 +1275,7 @@
   "height_ft": "1,163",
   "floor": "79",
   "completion_year": "2019",
-  "structure": "composite",
+  "material": "composite",
   "use": "hotel / office / retail",
   "thumbnail": "images.skyscrapercenter.com/building/chongqingrafflescity_ext-overallviewfromnorth_(c)capitalandlimited.jpg",
   "image": [
@@ -1287,7 +1287,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a60"
+    "$oid": "5f8e6399ca4f08a0fc97eb46"
   },
   "rank": "60",
   "building_name": "OKO - Residential Tower",
@@ -1297,7 +1297,7 @@
   "height_ft": "1,162",
   "floor": "90",
   "completion_year": "2015",
-  "structure": "concrete",
+  "material": "concrete",
   "use": "residential / serviced apartments / hotel",
   "thumbnail": "images.skyscrapercenter.com/building/oko-residential-tower_boris-bochkarev2.jpg",
   "image": [
@@ -1309,7 +1309,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a62"
+    "$oid": "5f8e6399ca4f08a0fc97eb48"
   },
   "rank": "61",
   "building_name": "The Torch",
@@ -1319,7 +1319,7 @@
   "height_ft": "1,155",
   "floor": "86",
   "completion_year": "2011",
-  "structure": "concrete",
+  "material": "concrete",
   "use": "residential",
   "thumbnail": "images.skyscrapercenter.com/building/thetorch_ext-front_(c)imresolt.jpg",
   "image": [
@@ -1331,7 +1331,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a64"
+    "$oid": "5f8e6399ca4f08a0fc97eb4a"
   },
   "rank": "62",
   "building_name": "Forum 66 Tower 1",
@@ -1341,7 +1341,7 @@
   "height_ft": "1,150",
   "floor": "68",
   "completion_year": "2015",
-  "structure": "composite",
+  "material": "composite",
   "use": "hotel / office",
   "thumbnail": "images.skyscrapercenter.com/building/forum66t1_jl1.jpg",
   "image": [
@@ -1351,7 +1351,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a66"
+    "$oid": "5f8e6399ca4f08a0fc97eb4c"
   },
   "rank": "63",
   "building_name": "The Pinnacle",
@@ -1361,7 +1361,7 @@
   "height_ft": "1,149",
   "floor": "60",
   "completion_year": "2012",
-  "structure": "concrete",
+  "material": "concrete",
   "use": "office",
   "thumbnail": "images.skyscrapercenter.com/building/thepinnacle_ext-full(c)tm.jpg",
   "image": [
@@ -1370,7 +1370,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a68"
+    "$oid": "5f8e6399ca4f08a0fc97eb4e"
   },
   "rank": "64",
   "building_name": "Spring City 66",
@@ -1380,7 +1380,7 @@
   "height_ft": "1,145",
   "floor": "61",
   "completion_year": "2019",
-  "structure": "composite",
+  "material": "composite",
   "use": "office",
   "thumbnail": "images.skyscrapercenter.com/building/Spring-City-66-Ai-Qing-KPF-1575648563453.jpg",
   "image": [
@@ -1392,7 +1392,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a6a"
+    "$oid": "5f8e6399ca4f08a0fc97eb50"
   },
   "rank": "65",
   "building_name": "85 Sky Tower",
@@ -1402,7 +1402,7 @@
   "height_ft": "1,140",
   "floor": "85",
   "completion_year": "1997",
-  "structure": "steel",
+  "material": "steel",
   "use": "hotel / office / retail",
   "thumbnail": "images.skyscrapercenter.com/building/t-c-tower_joost-kuckartz4.jpg",
   "image": [
@@ -1414,7 +1414,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a6c"
+    "$oid": "5f8e6399ca4f08a0fc97eb52"
   },
   "rank": "66",
   "building_name": "Shimao Hunan Center",
@@ -1424,13 +1424,13 @@
   "height_ft": "1,138",
   "floor": "-",
   "completion_year": "2019",
-  "structure": "composite",
+  "material": "composite",
   "use": "office",
   "thumbnail": "images.skyscrapercenter.com/building/ShimaoHunan191211-061253.jpg",
   "image": []
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a6e"
+    "$oid": "5f8e6399ca4f08a0fc97eb54"
   },
   "rank": "67",
   "building_name": "Aon Center",
@@ -1440,7 +1440,7 @@
   "height_ft": "1,136",
   "floor": "83",
   "completion_year": "1973",
-  "structure": "steel",
+  "material": "steel",
   "use": "office",
   "thumbnail": "images.skyscrapercenter.com/building/p2160312a.jpg",
   "image": [
@@ -1452,7 +1452,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a70"
+    "$oid": "5f8e6399ca4f08a0fc97eb56"
   },
   "rank": "68",
   "building_name": "The Center",
@@ -1462,7 +1462,7 @@
   "height_ft": "1,135",
   "floor": "73",
   "completion_year": "1998",
-  "structure": "steel",
+  "material": "steel",
   "use": "office",
   "thumbnail": "images.skyscrapercenter.com/building/thecenter_ext-aerial_(c)dennislau.jpg",
   "image": [
@@ -1474,7 +1474,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a72"
+    "$oid": "5f8e6399ca4f08a0fc97eb58"
   },
   "rank": "69",
   "building_name": "NEVA TOWERS 2",
@@ -1484,7 +1484,7 @@
   "height_ft": "1,132",
   "floor": "79",
   "completion_year": "2020",
-  "structure": "concrete",
+  "material": "concrete",
   "use": "residential",
   "thumbnail": "images.skyscrapercenter.com/building/nevatowers_rendering-full_(c)renaissance__development.jpg",
   "image": [
@@ -1492,7 +1492,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a74"
+    "$oid": "5f8e6399ca4f08a0fc97eb5a"
   },
   "rank": "70",
   "building_name": "875 North Michigan Avenue",
@@ -1502,7 +1502,7 @@
   "height_ft": "1,128",
   "floor": "100",
   "completion_year": "1969",
-  "structure": "steel",
+  "material": "steel",
   "use": "residential / office",
   "thumbnail": "images.skyscrapercenter.com/building/ch001.jpg",
   "image": [
@@ -1514,7 +1514,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a76"
+    "$oid": "5f8e6399ca4f08a0fc97eb5c"
   },
   "rank": "71",
   "building_name": "Four Seasons Place",
@@ -1524,7 +1524,7 @@
   "height_ft": "1,124",
   "floor": "74",
   "completion_year": "2018",
-  "structure": "concrete",
+  "material": "concrete",
   "use": "residential / hotel",
   "thumbnail": "images.skyscrapercenter.com/building/fourseasonsplace_ext-full_(c)hao__li.jpg",
   "image": [
@@ -1536,7 +1536,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a78"
+    "$oid": "5f8e6399ca4f08a0fc97eb5e"
   },
   "rank": "72",
   "building_name": "ADNOC Headquarters",
@@ -1546,7 +1546,7 @@
   "height_ft": "1,122",
   "floor": "65",
   "completion_year": "2015",
-  "structure": "concrete",
+  "material": "concrete",
   "use": "office",
   "thumbnail": "images.skyscrapercenter.com/building/2018-09-28-17-35-58_5bae667ecfdd1.jpg",
   "image": [
@@ -1558,7 +1558,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a7a"
+    "$oid": "5f8e6399ca4f08a0fc97eb60"
   },
   "rank": "73",
   "building_name": "One Shenzhen Bay Tower 7",
@@ -1568,7 +1568,7 @@
   "height_ft": "1,120",
   "floor": "71",
   "completion_year": "2018",
-  "structure": "composite",
+  "material": "composite",
   "use": "residential / hotel / office",
   "thumbnail": "images.skyscrapercenter.com/building/2018-09-28-22-01-33_5baea4bd7729a.jpg",
   "image": [
@@ -1580,7 +1580,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a7c"
+    "$oid": "5f8e6399ca4f08a0fc97eb62"
   },
   "rank": "74",
   "building_name": "LCT The Sharp Residential Tower A",
@@ -1590,13 +1590,13 @@
   "height_ft": "1,113",
   "floor": "85",
   "completion_year": "2019",
-  "structure": "concrete",
+  "material": "concrete",
   "use": "residential",
   "thumbnail": "images.skyscrapercenter.com/building/lct_rendering-complex_(c)posco__eandc.jpg",
   "image": []
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a7e"
+    "$oid": "5f8e6399ca4f08a0fc97eb64"
   },
   "rank": "75",
   "building_name": "Comcast Technology Center",
@@ -1606,7 +1606,7 @@
   "height_ft": "1,112",
   "floor": "59",
   "completion_year": "2018",
-  "structure": "composite",
+  "material": "composite",
   "use": "hotel / office",
   "thumbnail": "images.skyscrapercenter.com/building/2019-10-03-10-18-08_5d95cae04dbc0.jpg",
   "image": [
@@ -1618,7 +1618,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a80"
+    "$oid": "5f8e6399ca4f08a0fc97eb66"
   },
   "rank": "76",
   "building_name": "Wuxi International Finance Square",
@@ -1628,7 +1628,7 @@
   "height_ft": "1,112",
   "floor": "68",
   "completion_year": "2014",
-  "structure": "composite",
+  "material": "composite",
   "use": "hotel / office",
   "thumbnail": "images.skyscrapercenter.com/building/wuxiifs_ext-full_(c)ajbest.jpg",
   "image": [
@@ -1640,7 +1640,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a82"
+    "$oid": "5f8e6399ca4f08a0fc97eb68"
   },
   "rank": "77",
   "building_name": "Heartland 66 Office Tower",
@@ -1650,7 +1650,7 @@
   "height_ft": "1,112",
   "floor": "60",
   "completion_year": "2020",
-  "structure": "composite",
+  "material": "composite",
   "use": "office",
   "thumbnail": "images.skyscrapercenter.com/building/heartland66_dwg_overall_(c)aedas.jpg",
   "image": [
@@ -1658,7 +1658,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a84"
+    "$oid": "5f8e6399ca4f08a0fc97eb6a"
   },
   "rank": "78",
   "building_name": "Chongqing World Financial Center",
@@ -1668,7 +1668,7 @@
   "height_ft": "1,112",
   "floor": "72",
   "completion_year": "2015",
-  "structure": "composite",
+  "material": "composite",
   "use": "hotel / office",
   "thumbnail": "images.skyscrapercenter.com/building/chongqing-world-financial-center_c-y-lee-partners-architects-planners2.jpg",
   "image": [
@@ -1680,7 +1680,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a86"
+    "$oid": "5f8e6399ca4f08a0fc97eb6c"
   },
   "rank": "79",
   "building_name": "Mercury City Tower",
@@ -1690,7 +1690,7 @@
   "height_ft": "1,112",
   "floor": "75",
   "completion_year": "2013",
-  "structure": "concrete",
+  "material": "concrete",
   "use": "residential / office",
   "thumbnail": "images.skyscrapercenter.com/building/mercurycitytower_ext-overallview-9_(c)butyrskii__igor.jpg",
   "image": [
@@ -1702,7 +1702,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a88"
+    "$oid": "5f8e639aca4f08a0fc97eb6e"
   },
   "rank": "80",
   "building_name": "Suning Plaza Tower 1",
@@ -1712,7 +1712,7 @@
   "height_ft": "1,109",
   "floor": "75",
   "completion_year": "2018",
-  "structure": "composite",
+  "material": "composite",
   "use": "hotel / serviced apartments / SOHO / office",
   "thumbnail": "images.skyscrapercenter.com/building/suningplazatower_rendering-full2_(c)zhenjiang__urban__planning__bureau.jpg",
   "image": [
@@ -1721,7 +1721,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a8a"
+    "$oid": "5f8e639aca4f08a0fc97eb70"
   },
   "rank": "81",
   "building_name": "Tianjin Modern City Office Tower",
@@ -1731,7 +1731,7 @@
   "height_ft": "1,109",
   "floor": "65",
   "completion_year": "2016",
-  "structure": "composite",
+  "material": "composite",
   "use": "office",
   "thumbnail": "images.skyscrapercenter.com/building/tianjinmoderncity_ext-complex_(c)watg.jpg",
   "image": [
@@ -1740,7 +1740,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a8c"
+    "$oid": "5f8e639aca4f08a0fc97eb72"
   },
   "rank": "82",
   "building_name": "Parc1 Tower A",
@@ -1750,7 +1750,7 @@
   "height_ft": "1,109",
   "floor": "68",
   "completion_year": "2020",
-  "structure": "composite",
+  "material": "composite",
   "use": "office",
   "thumbnail": "images.skyscrapercenter.com/building/parc1_rendering-full_(c)richard__rogers__partnership.jpg",
   "image": [
@@ -1762,7 +1762,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a8e"
+    "$oid": "5f8e639aca4f08a0fc97eb74"
   },
   "rank": "83",
   "building_name": "Tianjin World Financial Center",
@@ -1772,7 +1772,7 @@
   "height_ft": "1,105",
   "floor": "75",
   "completion_year": "2011",
-  "structure": "composite",
+  "material": "composite",
   "use": "office",
   "thumbnail": "images.skyscrapercenter.com/building/tianjinwfc_ext-overallstreet_(c)som.jpg",
   "image": [
@@ -1784,7 +1784,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a90"
+    "$oid": "5f8e639aca4f08a0fc97eb76"
   },
   "rank": "84",
   "building_name": "Hengqin International Finance Center",
@@ -1794,7 +1794,7 @@
   "height_ft": "1,105",
   "floor": "69",
   "completion_year": "2020",
-  "structure": "composite",
+  "material": "composite",
   "use": "residential / office",
   "thumbnail": "images.skyscrapercenter.com/building/hengqininternationalfinancialcenter_dwg_overallrender_(c)aedas.jpg",
   "image": [
@@ -1803,7 +1803,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a92"
+    "$oid": "5f8e639aca4f08a0fc97eb78"
   },
   "rank": "85",
   "building_name": "SLS Dubai",
@@ -1813,7 +1813,7 @@
   "height_ft": "1,102",
   "floor": "78",
   "completion_year": "2020",
-  "structure": "concrete",
+  "material": "concrete",
   "use": "hotel",
   "thumbnail": "images.skyscrapercenter.com/building/lester-ali_1607.jpg",
   "image": [
@@ -1821,7 +1821,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a94"
+    "$oid": "5f8e639aca4f08a0fc97eb7a"
   },
   "rank": "86",
   "building_name": "Wilshire Grand Center",
@@ -1831,7 +1831,7 @@
   "height_ft": "1,100",
   "floor": "62",
   "completion_year": "2017",
-  "structure": "composite",
+  "material": "composite",
   "use": "hotel / office",
   "thumbnail": "images.skyscrapercenter.com/building/2018-09-30-17-11-51_5bb103d7b0f40.jpg",
   "image": [
@@ -1843,7 +1843,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a96"
+    "$oid": "5f8e639aca4f08a0fc97eb7c"
   },
   "rank": "87",
   "building_name": "DAMAC Heights",
@@ -1853,7 +1853,7 @@
   "height_ft": "1,099",
   "floor": "88",
   "completion_year": "2018",
-  "structure": "concrete",
+  "material": "concrete",
   "use": "residential",
   "thumbnail": "images.skyscrapercenter.com/building/lester-ali_7326.jpg",
   "image": [
@@ -1865,7 +1865,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a98"
+    "$oid": "5f8e639aca4f08a0fc97eb7e"
   },
   "rank": "88",
   "building_name": "Twin Towers Guiyang, East Tower",
@@ -1875,13 +1875,13 @@
   "height_ft": "1,099",
   "floor": "74",
   "completion_year": "2020",
-  "structure": "composite",
+  "material": "composite",
   "use": "office",
   "thumbnail": "images.skyscrapercenter.com/building/twintowersguiyang-rendering(c)lwk__and__partners.jpg",
   "image": []
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a9a"
+    "$oid": "5f8e639aca4f08a0fc97eb80"
   },
   "rank": "89",
   "building_name": "Twin Towers Guiyang, West Tower",
@@ -1891,13 +1891,13 @@
   "height_ft": "1,099",
   "floor": "74",
   "completion_year": "2020",
-  "structure": "composite",
+  "material": "composite",
   "use": "hotel / office",
   "thumbnail": "images.skyscrapercenter.com/building/twintowersguiyang-rendering(c)lwk__and__partners.jpg",
   "image": []
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a9c"
+    "$oid": "5f8e639aca4f08a0fc97eb82"
   },
   "rank": "90",
   "building_name": "Shimao International Plaza",
@@ -1907,7 +1907,7 @@
   "height_ft": "1,094",
   "floor": "60",
   "completion_year": "2006",
-  "structure": "concrete",
+  "material": "concrete",
   "use": "hotel / office / retail",
   "thumbnail": "images.skyscrapercenter.com/building/shimao-international-plaza_daniel-safarik1.jpg",
   "image": [
@@ -1919,7 +1919,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8a9e"
+    "$oid": "5f8e639aca4f08a0fc97eb84"
   },
   "rank": "91",
   "building_name": "LCT The Sharp Residential Tower B",
@@ -1929,13 +1929,13 @@
   "height_ft": "1,093",
   "floor": "85",
   "completion_year": "2019",
-  "structure": "concrete",
+  "material": "concrete",
   "use": "residential",
   "thumbnail": "images.skyscrapercenter.com/building/lct_rendering-complex_(c)posco__eandc.jpg",
   "image": []
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8aa0"
+    "$oid": "5f8e639aca4f08a0fc97eb86"
   },
   "rank": "92",
   "building_name": "Rose Rayhaan by Rotana",
@@ -1945,7 +1945,7 @@
   "height_ft": "1,093",
   "floor": "71",
   "completion_year": "2007",
-  "structure": "composite",
+  "material": "composite",
   "use": "hotel",
   "thumbnail": "images.skyscrapercenter.com/building/p3050869a.jpg",
   "image": [
@@ -1957,7 +1957,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8aa2"
+    "$oid": "5f8e639aca4f08a0fc97eb88"
   },
   "rank": "93",
   "building_name": "The Address Residence - Fountain Views III",
@@ -1967,7 +1967,7 @@
   "height_ft": "1,089",
   "floor": "77",
   "completion_year": "2019",
-  "structure": "concrete",
+  "material": "concrete",
   "use": "serviced apartments / hotel",
   "thumbnail": "images.skyscrapercenter.com/building/lester-ali_3737.jpg",
   "image": [
@@ -1979,7 +1979,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8aa4"
+    "$oid": "5f8e639aca4f08a0fc97eb8a"
   },
   "rank": "94",
   "building_name": "Minsheng Bank Building",
@@ -1989,7 +1989,7 @@
   "height_ft": "1,086",
   "floor": "68",
   "completion_year": "2008",
-  "structure": "steel",
+  "material": "steel",
   "use": "office",
   "thumbnail": "images.skyscrapercenter.com/building/minsheng_skyline4_martinthyssen.jpg",
   "image": [
@@ -1999,7 +1999,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8aa6"
+    "$oid": "5f8e639aca4f08a0fc97eb8c"
   },
   "rank": "95",
   "building_name": "China World Tower",
@@ -2009,7 +2009,7 @@
   "height_ft": "1,083",
   "floor": "74",
   "completion_year": "2010",
-  "structure": "composite",
+  "material": "composite",
   "use": "hotel / office",
   "thumbnail": "images.skyscrapercenter.com/building/chinaworldtower_ext-overall_(c)timgriffithsom.jpg",
   "image": [
@@ -2021,7 +2021,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8aa8"
+    "$oid": "5f8e639aca4f08a0fc97eb8e"
   },
   "rank": "96",
   "building_name": "Shimao Qianhai Project Tower 1",
@@ -2031,13 +2031,13 @@
   "height_ft": "1,083",
   "floor": "70",
   "completion_year": "2020",
-  "structure": "composite",
+  "material": "composite",
   "use": "office",
   "thumbnail": "images.skyscrapercenter.com/building/shimaoqianhai_rendering-full_(c)gensler.jpg",
   "image": []
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8aaa"
+    "$oid": "5f8e639aca4f08a0fc97eb90"
   },
   "rank": "97",
   "building_name": "Yuexiu Fortune Center Tower 1",
@@ -2047,7 +2047,7 @@
   "height_ft": "1,083",
   "floor": "68",
   "completion_year": "2017",
-  "structure": "composite",
+  "material": "composite",
   "use": "office",
   "thumbnail": "images.skyscrapercenter.com/building/2018-10-01-16-39-21_5bb24db93b3f6.jpg",
   "image": [
@@ -2059,7 +2059,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8aac"
+    "$oid": "5f8e639aca4f08a0fc97eb92"
   },
   "rank": "98",
   "building_name": "Hon Kwok City Center",
@@ -2069,7 +2069,7 @@
   "height_ft": "1,081",
   "floor": "80",
   "completion_year": "2017",
-  "structure": "composite",
+  "material": "composite",
   "use": "residential / office",
   "thumbnail": "images.skyscrapercenter.com/building/honkwok_rendering-full_(c).jpg",
   "image": [
@@ -2077,7 +2077,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8aae"
+    "$oid": "5f8e639aca4f08a0fc97eb94"
   },
   "rank": "99",
   "building_name": "3 World Trade Center",
@@ -2087,7 +2087,7 @@
   "height_ft": "1,079",
   "floor": "69",
   "completion_year": "2018",
-  "structure": "composite",
+  "material": "composite",
   "use": "office",
   "thumbnail": "images.skyscrapercenter.com/building/lester-ali_8549.jpg",
   "image": [
@@ -2099,7 +2099,7 @@
   ]
 },{
   "_id": {
-    "$oid": "5f8d6371b533f24f599b8ab0"
+    "$oid": "5f8e639aca4f08a0fc97eb96"
   },
   "rank": "100",
   "building_name": "Zhuhai Tower",
@@ -2109,7 +2109,7 @@
   "height_ft": "1,079",
   "floor": "66",
   "completion_year": "2017",
-  "structure": "composite",
+  "material": "composite",
   "use": "hotel / office",
   "thumbnail": "images.skyscrapercenter.com/building/2019-09-27-07-53-02_5d8dbfde85b10.jpg",
   "image": [
