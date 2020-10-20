@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <div class="container">
+
+        {{ mountain_map|safe }}
+
+    </div>
+
+    <div class="container">
+        <table id="posts" class="table table-striped">
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>name</th>
+                    <th>title</th>
+                    <th>height</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for i in first_page %}
+                    <tr>
+                        <td>{{i.id}}<td>
+                        <td>{{i.name}}<td>
+                        <td>{{i.title}}<td>
+                        <td>{{i.height}}<td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+
+        <ul class="pagination justify-content-center">
+            <!-- 이전페이지 -->
+            {% if data.has_previous %}
+            <li class="page-item">
+                <a class="page-link" href="data.previous_page_number">이전</a>
+            </li>
+            {% else %}
+            <li class="page-item disabled">
+                <a class="page-link" tabindex="-1" aria-disabled="true" href="#">이전</a>
+            </li>
+            {% endif %}
+            <!-- 페이지리스트 -->
+            {% for page_number in page_range %}
+                {% if page_number == data.number %}
+                <li class="page-item active" aria-current="page">
+                    <a class="page-link" href="{{page_number}}">{{ page_number }}</a>
+                </li>
+                {% else %}
+                <li class="page-item">
+                    <a class="page-link" href="{{page_number}}">{{ page_number }}</a>
+                </li>
+                {% endif %}
+            {% endfor %}
+            <!-- 다음페이지 -->
+            {% if data.has_next %}
+            <li class="page-item">
+                <a class="page-link" href="{{data.next_page_number}}">다음</a>
+            </li>
+            {% else %}
+            <li class="page-item disabled">
+                <a class="page-link" tabindex="-1" aria-disabled="true" href="#">다음</a>
+            </li>
+            {% endif %}
+        </ul>
+    </div>
+
+
+
+
+<script>
+
+    $('a').click(function(event){
+        //event.preventDefault();
+        var page_n = $(this).attr('href');
+        // ajax
+            $.ajax({
+                    type: "POST",
+                    url: "{% url 'board:listajax' %}", // name of url
+                    data : {
+                    page_n : page_n, //page_number
+                    csrfmiddlewaretoken: '{{ csrf_token }}',
+                },
+                success: function (resp) {
+                    //loop
+                    $('#posts').html('')
+                    $.each(resp.results, function(i, val) {
+                        //apending posts
+                        $('#posts').find('td').eq(0).text(val.id);
+                        $('#posts').find('td').eq(1).text(val.name);
+                        $('#posts').find('td').eq(2).text(val.title);
+                        $('#posts').find('td').eq(3).text(val.height);
+                    });
+                },
+                error: function () {}
+            }); //
+
+    });
+
+</script>
+
+
+</body>
+</html>
