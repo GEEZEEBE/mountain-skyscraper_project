@@ -24,7 +24,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('list', views.mt_list, name='mt_list'),
     path('detail/<int:id>/', views.mt_detail, name='mt_detail'),
-    path('', views.mt_map, name='mt_map'),
+    # path('', views.mt_map, name='mt_map'),
     path('listajax/', views.listajax, name='listajax'),
     path('listajax/detail/', views.listajax_detail, name='listajax_detail'),
+    path('', views.maplist, name='maplist'),
 ]

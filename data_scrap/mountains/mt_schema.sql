@@ -23,3 +23,19 @@ CREATE TABLE mt_images (
     FOREIGN KEY (mt_id)
     REFERENCES mountains(id)
 );
+
+CREATE TABLE mt_weather (
+  id INT(10) NOT NULL AUTO_INCREMENT,
+  mt_id INT(10) NOT NULL,
+  name VARCHAR(30) NULL,
+  temp VARCHAR(30) DEFAULT NULL,
+  pressure VARCHAR(30) DEFAULT NULL,
+  humidity VARCHAR(30) DEFAULT NULL,
+  wind_speed VARCHAR(30) DEFAULT NULL,
+  wind_deg VARCHAR(30) DEFAULT NULL,
+  clouds VARCHAR(30) DEFAULT NULL,
+  reg_date DATE DEFAULT NULL,
+  PRIMARY KEY (id),
+  FOREIGN KEY (mt_id)
+  REFERENCES mountains(id)
+);

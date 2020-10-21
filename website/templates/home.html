@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS Template</title>
+<title>Map & Info</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -57,7 +57,7 @@ cursor: pointer;
 <div class="w3-bottom w3-hide-small">
   <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
     <a href="#home" style="width:25%" class="w3-bar-item w3-button">Home</a>
-    <a href="#mountain" style="width:25%" class="w3-bar-item w3-button">MOUNTAINS</a>
+    <a href="mountains/" style="width:25%" class="w3-bar-item w3-button">MOUNTAINS</a>
     <a href="#skyscraper" style="width:25%" class="w3-bar-item w3-button">SKYSCRAPERS</a>
     <a href="#rsvp" style="width:25%" class="w3-bar-item w3-button w3-hover-black">MEMBER</a>
   </div>
@@ -141,100 +141,8 @@ cursor: pointer;
 
 
 
-<script>
-  $('a').click(function(event){
-      event.preventDefault();
-      var page_n = $(this).attr('href');
-      // ajax
-          $.ajax({
-                  type: "POST",
-                  url: "{% url 'mountains:listajax' %}", // name of url
-                  data:{
-                      page_n : page_n, //page_number
-                      csrfmiddlewaretoken: '{{ csrf_token }}'
-                  },
-                  success: function (jsonObj) {
-                      console.log(jsonObj)
-                      $('#posts').html('');
-                      $('tr').each(function(i, val) {
-                          for (var data of jsonObj['results']) {
-                              console.log(data['name'])
-                              //loop
-                              //apending posts
-                              var txt = '<tr><td>'+data['id']+'</td><td>'+data['name']+'</td><td>'+data['title']+'</td><td>'+data['height']+'</td></tr>'
-                              $('#posts').append(txt);
-                          };
-                      });
-                  },
-                  error: function () {}
-          });
-  });
-
-  // table sliding toggle
-  $(function() {
-      $('button.showmore').click(function(e) {
-          e.preventDefault();
-
-          // We break and store the result so we can use it to hide
-          // the row after the slideToggle is closed
-          var targetrow = $(this).closest('tr').next('.detail');
-          var id = $(this).attr('value');
-              $.ajax({
-                      type: "POST",
-                      url: "{% url 'mountains:listajax_detail' %}", // name of url
-                      data:{
-                          id : id,
-                          csrfmiddlewaretoken: '{{ csrf_token }}'
-                      },
-                      success: function (jsonObj) {
-                          targetrow.append('');
-                          data = jsonObj['results'][0]
-                          var txt0 = "<td colspan='3'><div><table class='table table-striped'><tbody>"
-                          var txt1 = "<tr><td>id</td><td>"+data['id']+"</td></tr><tr><td>name</td><td>"+data['name']
-                          var txt2 = "</td></tr><tr><td>title</td><td>"+data['title']+"</td></tr><tr><td>site</td><td>"+data['site']
-                          var txt3 = "</td></tr><tr><td>height</td><td>"+data['height']+"</td></tr><tr><td>feature</td><td>"+data['feature']
-                          var txt4 = "</td></tr><tr><td>overview</td><td>"+data['overview']+"</td></tr><tr><td>information</td><td>"+data['information']
-                          var txt5 = "</td></tr><tr><td>leadtime</td><td>"+data['leadtime']+"</td></tr><tr><td>x_coord</td><td>"+data['x_coord']
-                          var txt6 = "</td></tr><tr><td>y_coord</td><td>"+data['y_coord']+"</td></tr>"
-                          var txt = txt0 + txt1 + txt2 + txt3 + txt4 + txt5 + txt6
-                          targetrow.append(txt);
-
-                          targetrow.show().find('div').slideToggle('fast', function(){
-                              if (!$(this).is(':visible')) {
-                                  targetrow.hide();
-                              }
-                          });
-                      },
-                      error: function () {}
-              });
 
 
-      });
-  });
-
-
-</script>
-
-
-</body>
-</html>
-
-
-<script>
-$(function() {
-$('a.showmore').click(function(e) {
-  e.preventDefault();
-  // We break and store the result so we can use it to hide
-  // the row after the slideToggle is closed
-  var targetrow = $(this).closest('tr').next('.detail');
-  targetrow.show().find('div').slideToggle('slow', function(){
-    if (!$(this).is(':visible')) {
-      targetrow.hide();
-    }
-  });
-});
-});
-</script>
     <!-- 지도 끝 -->
   </div>
 </div>
@@ -328,19 +236,7 @@ $('a.showmore').click(function(e) {
 
       </div>
         <!-- Labels / tags -->
-      <div class="w3-card w3-margin">
-        <div class="w3-container w3-padding">
-          <h4>Tags</h4>
-        </div>
-        <div class="w3-container w3-white">
-        <p><span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">London</span>
-          <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">IKEA</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">NORWAY</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">DIY</span>
-          <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Baby</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Family</span>
-          <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">News</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Clothing</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Shopping</span>
-          <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Sports</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Games</span>
-        </p>
-        </div>
-      </div>
+      
     </div>
   </div>
 </div>
@@ -408,79 +304,7 @@ $('a.showmore').click(function(e) {
 
 
 
-<script>
-    $('a').click(function(event){
-        event.preventDefault();
-        var page_n = $(this).attr('href');
-        // ajax
-            $.ajax({
-                    type: "POST",
-                    url: "{% url 'mountains:listajax' %}", // name of url
-                    data:{
-                        page_n : page_n, //page_number
-                        csrfmiddlewaretoken: '{{ csrf_token }}'
-                    },
-                    success: function (jsonObj) {
-                        console.log(jsonObj)
-                        $('#posts').html('');
-                        $('tr').each(function(i, val) {
-                            for (var data of jsonObj['results']) {
-                                console.log(data['name'])
-                                //loop
-                                //apending posts
-                                var txt = '<tr><td>'+data['id']+'</td><td>'+data['name']+'</td><td>'+data['title']+'</td><td>'+data['height']+'</td></tr>'
-                                $('#posts').append(txt);
-                            };
-                        });
-                    },
-                    error: function () {}
-            });
-    });
 
-    // table sliding toggle
-    $(function() {
-        $('button.showmore').click(function(e) {
-            e.preventDefault();
-
-            // We break and store the result so we can use it to hide
-            // the row after the slideToggle is closed
-            var targetrow = $(this).closest('tr').next('.detail');
-            var id = $(this).attr('value');
-                $.ajax({
-                        type: "POST",
-                        url: "{% url 'mountains:listajax_detail' %}", // name of url
-                        data:{
-                            id : id,
-                            csrfmiddlewaretoken: '{{ csrf_token }}'
-                        },
-                        success: function (jsonObj) {
-                            targetrow.append('');
-                            data = jsonObj['results'][0]
-                            var txt0 = "<td colspan='3'><div><table class='table table-striped'><tbody>"
-                            var txt1 = "<tr><td>id</td><td>"+data['id']+"</td></tr><tr><td>name</td><td>"+data['name']
-                            var txt2 = "</td></tr><tr><td>title</td><td>"+data['title']+"</td></tr><tr><td>site</td><td>"+data['site']
-                            var txt3 = "</td></tr><tr><td>height</td><td>"+data['height']+"</td></tr><tr><td>feature</td><td>"+data['feature']
-                            var txt4 = "</td></tr><tr><td>overview</td><td>"+data['overview']+"</td></tr><tr><td>information</td><td>"+data['information']
-                            var txt5 = "</td></tr><tr><td>leadtime</td><td>"+data['leadtime']+"</td></tr><tr><td>x_coord</td><td>"+data['x_coord']
-                            var txt6 = "</td></tr><tr><td>y_coord</td><td>"+data['y_coord']+"</td></tr>"
-                            var txt = txt0 + txt1 + txt2 + txt3 + txt4 + txt5 + txt6
-                            targetrow.append(txt);
-
-                            targetrow.show().find('div').slideToggle('fast', function(){
-                                if (!$(this).is(':visible')) {
-                                    targetrow.hide();
-                                }
-                            });
-                        },
-                        error: function () {}
-                });
-
-
-        });
-    });
-
-
-</script>
 
 
 

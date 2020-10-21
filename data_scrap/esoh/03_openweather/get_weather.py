@@ -11,28 +11,30 @@ import mysqlDB
 """
 use mydb;
 
-CREATE TABLE weather_mountain
-(
-  id         INT(10)     NOT NULL AUTO_INCREMENT,
-  name       VARCHAR(30) NULL    ,
-  temp       VARCHAR(30) NULL     DEFAULT NULL,
-  pressure   VARCHAR(30) NULL     DEFAULT NULL,
-  humidity   VARCHAR(30) NULL     DEFAULT NULL,
-  wind_speed VARCHAR(30) NULL     DEFAULT NULL,
-  wind_deg   VARCHAR(30) NULL     DEFAULT NULL,
-  clouds     VARCHAR(30) NULL     DEFAULT NULL,
-  reg_date   DATE        NULL     DEFAULT NULL,
-  PRIMARY KEY (id)
+CREATE TABLE mt_weather (
+  id INT(10) NOT NULL AUTO_INCREMENT,
+  mt_id INT(10) NOT NULL,
+  name VARCHAR(30) NULL,
+  temp VARCHAR(30) DEFAULT NULL,
+  pressure VARCHAR(30) DEFAULT NULL,
+  humidity VARCHAR(30) DEFAULT NULL,
+  wind_speed VARCHAR(30) DEFAULT NULL,
+  wind_deg VARCHAR(30) DEFAULT NULL,
+  clouds VARCHAR(30) DEFAULT NULL,
+  reg_date DATE DEFAULT NULL,
+  PRIMARY KEY (id),
+  FOREIGN KEY (mt_id)
+  REFERENCES mountains(id)
 );
 """
 
 
 # mariadb table
-table_name = 'weather_mountain'
+table_name = 'mt_weather'
 
 
 
-def get_weather(strname, lat, long):
+def get_weather(id, strname, lat, long):
     """
     설명 : 날씨 정보 얻기
     lat : 위도
@@ -54,6 +56,7 @@ def get_weather(strname, lat, long):
     # print("-"*40)
 
     data = dict()
+    data['mt_id'] = id
     data['name'] = strname
     data['temp'] = weather['main']['temp']
     data['pressure'] = weather['main']['pressure']
@@ -70,7 +73,7 @@ def get_weather(strname, lat, long):
 def getmountains():
     cursor = mysqlDB.connection.cursor()
 
-    sql = "SELECT name, x_coord, y_coord FROM mountains"
+    sql = "SELECT id, name, x_coord, y_coord FROM mountains"
     cursor.execute(sql)
     result = cursor.fetchall()
     return result
@@ -81,7 +84,7 @@ def main():
 
     for result in results:
         print(result['name'], result['y_coord'], result['x_coord'])
-        get_weather(result['name'], result['y_coord'], result['x_coord'])
+        get_weather(result['id'], result['name'], result['y_coord'], result['x_coord'])
 
 if __name__ == "__main__":
     main()

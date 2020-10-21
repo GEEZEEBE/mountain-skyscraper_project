@@ -13,7 +13,6 @@ connection = pymysql.connect(host='localhost',
                              cursorclass=pymysql.cursors.DictCursor)
 
 
-
 # Create your views here.
 def home(request):
     page = request.GET.get('page', '1')
@@ -35,8 +34,9 @@ def home(request):
             # m = folium.Map(lat_long, zoom_start=12, tiles='Stamen Terrain')
             # folium 한글깨짐 해결 방법 : 아래 명령어 실행 후 서버 재실행
             # sudo pip3 install git+https://github.com/python-visualization/branca.git@master
-            
-            text = "<b>"+result[countmap]['building_name']+"</b></br><i>"+result[countmap]['city_name']+"</i></br>"
+
+            text = "<b>#"+str(countmap)+" "+result[countmap]['building_name']+"</b></br><i>"+result[countmap]['city_name']+"</i></br>"\
+                   +"<div><a href='http://localhost:8000/buildings/detail/"+str(countmap)+"'>상세히보기</a></div>" 
             lat_long = [result[countmap]['x_coord'], result[countmap]['y_coord']]
             popText = folium.Html(text+str(lat_long), script=True)
             popup = folium.Popup(popText, max_width=2650)
@@ -52,7 +52,7 @@ def home(request):
         page_obj = paginator.get_page(page)
 
         context = {'data':page_obj, 'bldg_map': m}
-    
+
     return render(request, 'home.html', context)
     # return render(request, 'home.html')
 
@@ -85,7 +85,7 @@ def bldg_detail(request, id):
                   WHERE skyscrapers.id={id} AND skyscrapers.id = bldg_images.bldg_id"""
         cursor.execute(sql)
         result = cursor.fetchall()
-        # print(result)
+        print(result)
 
         lat_long = [result[0]['x_coord'], result[0]['y_coord']]
         m = folium.Map(lat_long, zoom_start=14)

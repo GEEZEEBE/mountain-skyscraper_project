@@ -70,7 +70,7 @@
         </table>
     </div>
     {% for row in data %}
-        <img src={{row.link}}>
+        <img src="https://{{row.bldg_link}}" width="25%", height="25%">
     {% endfor %}
 
     {{ bldg_map|safe }}

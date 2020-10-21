@@ -189,3 +189,71 @@ def listajax_detail(request):
     return JsonResponse({"results":list(results), 'mountain_map':m})
 
 
+def maplist(request):
+    page = request.GET.get('page', '1')
+
+    with connection.cursor() as cursor:
+        sql = "SELECT * FROM mountains, mt_weather WHERE mountains.id = mt_weather.mt_id"
+        cursor.execute(sql)
+        results = cursor.fetchall()
+
+        number_of_item = 10
+        paginator = Paginator(results, number_of_item)
+        page_range = paginator.page_range
+        page_obj = paginator.get_page(page)
+
+
+        # folium
+        m = folium.Map([35.95, 128.00], zoom_start=7)       # 우리나라 중심 좌표 : [35.95, 128.25]
+
+        for result in results:
+            lat_long = [result['y_coord'], result['x_coord']]
+
+            # folium 한글깨짐 해결 방법 : 아래 명령어 실행 후 서버 재실행
+            # sudo pip3 install git+https://github.com/python-visualization/branca.git@master
+            text = "<b>"+result['name']+"</b></br><i>기온 : "+result['temp']+" °C</i></br>"\
+                   "<i>기압 : "+result['pressure']+" hpa</i></br><i>습도 : "+result['humidity']+" %</i></br>"\
+                   "<i>풍속 : "+result['wind_speed']+" Knots</i></br><i>구름량 : "+result['clouds']+"</i></br>"\
+
+            popText = folium.Html(text, script=True)
+            popup = folium.Popup(popText, max_width=150)
+            folium.RegularPolygonMarker(location=lat_long,
+                                        popup=popup,
+                                        number_of_sides=3,
+                                        rotation=30,
+                                        radius=7).add_to(m)
+
+        m = m._repr_html_()
+
+        links, maps = [], []
+        for id in page_range:
+            sql = f"""SELECT * FROM mountains, mt_images
+                      WHERE mountains.id={id} AND mountains.id = mt_images.mt_id"""
+            cursor.execute(sql)
+            results = cursor.fetchall()
+
+            l = [r['link'] for r in results]
+            links.append(l)
+
+            lat_long = [results[0]['y_coord'], results[0]['x_coord']]
+            m_detail = folium.Map(lat_long, zoom_start=14)
+            # m_detail = folium.Map(lat_long, zoom_start=12, tiles='Stamen Terrain')
+
+            # folium 한글깨짐 해결 방법 : 아래 명령어 실행 후 서버 재실행
+            # sudo pip3 install git+https://github.com/python-visualization/branca.git@master
+            text = "<b>"+results[0]['name']+"</b><br><i>"\
+                        +results[0]['title']+"</i><br>"\
+                        +results[0]['y_coord']+"<br>"\
+                        +results[0]['x_coord']+"<br>"
+
+            popText = folium.Html(text+str(lat_long), script=True)
+            popup = folium.Popup(popText, max_width=2650)
+            folium.Marker(location=lat_long, popup=popup).add_to(m_detail)
+            m_detail = m_detail._repr_html_() #updated
+            maps.append(m_detail)
+
+        data = [d for d in zip(page_obj, links, maps)]
+
+        context = {'data':data, 'paging':page_obj, 'mountain_map': m}
+
+    return render(request, 'mountains/mt_maplist.html', context)
