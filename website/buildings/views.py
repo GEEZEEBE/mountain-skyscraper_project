@@ -12,9 +12,40 @@ connection = pymysql.connect(host='localhost',
                              charset='utf8mb4',
                              cursorclass=pymysql.cursors.DictCursor)
 
+
+
 # Create your views here.
 def home(request):
-    return render(request, 'home.html')
+    with connection.cursor() as cursor:
+        # sql 실행
+        sql = f"""SELECT * FROM skyscrapers, bldg_images
+                  WHERE skyscrapers.id=1 AND skyscrapers.id = bldg_images.bldg_id"""
+        cursor.execute(sql)
+        result = cursor.fetchall()
+        # print(result)
+
+	# 지도 위도, 경도 얻기
+        lat_long = [result[0]['x_coord'], result[0]['y_coord']]
+        m = folium.Map(lat_long, zoom_start=4)
+        # m = folium.Map(lat_long, zoom_start=12, tiles='Stamen Terrain')
+
+        # folium 한글깨짐 해결 방법 : 아래 명령어 실행 후 서버 재실행
+        # sudo pip3 install git+https://github.com/python-visualization/branca.git@master
+        text = "<b>"+result[0]['building_name']+"</b></br><i>"+result[0]['city_name']+"</i></br>"
+
+        popText = folium.Html(text+str(lat_long), script=True)
+        popup = folium.Popup(popText, max_width=2650)
+        folium.Marker(location=lat_long, popup=popup).add_to(m)
+        m=m._repr_html_() #updated
+
+        context = {'data':result, 'bldg_map': m}
+    
+    return render(request, 'home.html', context)
+    # return render(request, 'home.html')
+
+
+
+
 
 def bldg_list(request):
     page = request.GET.get('page', '1')
