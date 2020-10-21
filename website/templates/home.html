@@ -37,7 +37,7 @@ cursor: pointer;
 <header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
   <div class="w3-display-middle w3-text-white w3-center">
     <div class = "test">
-    <h1 class="w3-jumbo">M O U N T A I N<br>S K Y S C R A P E R</h1>
+    <h1 class="w3-card w3-jumbo">M O U N T A I N<br>S K Y S C R A P E R</h1>
     <h2>Map & Info</h2>
     <h2><b></b></h2>
     </div>
@@ -60,81 +60,177 @@ cursor: pointer;
     <h1 class="w3-center w3-text-grey"><b>M O U N T A I N S</b></h1>
     <!-- 지도자리 -->
 
-    {{ mountain_map|safe }}
+    <div class="container">
 
-    <p class="w3-center"><a href="#mt_list" class="w3-button w3-black w3-round w3-padding-large w3-large">L &nbsp I &nbsp S &nbsp T &nbsp </a></p>
-    <br><br><br>
-    <div class="w3-row">
-      <div class="w3-half">
-      
+      {{ mountain_map|safe }}
 
-      <div class="container">
-        <table class="table table-striped">
-            <thead>
-                <tr>
-                    <th>id</th>
-                    <th>name</th>
-                    <th>title</th>
-                    <th>height</th>
-                </tr>
-            </thead>
-            <tbody id="posts">
-                {% for i in first_page %}
-                    <tr>
-                        <td>{{i.id}}</td>
-                        <td>{{i.name}}</td>
-                        <td>{{i.title}}</td>
-                        <td>{{i.height}}</td>
-                        <td><button class="showmore" value={{i.id}}>more</button></td>
-                    </tr>
-                    <tr class="detail">
+  </div>
 
-                    </tr>
-                {% endfor %}
-            </tbody>
-        </table>
+  <div class="container">
+      <table class="table table-striped">
+          <thead>
+              <tr>
+                  <th>id</th>
+                  <th>name</th>
+                  <th>title</th>
+                  <th>height</th>
+              </tr>
+          </thead>
+          <tbody id="posts">
+              {% for i in first_page %}
+                  <tr>
+                      <td>{{i.id}}</td>
+                      <td>{{i.name}}</td>
+                      <td>{{i.title}}</td>
+                      <td>{{i.height}}</td>
+                      <td><button class="showmore" value={{i.id}}>more</button></td>
+                  </tr>
+                  <tr class="detail">
+
+                  </tr>
+              {% endfor %}
+          </tbody>
+      </table>
 
 
-        <ul class="pagination justify-content-center">
-            <!-- 이전페이지 -->
-            {% if data.has_previous %}
-            <li class="page-item">
-                <a class="page-link" href="data.previous_page_number">이전</a>
-            </li>
-            {% else %}
-            <li class="page-item disabled">
-                <a class="page-link" tabindex="-1" aria-disabled="true" href="#">이전</a>
-            </li>
-            {% endif %}
-            <!-- 페이지리스트 -->
-            {% for page_number in page_range %}
-                {% if page_number == data.number %}
-                <li class="page-item active" aria-current="page">
-                    <a class="page-link" href="{{page_number}}">{{ page_number }}</a>
-                </li>
-                {% else %}
-                <li class="page-item">
-                    <a class="page-link" href="{{page_number}}">{{ page_number }}</a>
-                </li>
-                {% endif %}
-            {% endfor %}
-            <!-- 다음페이지 -->
-            {% if data.has_next %}
-            <li class="page-item">
-                <a class="page-link" href="{{data.next_page_number}}">다음</a>
-            </li>
-            {% else %}
-            <li class="page-item disabled">
-                <a class="page-link" tabindex="-1" aria-disabled="true" href="#">다음</a>
-            </li>
-            {% endif %}
-        </ul>
-    </div>
+      <ul class="pagination justify-content-center">
+          <!-- 이전페이지 -->
+          {% if data.has_previous %}
+          <li class="page-item">
+              <a class="page-link" href="data.previous_page_number">이전</a>
+          </li>
+          {% else %}
+          <li class="page-item disabled">
+              <a class="page-link" tabindex="-1" aria-disabled="true" href="#">이전</a>
+          </li>
+          {% endif %}
+          <!-- 페이지리스트 -->
+          {% for page_number in page_range %}
+              {% if page_number == data.number %}
+              <li class="page-item active" aria-current="page">
+                  <a class="page-link" href="{{page_number}}">{{ page_number }}</a>
+              </li>
+              {% else %}
+              <li class="page-item">
+                  <a class="page-link" href="{{page_number}}">{{ page_number }}</a>
+              </li>
+              {% endif %}
+          {% endfor %}
+          <!-- 다음페이지 -->
+          {% if data.has_next %}
+          <li class="page-item">
+              <a class="page-link" href="{{data.next_page_number}}">다음</a>
+          </li>
+          {% else %}
+          <li class="page-item disabled">
+              <a class="page-link" tabindex="-1" aria-disabled="true" href="#">다음</a>
+          </li>
+          {% endif %}
+      </ul>
+  </div>
 
 
 
 
-      </div>
+<script>
+  $('a').click(function(event){
+      event.preventDefault();
+      var page_n = $(this).attr('href');
+      // ajax
+          $.ajax({
+                  type: "POST",
+                  url: "{% url 'mountains:listajax' %}", // name of url
+                  data:{
+                      page_n : page_n, //page_number
+                      csrfmiddlewaretoken: '{{ csrf_token }}'
+                  },
+                  success: function (jsonObj) {
+                      console.log(jsonObj)
+                      $('#posts').html('');
+                      $('tr').each(function(i, val) {
+                          for (var data of jsonObj['results']) {
+                              console.log(data['name'])
+                              //loop
+                              //apending posts
+                              var txt = '<tr><td>'+data['id']+'</td><td>'+data['name']+'</td><td>'+data['title']+'</td><td>'+data['height']+'</td></tr>'
+                              $('#posts').append(txt);
+                          };
+                      });
+                  },
+                  error: function () {}
+          });
+  });
+
+  // table sliding toggle
+  $(function() {
+      $('button.showmore').click(function(e) {
+          e.preventDefault();
+
+          // We break and store the result so we can use it to hide
+          // the row after the slideToggle is closed
+          var targetrow = $(this).closest('tr').next('.detail');
+          var id = $(this).attr('value');
+              $.ajax({
+                      type: "POST",
+                      url: "{% url 'mountains:listajax_detail' %}", // name of url
+                      data:{
+                          id : id,
+                          csrfmiddlewaretoken: '{{ csrf_token }}'
+                      },
+                      success: function (jsonObj) {
+                          targetrow.append('');
+                          data = jsonObj['results'][0]
+                          var txt0 = "<td colspan='3'><div><table class='table table-striped'><tbody>"
+                          var txt1 = "<tr><td>id</td><td>"+data['id']+"</td></tr><tr><td>name</td><td>"+data['name']
+                          var txt2 = "</td></tr><tr><td>title</td><td>"+data['title']+"</td></tr><tr><td>site</td><td>"+data['site']
+                          var txt3 = "</td></tr><tr><td>height</td><td>"+data['height']+"</td></tr><tr><td>feature</td><td>"+data['feature']
+                          var txt4 = "</td></tr><tr><td>overview</td><td>"+data['overview']+"</td></tr><tr><td>information</td><td>"+data['information']
+                          var txt5 = "</td></tr><tr><td>leadtime</td><td>"+data['leadtime']+"</td></tr><tr><td>x_coord</td><td>"+data['x_coord']
+                          var txt6 = "</td></tr><tr><td>y_coord</td><td>"+data['y_coord']+"</td></tr>"
+                          var txt = txt0 + txt1 + txt2 + txt3 + txt4 + txt5 + txt6
+                          targetrow.append(txt);
+
+                          targetrow.show().find('div').slideToggle('fast', function(){
+                              if (!$(this).is(':visible')) {
+                                  targetrow.hide();
+                              }
+                          });
+                      },
+                      error: function () {}
+              });
+
+
+      });
+  });
+
+
+</script>
+
+
+</body>
+</html>
+
+
+<script>
+$(function() {
+$('a.showmore').click(function(e) {
+  e.preventDefault();
+  // We break and store the result so we can use it to hide
+  // the row after the slideToggle is closed
+  var targetrow = $(this).closest('tr').next('.detail');
+  targetrow.show().find('div').slideToggle('slow', function(){
+    if (!$(this).is(':visible')) {
+      targetrow.hide();
+    }
+  });
+});
+});
+</script>
+
+
+
+
+    <!-- 지도 끝 -->
   </div>
 </div>
 
