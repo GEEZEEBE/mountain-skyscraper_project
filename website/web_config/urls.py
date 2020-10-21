@@ -18,7 +18,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from buildings import views as bldgviews
+
 urlpatterns = [
+    path('', bldgviews.home, name="home"),
     path('admin/', admin.site.urls),
     path('mountains/', include('mountains.urls')),
     path('buildings/', include('buildings.urls')),

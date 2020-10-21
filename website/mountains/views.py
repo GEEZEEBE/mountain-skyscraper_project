@@ -38,7 +38,7 @@ def mt_detail(request, id):
         print(result)
 
         lat_long = [result[0]['y_coord'], result[0]['x_coord']]
-        m = folium.Map(lat_long, zoom_start=14)
+        m = folium.Map(lat_long, zoom_start=1)
         # m = folium.Map(lat_long, zoom_start=12, tiles='Stamen Terrain')
 
         # folium 한글깨짐 해결 방법 : 아래 명령어 실행 후 서버 재실행
