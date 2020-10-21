@@ -13,6 +13,9 @@ connection = pymysql.connect(host='localhost',
                              cursorclass=pymysql.cursors.DictCursor)
 
 # Create your views here.
+def home(request):
+    return render(request, 'home.html')
+
 def bldg_list(request):
     page = request.GET.get('page', '1')
 

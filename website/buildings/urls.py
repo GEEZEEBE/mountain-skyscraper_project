@@ -21,6 +21,7 @@ from buildings import views
 app_name = 'buildings'
 
 urlpatterns = [
+    
     path('admin/', admin.site.urls),
     path('list', views.bldg_list, name='bldg_list'),
     path('detail/<int:id>/', views.bldg_detail, name='bldg_detail'),
