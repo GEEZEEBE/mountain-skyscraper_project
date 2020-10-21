@@ -269,14 +269,79 @@ $('a.showmore').click(function(e) {
 <div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center" id="skyscraper">
   <div class="w3-content">
     <h1 class="w3-text-grey"><b>S K Y S C R A P E R S</b></h1>
-<<<<<<< HEAD
-    <div class = "w3-card w3-border"> {{ bldg_map|safe }} </div>
-    <p class="w3-center"><a href="#bldg_list" class="w3-button w3-black w3-round w3-padding-large w3-large">L &nbsp I &nbsp S &nbsp T &nbsp </a></p>
-=======
     <!-- // <img class="w3-round-large w3-grayscale-min" src="/w3images/wedding_location.jpg" style="width:100%;margin:64px 0"> // -->
     {{ bldg_map|safe }} 
     {% comment %}
->>>>>>> eb035329584f3f46a64de1ca94745ebcd64a0feb
+    <div class="w3-row">
+      <div class="w3-half">
+    {% endcomment %}
+        
+        <!-- // skyscraper list start // -->
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>순위</th>
+                    <th>건물명</th>
+                    <th>도시명(국가)</th>
+                    <th>높이(m)</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in data %}
+                <tr>
+                    <td><a href="{% url 'buildings:bldg_detail' row.id %}">{{row.id}}</a></td>
+                    <td><a href="{% url 'buildings:bldg_detail' row.id %}">{{row.ranking}}</a></td>
+                    <td><a href="{% url 'buildings:bldg_detail' row.id %}">{{row.building_name}}</a></td>
+                    <td><a href="{% url 'buildings:bldg_detail' row.id %}">{{row.city_name}}({{row.country}})</a></td>
+                    <td><a href="{% url 'buildings:bldg_detail' row.id %}">{{row.height_m}} {{"m"}}</a></td>
+                    <td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <ul class="pagination justify-content-center">
+            <!-- 이전페이지 -->
+            {% if data.has_previous %}
+            <li class="page-item">
+                <a class="page-link" href="?page={{ data.previous_page_number }}">이전</a>
+            </li>
+            {% else %}
+            <li class="page-item disabled">
+                <a class="page-link" tabindex="-1" aria-disabled="true" href="#">이전</a>
+            </li>
+            {% endif %}
+            <!-- 페이지리스트 -->
+            {% for page_number in data.paginator.page_range %}
+                {% if page_number == data.number %}
+                <li class="page-item active" aria-current="page">
+                    <a class="page-link" href="?page={{ page_number }}">{{ page_number }}</a>
+                </li>
+                {% else %}
+                <li class="page-item">
+                    <a class="page-link" href="?page={{ page_number }}">{{ page_number }}</a>
+                </li>
+                {% endif %}
+            {% endfor %}
+            <!-- 다음페이지 -->
+            {% if data.has_next %}
+            <li class="page-item">
+                <a class="page-link" href="?page={{ data.next_page_number }}">다음</a>
+            </li>
+            {% else %}
+            <li class="page-item disabled">
+                <a class="page-link" tabindex="-1" aria-disabled="true" href="#">다음</a>
+            </li>
+            {% endif %}
+        </ul>
+        <!-- // skyscraper list end // -->
+
+<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center" id="skyscraper">
+  <div class="w3-content">
+    <h1 class="w3-text-grey"><b>S K Y S C R A P E R S</b></h1>
+    <!-- // <img class="w3-round-large w3-grayscale-min" src="/w3images/wedding_location.jpg" style="width:100%;margin:64px 0"> // -->
+    {{ bldg_map|safe }} 
+    {% comment %}
     <div class="w3-row">
       <div class="w3-half">
     {% endcomment %}
@@ -342,7 +407,6 @@ $('a.showmore').click(function(e) {
         <!-- // skyscraper list end // -->
 
       {% comment %}
-      </div>
       </div>
         <!-- Labels / tags -->
       <div class="w3-card w3-margin">
