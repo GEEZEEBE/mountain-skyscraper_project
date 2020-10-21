@@ -3,9 +3,18 @@
 <title>W3.CSS Template</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- // skyscraper start // -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+ <!-- // skyscraper end // -->
+
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 <style>
 body,h1,h2{font-family: "Raleway", sans-serif}
 body, html {height: 100%}
@@ -260,30 +269,79 @@ $('a.showmore').click(function(e) {
 <div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center" id="skyscraper">
   <div class="w3-content">
     <h1 class="w3-text-grey"><b>S K Y S C R A P E R S</b></h1>
+<<<<<<< HEAD
     <div class = "w3-card w3-border"> {{ bldg_map|safe }} </div>
     <p class="w3-center"><a href="#bldg_list" class="w3-button w3-black w3-round w3-padding-large w3-large">L &nbsp I &nbsp S &nbsp T &nbsp </a></p>
+=======
+    <!-- // <img class="w3-round-large w3-grayscale-min" src="/w3images/wedding_location.jpg" style="width:100%;margin:64px 0"> // -->
+    {{ bldg_map|safe }} 
+    {% comment %}
+>>>>>>> eb035329584f3f46a64de1ca94745ebcd64a0feb
     <div class="w3-row">
       <div class="w3-half">
-        <p>Rank</p>
-        <p>Building Name</p>
-        <p>City Name(Country)</p>
-        <p>Height(m)</p>
-        <p>Height(ft)</p>
-        <p>Floor</p>
-        <p>Completion Year</p>
-        <p>Structural Material</p>
-        <p>Use</p>
-      </div>
-      <div class="w3-half">
-        <p>Rank</p>
-        <p>Building Name</p>
-        <p>City Name(Country)</p>
-        <p>Height(m)</p>
-        <p>Height(ft)</p>
-        <p>Floor</p>
-        <p>Completion Year</p>
-        <p>Structural Material</p>
-        <p>Use</p>
+    {% endcomment %}
+        
+        <!-- // skyscraper list start // -->
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>순위</th>
+                    <th>건물명</th>
+                    <th>도시명(국가)</th>
+                    <th>높이(m)</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in data %}
+                <tr>
+                    <td><a href="{% url 'buildings:bldg_detail' row.id %}">{{row.id}}</a></td>
+                    <td><a href="{% url 'buildings:bldg_detail' row.id %}">{{row.ranking}}</a></td>
+                    <td><a href="{% url 'buildings:bldg_detail' row.id %}">{{row.building_name}}</a></td>
+                    <td><a href="{% url 'buildings:bldg_detail' row.id %}">{{row.city_name}}({{row.country}})</a></td>
+                    <td><a href="{% url 'buildings:bldg_detail' row.id %}">{{row.height_m}} {{"m"}}</a></td>
+                    <td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <ul class="pagination justify-content-center">
+            <!-- 이전페이지 -->
+            {% if data.has_previous %}
+            <li class="page-item">
+                <a class="page-link" href="?page={{ data.previous_page_number }}">이전</a>
+            </li>
+            {% else %}
+            <li class="page-item disabled">
+                <a class="page-link" tabindex="-1" aria-disabled="true" href="#">이전</a>
+            </li>
+            {% endif %}
+            <!-- 페이지리스트 -->
+            {% for page_number in data.paginator.page_range %}
+                {% if page_number == data.number %}
+                <li class="page-item active" aria-current="page">
+                    <a class="page-link" href="?page={{ page_number }}">{{ page_number }}</a>
+                </li>
+                {% else %}
+                <li class="page-item">
+                    <a class="page-link" href="?page={{ page_number }}">{{ page_number }}</a>
+                </li>
+                {% endif %}
+            {% endfor %}
+            <!-- 다음페이지 -->
+            {% if data.has_next %}
+            <li class="page-item">
+                <a class="page-link" href="?page={{ data.next_page_number }}">다음</a>
+            </li>
+            {% else %}
+            <li class="page-item disabled">
+                <a class="page-link" tabindex="-1" aria-disabled="true" href="#">다음</a>
+            </li>
+            {% endif %}
+        </ul>
+        <!-- // skyscraper list end // -->
+
+      {% comment %}
       </div>
       </div>
         <!-- Labels / tags -->
