@@ -26,4 +26,5 @@ urlpatterns = [
     path('detail/<int:id>/', views.mt_detail, name='mt_detail'),
     path('', views.mt_map, name='mt_map'),
     path('listajax/', views.listajax, name='listajax'),
+    path('listajax/detail/', views.listajax_detail, name='listajax_detail'),
 ]
