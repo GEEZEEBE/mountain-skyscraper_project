@@ -48,7 +48,7 @@ def mt_detail(request, id):
         popText = folium.Html(text+str(lat_long), script=True)
         popup = folium.Popup(popText, max_width=2650)
         folium.Marker(location=lat_long, popup=popup).add_to(m)
-        m=m._repr_html_() #updated
+        m = m._repr_html_() #updated
 
         context = {'data':result, 'mountain_map': m}
 
@@ -156,4 +156,36 @@ def listajax(request):
 
 
     return render(request, 'mountains/mt_map_ajax.html', context)
+
+
+def listajax_detail(request):
+    if request.method == 'POST':
+        id = request.POST.get('id', 1)
+
+        with connection.cursor() as cursor:
+            sql = f"""SELECT * FROM mountains, mt_images
+                    WHERE mountains.id={id} AND mountains.id = mt_images.mt_id"""
+            cursor.execute(sql)
+            results = cursor.fetchall()
+            print(results)
+
+            lat_long = [results[0]['y_coord'], results[0]['x_coord']]
+            m = folium.Map(lat_long, zoom_start=14)
+            # m = folium.Map(lat_long, zoom_start=12, tiles='Stamen Terrain')
+
+            # folium 한글깨짐 해결 방법 : 아래 명령어 실행 후 서버 재실행
+            # sudo pip3 install git+https://github.com/python-visualization/branca.git@master
+            text = "<b>"+results[0]['name']+"</b></br><i>"+results[0]['title']+"</i></br>"
+
+            popText = folium.Html(text+str(lat_long), script=True)
+            popup = folium.Popup(popText, max_width=2650)
+            folium.Marker(location=lat_long, popup=popup).add_to(m)
+            m = m._repr_html_() #updated
+
+        #     context = {'data':result, 'mountain_map': m}
+        #     results = list(paginator.page(page_n))
+        # return render(request, 'mountains/mt_detail.html', context)
+
+    return JsonResponse({"results":list(results), 'mountain_map':m})
+
 
