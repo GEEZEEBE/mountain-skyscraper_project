@@ -216,9 +216,6 @@ cursor: pointer;
 </script>
 
 
-</body>
-</html>
-
 
 <script>
 $(function() {
@@ -262,25 +259,28 @@ $('a.showmore').click(function(e) {
 
 <div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center" id="skyscraper">
   <div class="w3-content">
-    <h1 class="w3-text-grey"><b>S K Y S C R A P E R S</b></h1>
-    <!-- // <img class="w3-round-large w3-grayscale-min" src="/w3images/wedding_location.jpg" style="width:100%;margin:64px 0"> // -->
-    {{ bldg_map|safe }} 
-        
+    <h1 class="w3-text-grey"><b>S K Y S C R A P E R S</b></h1>      
+  </div>
+
+
+<!-- skyscraper list -->
+  <div class="container">
+  <div class="w3-container w3-white">  
+  <div class="w3-row-padding" style="margin:10 -16px" id="bldg_list">
+  {{ bldg_map|safe }} 
         <!-- // skyscraper list start // -->
-        <table class="table table-striped">
+        <table class="table table-striped" id="table_bldg_list">
             <thead>
                 <tr>
-                    <th>ID</th>
-                    <th>순위</th>
-                    <th>건물명</th>
-                    <th>도시명(국가)</th>
-                    <th>높이(m)</th>
+                    <th>rank</th>
+                    <th>building name</th>
+                    <th>city</th>
+                    <th>height (m)</th>
                 </tr>
             </thead>
             <tbody>
-                {% for row in data %}
+                {% for row in bldg_data %}
                 <tr>
-                    <td><a href="{% url 'buildings:bldg_detail' row.id %}">{{row.id}}</a></td>
                     <td><a href="{% url 'buildings:bldg_detail' row.id %}">{{row.ranking}}</a></td>
                     <td><a href="{% url 'buildings:bldg_detail' row.id %}">{{row.building_name}}</a></td>
                     <td><a href="{% url 'buildings:bldg_detail' row.id %}">{{row.city_name}}({{row.country}})</a></td>
@@ -292,9 +292,9 @@ $('a.showmore').click(function(e) {
         </table>
         <ul class="pagination justify-content-center">
             <!-- 이전페이지 -->
-            {% if data.has_previous %}
+            {% if bldg_data.has_previous %}
             <li class="page-item">
-                <a class="page-link" href="?page={{ data.previous_page_number }}">이전</a>
+                <a class="page-link" href="?page={{ bldg_data.previous_page_number }}#table_bldg_list">이전</a>
             </li>
             {% else %}
             <li class="page-item disabled">
@@ -302,21 +302,21 @@ $('a.showmore').click(function(e) {
             </li>
             {% endif %}
             <!-- 페이지리스트 -->
-            {% for page_number in data.paginator.page_range %}
-                {% if page_number == data.number %}
+            {% for page_number in bldg_data.paginator.page_range %}
+                {% if page_number == bldg_data.number %}
                 <li class="page-item active" aria-current="page">
-                    <a class="page-link" href="?page={{ page_number }}">{{ page_number }}</a>
+                    <a class="page-link" href="?page={{ page_number }}#table_bldg_list">{{ page_number }}</a>
                 </li>
                 {% else %}
                 <li class="page-item">
-                    <a class="page-link" href="?page={{ page_number }}">{{ page_number }}</a>
+                    <a class="page-link" href="?page={{ page_number }}#table_bldg_list">{{ page_number }}</a>
                 </li>
                 {% endif %}
             {% endfor %}
             <!-- 다음페이지 -->
-            {% if data.has_next %}
+            {% if bldg_data.has_next %}
             <li class="page-item">
-                <a class="page-link" href="?page={{ data.next_page_number }}">다음</a>
+                <a class="page-link" href="?page={{ bldg_data.next_page_number }}#table_bldg_list">다음</a>
             </li>
             {% else %}
             <li class="page-item disabled">
@@ -324,39 +324,10 @@ $('a.showmore').click(function(e) {
             </li>
             {% endif %}
         </ul>
+  </div>
+  </div>
+  </div>
         <!-- // skyscraper list end // -->
-
-      </div>
-        <!-- Labels / tags -->
-      <div class="w3-card w3-margin">
-        <div class="w3-container w3-padding">
-          <h4>Tags</h4>
-        </div>
-        <div class="w3-container w3-white">
-        <p><span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">London</span>
-          <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">IKEA</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">NORWAY</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">DIY</span>
-          <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Baby</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Family</span>
-          <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">News</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Clothing</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Shopping</span>
-          <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Sports</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Games</span>
-        </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-<!-- skyscraper list -->
-<div class="w3-row-padding" style="margin:10 -16px" id = "bldg_list">
-  <div class="w3-half">
-
-
-  </div>
-  <div class="w3-half">
-
-
-  </div>
 </div>
 <!-- End MT photo -->
 
@@ -404,7 +375,7 @@ $('a.showmore').click(function(e) {
 <footer class="w3-center w3-black w3-padding-16">
   <p>Published by 코딩하고갈래?</p>
 </footer>
-<div class="w3-hide-small" style="margin-bottom:32px"> </div>
+<div class="w3-hide-small" style="margin-bottom:32px">?</div>
 
 
 
@@ -474,17 +445,11 @@ $('a.showmore').click(function(e) {
                         },
                         error: function () {}
                 });
-
-
         });
     });
 
 
 </script>
-
-
-
-
 
 </body>
 </html>
