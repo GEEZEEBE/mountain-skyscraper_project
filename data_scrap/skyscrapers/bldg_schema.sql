@@ -32,9 +32,10 @@ CREATE TABLE bldg_weather (
 	bldg_id INT(10) NOT NULL,
 	city_name VARCHAR(30) DEFAULT NULL,
 	main_weather VARCHAR(30) DEFAULT NULL,
-	temperature VARCHAR(30) DEFAULT NULL,
-	feels_like VARCHAR(30) DEFAULT NULL,
+	temperature_C VARCHAR(30) DEFAULT NULL,
+	feels_like_C VARCHAR(30) DEFAULT NULL,
 	humidity VARCHAR(30) DEFAULT NULL,
+	reg_date DATE DEFAULT NULL,
 	PRIMARY KEY (id),
 	FOREIGN KEY (bldg_id)
 	REFERENCES skyscrapers(id)

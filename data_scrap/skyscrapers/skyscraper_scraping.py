@@ -65,9 +65,9 @@ def getInfo(urls, thumbs, images):
 
         # Rank
     try:
-        rank = [str(rank) for rank in range(1, len(urls)+1)]
+        ranking = [str(ranking) for ranking in range(1, len(urls)+1)]
     except Exception as e:
-        rank = ""
+        ranking = ""
     
     # building names
     try:
@@ -128,19 +128,19 @@ def getInfo(urls, thumbs, images):
 
     # use
     try:
-        uses = soup.select("td:nth-child(11)")
-        use = [n.text.strip() for n in uses[1:]]
+        categories = soup.select("td:nth-child(11)")
+        category = [n.text.strip() for n in categories[1:]]
     except Exception as e:
-        use = ""
+        category = ""
         
     try:
         r_date = datetime.now()
     except Exception as e:
         r_date =""
 
-    keys = ['rank', 'building_name', 'city_name', 'country', 'height_m', 'height_ft', 'floor', 'completion_year', 'material', 'use', 'thumbnail', 'image']
+    keys = ['ranking', 'building_name', 'city_name', 'country', 'height_m', 'height_ft', 'floor', 'completion_year', 'material', 'category', 'thumbnail', 'image']
     information = []
-    for values in zip(rank, bldg_name, city_name, country, height_m, height_ft, floor, completion, material, use, thumbs, images):
+    for values in zip(ranking, bldg_name, city_name, country, height_m, height_ft, floor, completion, material, category, thumbs, images):
         data = {}
         for k, v in zip(keys, values):
             data[k] = v
