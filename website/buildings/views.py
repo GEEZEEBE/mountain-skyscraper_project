@@ -14,7 +14,7 @@ connection = pymysql.connect(host='localhost',
 
 
 # Create your views here.
-def home(request):
+def skyscrapers_home(request):
     page = request.GET.get('page', '1')
 
     with connection.cursor() as cursor:
@@ -22,9 +22,10 @@ def home(request):
         # sql 실행
         # sql = f"""SELECT * FROM skyscrapers, bldg_images
         #           WHERE skyscrapers.id=1 AND skyscrapers.id = bldg_images.bldg_id"""
-        sql = f"""SELECT * FROM skyscrapers"""
+        sql = "SELECT * FROM skyscrapers"
         cursor.execute(sql)
         result = cursor.fetchall()
+        result_copy = result
         # print(result)
 
 	    # 지도 위도, 경도 얻기
@@ -35,28 +36,36 @@ def home(request):
             # folium 한글깨짐 해결 방법 : 아래 명령어 실행 후 서버 재실행
             # sudo pip3 install git+https://github.com/python-visualization/branca.git@master
 
-            text = "<b>#"+str(countmap)+" "+result[countmap]['building_name']+"</b></br><i>"+result[countmap]['city_name']+"</i></br>"\
-                   +"<div><a href='http://localhost:8000/buildings/detail/"+str(countmap)+"'>상세히보기</a></div>" 
+            # text = "<b>#"+str(countmap)+" "+result[countmap]['building_name']+"</b></br><i>"+result[countmap]['city_name']+"</i></br>"\
+            #        +"<div><a href='http://localhost:8000/buildings/detail/"+str(countmap)+"'>상세히보기</a></div>" 
+            # 팝업창 내용 넣기
+            text = "<b>"+result[countmap]['building_name']+"</b></br><i>"+result[countmap]['city_name']+"</i></br>"
             lat_long = [result[countmap]['x_coord'], result[countmap]['y_coord']]
             popText = folium.Html(text+str(lat_long), script=True)
             popup = folium.Popup(popText, max_width=2650)
-            # folium.Marker(location=lat_long, popup=popup).add_to(m)
             folium.CircleMarker(lat_long, radius=10, popup=popup, color='#3186cc',fill_color='#3186cc',).add_to(m)
 
-        m=m._repr_html_() #updated
+        # folium HTML 얻기
+        m = m._repr_html_() #updated
 
-        sql = "SELECT id, ranking, building_name, city_name, country, height_m FROM skyscrapers"
-        cursor.execute(sql)
-        result = cursor.fetchall()
+        # sql = "SELECT id, ranking, building_name, city_name, country, height_m FROM skyscrapers"
+        # cursor.execute(sql)
+        result = result_copy
+
         paginator = Paginator(result, 10)
         page_obj = paginator.get_page(page)
 
-        context = {'data':page_obj, 'bldg_map': m}
+        # context = {'data':page_obj, 'bldg_map': m}
+
+    # return render(request, 'home.html', context)
+    # return render(request, 'home.html')
+        context = {'bldg_data':page_obj, 'bldg_map': m}    
+    return context
+
+def home(request):
+    context = skyscrapers_home(request)
 
     return render(request, 'home.html', context)
-    # return render(request, 'home.html')
-
-
 
 
 

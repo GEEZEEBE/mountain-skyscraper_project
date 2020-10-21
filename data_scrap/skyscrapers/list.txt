@@ -29,7 +29,7 @@ Trump International Hotel & Tower@41.8888012@-87.6284981
 Jin Mao Tower@31.2352561@121.5035658
 Princess Tower@25.0887852@55.1447118
 Al Hamra Tower@29.3790586@47.9911046
-Two International Finance Centre@37.5254773@126.9238205
+Two International Finance Centre@22.28588,114.1559423
 LCT The Sharp Landmark Tower@35.1603769@129.1669156
 Guiyang International Financial Center T1@26.6507795@106.6433677
 China Resources Tower@13.739167@100.5455893
