@@ -87,7 +87,7 @@ p {line-height: 2}
 <div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center" id="skyscraper">
   <div class="w3-content">
     <h1 class="w3-text-grey"><b>S K Y S C R A P E R S</b></h1>
-    {{ bldg_map|safe }}
+    <div class = "w3-card w3-border"> {{ bldg_map|safe }} </div>
     <p class="w3-center"><a href="#bldg_list" class="w3-button w3-black w3-round w3-padding-large w3-large">L &nbsp I &nbsp S &nbsp T &nbsp </a></p>
     <div class="w3-row">
       <div class="w3-half">
@@ -112,6 +112,20 @@ p {line-height: 2}
         <p>Structural Material</p>
         <p>Use</p>
       </div>
+      </div>
+        <!-- Labels / tags -->
+      <div class="w3-card w3-margin">
+        <div class="w3-container w3-padding">
+          <h4>Tags</h4>
+        </div>
+        <div class="w3-container w3-white">
+        <p><span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">London</span>
+          <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">IKEA</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">NORWAY</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">DIY</span>
+          <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Baby</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Family</span>
+          <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">News</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Clothing</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Shopping</span>
+          <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Sports</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Games</span>
+        </p>
+        </div>
       </div>
     </div>
   </div>
