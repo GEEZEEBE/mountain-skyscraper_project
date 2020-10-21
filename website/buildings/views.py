@@ -14,6 +14,15 @@ connection = pymysql.connect(host='localhost',
 
 
 # Create your views here.
+def get_weather_skyscrapers(id, results_weather):
+    for result in results_weather:
+        if id == result['bldg_id']:
+            return result
+    
+    result = list()
+    return result
+    
+
 def skyscrapers_home(request):
     page = request.GET.get('page', '1')
 
@@ -28,6 +37,10 @@ def skyscrapers_home(request):
         result_copy = result
         # print(result)
 
+        sql = "SELECT * FROM bldg_weather"
+        cursor.execute(sql)
+        results_weather = cursor.fetchall()
+
 	    # 지도 위도, 경도 얻기
         lat_long = [result[0]['x_coord'], result[0]['y_coord']]
         m = folium.Map(lat_long, zoom_start=2)
@@ -39,7 +52,12 @@ def skyscrapers_home(request):
             # text = "<b>#"+str(countmap)+" "+result[countmap]['building_name']+"</b></br><i>"+result[countmap]['city_name']+"</i></br>"\
             #        +"<div><a href='http://localhost:8000/buildings/detail/"+str(countmap)+"'>상세히보기</a></div>" 
             # 팝업창 내용 넣기
-            text = "<b>"+result[countmap]['building_name']+"</b></br><i>"+result[countmap]['city_name']+"</i></br>"
+            text = "<b>"+result[countmap]['building_name']+"</b></br><i>"+result[countmap]['city_name']+"</i>"
+            weather = get_weather_skyscrapers(result[countmap]['id'], results_weather)
+            if weather:
+                text = text + "<br> main_weather : </b>" + weather['main_weather']
+                text = text + "<br> temperature : </b>" + weather['temperature_C']
+                text = text + "<br> humidity : </b>" + weather['humidity']
             lat_long = [result[countmap]['x_coord'], result[countmap]['y_coord']]
             popText = folium.Html(text+str(lat_long), script=True)
             popup = folium.Popup(popText, max_width=2650)
