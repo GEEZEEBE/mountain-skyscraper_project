@@ -26,7 +26,7 @@ def home(request):
 
 	# 지도 위도, 경도 얻기
         lat_long = [result[0]['x_coord'], result[0]['y_coord']]
-        m = folium.Map(lat_long, zoom_start=4)
+        m = folium.Map(lat_long, zoom_start=2.5)
         # m = folium.Map(lat_long, zoom_start=12, tiles='Stamen Terrain')
 
         # folium 한글깨짐 해결 방법 : 아래 명령어 실행 후 서버 재실행
