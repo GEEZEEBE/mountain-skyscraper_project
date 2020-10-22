@@ -52,7 +52,7 @@ def skyscrapers_home(request):
             # text = "<b>#"+str(countmap)+" "+result[countmap]['building_name']+"</b></br><i>"+result[countmap]['city_name']+"</i></br>"\
             #        +"<div><a href='http://localhost:8000/buildings/detail/"+str(countmap)+"'>상세히보기</a></div>" 
             # 팝업창 내용 넣기
-            text = "<b>"+result[countmap]['building_name']+"</b></br><i>"+result[countmap]['city_name']+"</i>"
+            text = "<b>#"+str(countmap)+" "+result[countmap]['building_name']+"</b></br><i>"+result[countmap]['city_name']+"</i>"
             weather = get_weather_skyscrapers(result[countmap]['id'], results_weather)
             if weather:
                 text = text + "<br> main_weather : </b>" + weather['main_weather']
