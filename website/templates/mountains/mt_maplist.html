@@ -41,7 +41,12 @@ display: none;
 cursor: pointer;
 }
 
-
+@font-face {
+    font-family: 'Cafe24Simplehae';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Simplehae.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 </style>
 </head>
 <body>
@@ -75,11 +80,11 @@ cursor: pointer;
         <table class="table" id="table_bldg_list">
             <thead>
                 <tr>
-                    <th>ID</th>
-                    <th>산</th>
-                    <th>특징</th>
-                    <th>높이</th>
-                    <th>자세히</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
                 </tr>
             </thead>
             <tbody>
@@ -89,7 +94,7 @@ cursor: pointer;
                     <td>{{d.0.name}}</td>
                     <td>{{d.0.title}}</td>
                     <td>{{d.0.height}}</td>
-                    <td><button class="showmore">more</button></td>
+                    <td><button class="showmore w3-button w3-white w3-border w3-padding-small">more</button></td>
                 </tr>
                 <tr class="detail">
                     <td colspan='5'>
