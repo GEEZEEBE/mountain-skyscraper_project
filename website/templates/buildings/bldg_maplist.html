@@ -37,7 +37,9 @@ display: none;
 .showmore:hover {
 cursor: pointer;
 }
-
+.spacing{
+    letter-spacing:7px;
+}
 
 </style>
 <body>
@@ -45,7 +47,7 @@ cursor: pointer;
 <!-- Navbar (sticky bottom) -->
 <div class="w3-bottom w3-hide-small">
   <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
-    <a href="/#home" style="width:25%" class="w3-bar-item w3-button">Home</a>
+    <a href="/#home" style="width:25%" class="w3-bar-item w3-button">HOME</a>
     <a href="/mountains/" style="width:25%" class="w3-bar-item w3-button">MOUNTAINS</a>
     <a href="/buildings/" style="width:25%" class="w3-bar-item w3-button">SKYSCRAPERS</a>
     <a href="/#rsvp" style="width:25%" class="w3-bar-item w3-button w3-hover-black">MEMBER</a>
@@ -56,7 +58,8 @@ cursor: pointer;
 
 <div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center" id="skyscraper">
   <div class="w3-content">
-    <h1 class="w3-text-grey"><b>S K Y S C R A P E R S</b></h1>      
+    <h1 class="w3-text-grey"><b>S K Y S C R A P E R S</b></h1>
+    <br><br>     
   </div>
 
 
@@ -66,13 +69,13 @@ cursor: pointer;
   <div class="w3-row-padding" style="margin:10 -16px" id="bldg_list">
   {{ bldg_map|safe }} 
         <!-- // skyscraper list start // -->
-        <table class="table table-striped" id="table_bldg_list">
+        <table class="table" id="table_bldg_list">
             <thead>
                 <tr>
-                    <th>rank</th>
-                    <th>building name</th>
-                    <th>city</th>
-                    <th>height (m)</th>
+                    <th class="spacing">RANK</th>
+                    <th class="spacing">BUILDING NAME</th>
+                    <th class="spacing">CITY</th>
+                    <th class="spacing">HEIGHT (m)</th>
                 </tr>
             </thead>
             <tbody>
