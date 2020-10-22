@@ -85,6 +85,11 @@ def home(request):
 
     return render(request, 'home.html', context)
 
+def maplist(request):
+    context = skyscrapers_home(request)
+
+    return render(request, 'buildings/bldg_maplist.html', context)
+
 
 
 def bldg_list(request):
