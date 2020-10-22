@@ -25,5 +25,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('list', views.bldg_list, name='bldg_list'),
     path('detail/<int:id>/', views.bldg_detail, name='bldg_detail'),
-
+    path('', views.maplist, name='maplist'),
 ]
