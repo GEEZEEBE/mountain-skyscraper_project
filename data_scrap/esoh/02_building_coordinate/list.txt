@@ -51,7 +51,7 @@ Bank of China Tower@22.2793092@114.1593098
 Bank of America Tower@40.755608@-73.9871236
 Almas Tower@25.0689884@55.1390215
 Hanking Center@22.5357288@113.9222452
-Gevora Hotel@25.1369617@55.0632327
+Gevora Hotel@25.2125083@55.274778
 JW Marriott Marquis Hotel Dubai Tower 1@25.1854053@55.2559043
 JW Marriott Marquis Hotel Dubai Tower 2@25.1854053@55.2559043
 Emirates Tower One@25.1854293@55.2493543
@@ -82,7 +82,7 @@ Tianjin Modern City Office Tower@39.1192471@117.1951247
 Parc1 Tower A@37.5196574@126.8710839
 Tianjin World Financial Center@39.1295641@117.1957736
 Hengqin International Finance Center@22.1274512@113.52721
-SLS Dubai@25.085669@55.0796159
+SLS Dubai@25.2125083@55.274778
 Wilshire Grand Center@34.0500158@-118.2633671
 DAMAC Heights@25.0872848@55.1434437
 Twin Towers Guiyang, East Tower@26.5593804@106.6662891
