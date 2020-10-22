@@ -9,7 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Document</title>
 
- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+ <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
  <!-- // skyscraper end // -->
 
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -19,10 +19,19 @@
 body,h1,h2{font-family: "Raleway", sans-serif}
 body, html {height: 100%}
 p {line-height: 2}
-.bgimg, .bgimg2 {
+.bgimg{
   min-height: 100%;
   background-position: center;
   background-size: cover;
+  opacity:70%;
+  animation: kenburns-top-left 5s ease-out both;
+  animation: blink-1 0.6s both;
+}
+.bgimg2 {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+  
 }
 .bgimg {background-image: url("/static/css/bldg03.jpg")}
 .bgimg2 {background-image: url("/static/css/mountain05.jpg")}
@@ -37,17 +46,34 @@ display: none;
 .showmore:hover {
 cursor: pointer;
 }
-
+.front_text {
+	-webkit-animation: tracking-in-contract-bck-top 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-contract-bck-top 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+.front{
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+  opacity:50%;
+}
+.kenburns-top-left {
+	-webkit-animation: kenburns-top-left 5s ease-out both;
+	        animation: kenburns-top-left 5s ease-out both;
+}
 
 </style>
 <body>
 
 <!-- Header / Home-->
-<header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
+<header class="w3-display-container w3-wide bgimg w3-grayscale-min front_text" id="home">
   <div class="w3-display-middle w3-text-white w3-center">
-    <div class = "test">
-    <h1 class="w3-card-4 w3-jumbo">M O U N T A I N<br>S K Y S C R A P E R</h1>
-    <h2>Map & Info</h2>
+    <div>
+
+    <h1 class="w3-jumbo w3-text-black w3-animate-opacity " >
+      M O U N T A I N<br>S K Y S C R A P E R
+    </h1>
+    <h2 class ="w3-text-black w3-animate-opacity">Map & Info</h2>
+
     <h2><b></b></h2>
     </div>
   </div>
@@ -63,224 +89,28 @@ cursor: pointer;
   </div>
 </div>
 
-<!-- mountain information -->
-<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min" id="mountain">
-  <div class="w3-content">
-    <h1 class="w3-center w3-text-grey"><b>M O U N T A I N S</b></h1>
-    <!-- 지도자리 -->
-
-    <div class="container w3-card">
-
-      {{ mountain_map|safe }}
-
-  </div>
-
-  <div class="container">
-      <table class="table table-striped">
-          <thead>
-              <tr>
-                  <th>id</th>
-                  <th>name</th>
-                  <th>title</th>
-                  <th>height</th>
-              </tr>
-          </thead>
-          <tbody id="posts">
-              {% for i in first_page %}
-                  <tr>
-                      <td>{{i.id}}</td>
-                      <td>{{i.name}}</td>
-                      <td>{{i.title}}</td>
-                      <td>{{i.height}}</td>
-                      <td><button class="showmore" value={{i.id}}>more</button></td>
-                  </tr>
-                  <tr class="detail">
-
-                  </tr>
-              {% endfor %}
-          </tbody>
-      </table>
-
-
-      <ul class="pagination justify-content-center">
-          <!-- 이전페이지 -->
-          {% if data.has_previous %}
-          <li class="page-item">
-              <a class="page-link" href="data.previous_page_number">이전</a>
-          </li>
-          {% else %}
-          <li class="page-item disabled">
-              <a class="page-link" tabindex="-1" aria-disabled="true" href="#">이전</a>
-          </li>
-          {% endif %}
-          <!-- 페이지리스트 -->
-          {% for page_number in page_range %}
-              {% if page_number == data.number %}
-              <li class="page-item active" aria-current="page">
-                  <a class="page-link" href="{{page_number}}">{{ page_number }}</a>
-              </li>
-              {% else %}
-              <li class="page-item">
-                  <a class="page-link" href="{{page_number}}">{{ page_number }}</a>
-              </li>
-              {% endif %}
-          {% endfor %}
-          <!-- 다음페이지 -->
-          {% if data.has_next %}
-          <li class="page-item">
-              <a class="page-link" href="{{data.next_page_number}}">다음</a>
-          </li>
-          {% else %}
-          <li class="page-item disabled">
-              <a class="page-link" tabindex="-1" aria-disabled="true" href="#">다음</a>
-          </li>
-          {% endif %}
-      </ul>
-  </div>
-
-
-
-
-
-
-
-<script>
-$(function() {
-$('a.showmore').click(function(e) {
-  e.preventDefault();
-  // We break and store the result so we can use it to hide
-  // the row after the slideToggle is closed
-  var targetrow = $(this).closest('tr').next('.detail');
-  targetrow.show().find('div').slideToggle('slow', function(){
-    if (!$(this).is(':visible')) {
-      targetrow.hide();
-    }
-  });
-});
-});
-</script>
-    <!-- 지도 끝 -->
-  </div>
-</div>
-
-
-<!-- Mountain List -->
-<div class="w3-row-padding" style="margin:0 -16px" id = "mt_list">
-  <div class="w3-half;center">
-
-  </div>
-
-</div>
-</div>
-
-<!-- Background photo -->
-
-<div class="w3-display-container bgimg2">
-  <div class="w3-display-middle w3-text-white w3-center">
-    <h1 class="w3-jumbo">TO THE WORLD!</h1><br>
-    <h2>finding skyscrapers..</h2>
-  </div>
-</div>
-
-<!-- skyscrapers information -->
-
-<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center" id="skyscraper">
-  <div class="w3-content">
-    <h1 class="w3-text-grey"><b>S K Y S C R A P E R S</b></h1>      
-  </div>
-
-
-<!-- skyscraper list -->
-  <div class="container">
-  <div class="w3-container w3-white">  
-  <div class="w3-row-padding" style="margin:10 -16px" id="bldg_list">
-  {{ bldg_map|safe }} 
-        <!-- // skyscraper list start // -->
-        <table class="table table-striped" id="table_bldg_list">
-            <thead>
-                <tr>
-                    <th>rank</th>
-                    <th>building name</th>
-                    <th>city</th>
-                    <th>height (m)</th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for row in bldg_data %}
-                <tr>
-                    <td><a href="{% url 'buildings:bldg_detail' row.id %}">{{row.ranking}}</a></td>
-                    <td><a href="{% url 'buildings:bldg_detail' row.id %}">{{row.building_name}}</a></td>
-                    <td><a href="{% url 'buildings:bldg_detail' row.id %}">{{row.city_name}}({{row.country}})</a></td>
-                    <td><a href="{% url 'buildings:bldg_detail' row.id %}">{{row.height_m}} {{"m"}}</a></td>
-                    <td>
-                </tr>
-                {% endfor %}
-            </tbody>
-        </table>
-        <ul class="pagination justify-content-center">
-            <!-- 이전페이지 -->
-            {% if bldg_data.has_previous %}
-            <li class="page-item">
-                <a class="page-link" href="?page={{ bldg_data.previous_page_number }}#table_bldg_list">이전</a>
-            </li>
-            {% else %}
-            <li class="page-item disabled">
-                <a class="page-link" tabindex="-1" aria-disabled="true" href="#">이전</a>
-            </li>
-            {% endif %}
-            <!-- 페이지리스트 -->
-            {% for page_number in bldg_data.paginator.page_range %}
-                {% if page_number == bldg_data.number %}
-                <li class="page-item active" aria-current="page">
-                    <a class="page-link" href="?page={{ page_number }}#table_bldg_list">{{ page_number }}</a>
-                </li>
-                {% else %}
-                <li class="page-item">
-                    <a class="page-link" href="?page={{ page_number }}#table_bldg_list">{{ page_number }}</a>
-                </li>
-                {% endif %}
-            {% endfor %}
-            <!-- 다음페이지 -->
-            {% if bldg_data.has_next %}
-            <li class="page-item">
-                <a class="page-link" href="?page={{ bldg_data.next_page_number }}#table_bldg_list">다음</a>
-            </li>
-            {% else %}
-            <li class="page-item disabled">
-                <a class="page-link" tabindex="-1" aria-disabled="true" href="#">다음</a>
-            </li>
-            {% endif %}
-        </ul>
-  </div>
-  </div>
-  </div>
-        <!-- // skyscraper list end // -->
-</div>
-<!-- End MT photo -->
-
-
 <!-- RSVP section -->
 <div class="w3-container w3-padding-64 w3-pale-red w3-center w3-wide" id="rsvp">
-  <br><br><br><br><br><br>
-  <h1>WANT TO CONTACT US?</h1>
-  <p class="w3-large">PLEASE, PRESS THE bUTTON</p>
+  <br><br><br><br><br><br><br><br><br>
+  <h1 class="w3-animate-opacity ">WANT TO CONTACT US?</h1>
+  <p class="w3-large w3-animate-opacity ">PLEASE, PRESS THE bUTTON</p>
 
   <p class="w3-xlarge">
-    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-red w3-opacity w3-hover-opacity-off" style="padding:8px 60px">CONTACT</button>
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-red w3-opacity w3-hover-opacity-off w3-animate-opacity "  style="padding:8px 60px">CONTACT</button>
   </p>
-  <br><br><br>
-  <p class="w3-large">< M E M B E R S ></M></p>
-  <p class="w3-pale-red w3-center w3-wide">Oh Eun-Seok</p>
-  <p class="w3-pale-red w3-center w3-wide">Kim Jin-Bae</p>
-  <p class="w3-pale-red w3-center w3-wide">Choi Eugene</p>
+  <br><br><br><br>
+  <p class="w3-large w3-animate-opacity ">< M E M B E R S ></M></p>
+  <p class="w3-pale-red w3-center w3-wide w3-animate-opacity ">Oh Eun-Seok</p>
+  <p class="w3-pale-red w3-center w3-wide w3-animate-opacity ">Kim Jin-Bae</p>
+  <p class="w3-pale-red w3-center w3-wide w3-animate-opacity ">Choi Eugene</p>
+  <br><br><br><br>
 
-</div>
 
-<!-- RSVP modal -->
+<!-- contact modal -->
 <div id="id01" class="w3-modal">
   <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding:32px;max-width:600px">
     <div class="w3-container w3-white w3-center">
-      <h1 class="w3-wide">라면..아니 코딩하고 갈래?</h1>
+      <h1 class="w3-wide ">라면..아니 코딩하고 갈래?</h1>
       <p>잘 생각 해봐~ 중식 라면제공!</p>
       <form>
         <input class="w3-input w3-border" type="text" placeholder="Name(s)" name="name">
@@ -299,12 +129,10 @@ $('a.showmore').click(function(e) {
 </div>
 
 <!-- Footer -->
-<footer class="w3-center w3-black w3-padding-16">
+<footer class="w3-center w3-black w3-padding-16 w">
   <p>Published by 코딩하고갈래?</p>
 </footer>
-<div class="w3-hide-small" style="margin-bottom:32px">?</div>
-
-
+<div class="w3-hide-small" style="margin-bottom:32px"></div>
 
 
 </body>
