@@ -14,13 +14,13 @@ mt_table = 'mountains'                            # mariaDB
 mt_img_table = 'mt_images'                        # mariaDB
 
 
-def get_coord(mt):
+def get_coord(results):
 
-    keyword = mt['name']
+    keyword = results['name']
     print(keyword)
     data = by_keyword_AT4(keyword)
     if data['meta']['total_count'] == 0:
-        keyword = mt['name'] + ' ' + mt['site'].replace(',', ' ').split()[0]
+        keyword = results['name'] + ' ' + results['site'].replace(',', ' ').split()[0]
         print(keyword)
         data = by_keyword(keyword)
 
